@@ -1,0 +1,235 @@
+[23:37:38] [main/INFO]: Loading Minecraft 1.21.5 with Fabric Loader 0.16.14
+[23:37:39] [main/WARN]: Warnings were found!
+ - Mod 'Debugify' (debugify) 1.21.5+1.0 recommends any version of yet_another_config_lib_v3, which is missing!
+	 - You should install any version of yet_another_config_lib_v3 for the optimal experience.
+ - Mod 'Debugify' (debugify) 1.21.5+1.0 recommends any version of modmenu, which is missing!
+	 - You should install any version of modmenu for the optimal experience.
+[23:37:39] [main/INFO]: Loading 95 mods:
+	- architectury 16.1.4
+	- axiom 4.8.0
+	   |-- com_moulberry_axiomclientapi 1.0.0
+	   \-- com_moulberry_mixinconstraints 1.0.8
+	- c2me 0.3.3.0.0+1.21.5
+	   |-- c2me-base 0.3.3.0.0+1.21.5
+	   |-- c2me-client-uncapvd 0.3.3.0.0+1.21.5
+	   |-- c2me-fixes-chunkio-threading-issues 0.3.3.0.0+1.21.5
+	   |-- c2me-fixes-general-threading-issues 0.3.3.0.0+1.21.5
+	   |-- c2me-fixes-worldgen-threading-issues 0.3.3.0.0+1.21.5
+	   |-- c2me-fixes-worldgen-vanilla-bugs 0.3.3.0.0+1.21.5
+	   |-- c2me-notickvd 0.3.3.0.0+1.21.5
+	   |-- c2me-opts-allocs 0.3.3.0.0+1.21.5
+	   |-- c2me-opts-chunkio 0.3.3.0.0+1.21.5
+	   |-- c2me-opts-dfc 0.3.3.0.0+1.21.5
+	   |-- c2me-opts-math 0.3.3.0.0+1.21.5
+	   |-- c2me-opts-scheduling 0.3.3.0.0+1.21.5
+	   |-- c2me-opts-worldgen-general 0.3.3.0.0+1.21.5
+	   |-- c2me-opts-worldgen-vanilla 0.3.3.0.0+1.21.5
+	   |-- c2me-rewrites-chunk-serializer 0.3.3.0.0+1.21.5
+	   |-- c2me-rewrites-chunk-system 0.3.3.0.0+1.21.5
+	   |-- c2me-rewrites-chunkio 0.3.3.0.0+1.21.5
+	   |-- c2me-server-utils 0.3.3.0.0+1.21.5
+	   |-- c2me-threading-lighting 0.3.3.0.0+1.21.5
+	   |-- com_ibm_async_asyncutil 0.1.0
+	   |-- io_reactivex_rxjava3_rxjava 3.1.8
+	   |-- mixinsquared 0.2.0-beta.6
+	   |-- net_objecthunter_exp4j 0.4.8
+	   |-- org_jctools_jctools-core 4.0.5
+	   \-- org_reactivestreams_reactive-streams 1.0.4
+	- chunky 1.4.36
+	- cloth-config 18.0.145
+	   \-- cloth-basic-math 0.6.1
+	- clumps 23.0.0.1
+	- debugify 1.21.5+1.0
+	- e4mc_minecraft 5.3.1
+	   \-- folk_sisby_kaleido-config 0.3.1+1.3.1
+	- fabric-api 0.127.0+1.21.5
+	   |-- fabric-api-base 0.4.62+73a52b4b49
+	   |-- fabric-api-lookup-api-v1 1.6.96+86c3a9f149
+	   |-- fabric-biome-api-v1 16.0.7+2dd063df49
+	   |-- fabric-block-api-v1 1.1.0+ed91556f49
+	   |-- fabric-block-view-api-v2 1.0.26+aa6d566c49
+	   |-- fabric-blockrenderlayer-v1 2.0.16+86c3a9f149
+	   |-- fabric-client-tags-api-v1 1.1.37+86c3a9f149
+	   |-- fabric-command-api-v1 1.2.70+f71b366f49
+	   |-- fabric-command-api-v2 2.2.49+73a52b4b49
+	   |-- fabric-commands-v0 0.2.87+df3654b349
+	   |-- fabric-content-registries-v0 10.0.14+3e6c1f7d49
+	   |-- fabric-convention-tags-v1 2.1.33+7f945d5b49
+	   |-- fabric-convention-tags-v2 2.15.2+6d9989f349
+	   |-- fabric-crash-report-info-v1 0.3.12+86c3a9f149
+	   |-- fabric-data-attachment-api-v1 1.8.4+6d9989f349
+	   |-- fabric-data-generation-api-v1 22.5.0+790a8b4449
+	   |-- fabric-dimensions-v1 4.0.17+3e6c1f7d49
+	   |-- fabric-entity-events-v1 2.1.0+3ce7866349
+	   |-- fabric-events-interaction-v0 4.0.15+64e3057949
+	   |-- fabric-game-rule-api-v1 1.0.70+c327076a49
+	   |-- fabric-item-api-v1 11.4.1+e46fd76a49
+	   |-- fabric-item-group-api-v1 4.2.9+3459fc6149
+	   |-- fabric-key-binding-api-v1 1.0.63+ecf51cdc49
+	   |-- fabric-keybindings-v0 0.2.61+df3654b349
+	   |-- fabric-lifecycle-events-v1 2.6.0+230071a049
+	   |-- fabric-loot-api-v2 3.0.48+3f89f5a549
+	   |-- fabric-loot-api-v3 1.0.36+86c3a9f149
+	   |-- fabric-message-api-v1 6.1.0+fe971bba49
+	   |-- fabric-model-loading-api-v1 5.2.2+5281b90749
+	   |-- fabric-networking-api-v1 4.5.0+775be32c49
+	   |-- fabric-object-builder-api-v1 21.1.1+b8d6ba7049
+	   |-- fabric-particles-v1 4.1.2+112e550e49
+	   |-- fabric-recipe-api-v1 8.1.8+3235ab3249
+	   |-- fabric-registry-sync-v0 6.1.21+b556383249
+	   |-- fabric-renderer-api-v1 6.1.1+bdf4842249
+	   |-- fabric-renderer-indigo 3.1.1+5281b90749
+	   |-- fabric-rendering-data-attachment-v1 0.3.64+73761d2e49
+	   |-- fabric-rendering-fluids-v1 3.1.27+86c3a9f149
+	   |-- fabric-rendering-v1 11.2.0+acfc689549
+	   |-- fabric-resource-conditions-api-v1 5.0.21+73a52b4b49
+	   |-- fabric-resource-loader-v0 3.1.7+847e5f5c49
+	   |-- fabric-screen-api-v1 2.0.46+86c3a9f149
+	   |-- fabric-screen-handler-api-v1 1.3.128+c327076a49
+	   |-- fabric-sound-api-v1 1.0.38+86c3a9f149
+	   |-- fabric-tag-api-v1 1.0.17+ecf51cdc49
+	   |-- fabric-transfer-api-v1 5.4.24+7b20cbb049
+	   \-- fabric-transitive-access-wideners-v1 6.3.17+f17a180c49
+	- fabricloader 0.16.14
+	   \-- mixinextras 0.4.1
+	- ferritecore 8.0.0
+	- java 21
+	- krypton 0.2.9
+	   \-- com_velocitypowered_velocity-native 3.4.0-SNAPSHOT
+	- ksyxis 1.3.3
+	- lithium 0.16.2+mc1.21.5
+	- minecraft 1.21.5
+	- noisium 2.6.0+mc1.21.5
+	- spark 1.10.138
+	   \-- fabric-permissions-api-v0 0.3.3
+	- terrablender 5.0.0.1
+	   |-- com_electronwill_night-config_core 3.6.7
+	   \-- com_electronwill_night-config_toml 3.6.7
+	- terralith 2.5.9
+	- viabackwards 5.3.2
+	- viafabric 0.4.18+104-main
+	   |-- cotton-client-commands 1.1.0+1.15.2
+	   \-- viafabric-mc1215 0.4.18+104-main
+	- viarewind 4.0.7
+	- viaversion 5.3.2
+[23:37:39] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/minecraft/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.15.5+mixin.0.8.7/sponge-mixin-0.15.5+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[23:37:39] [main/INFO]: Compatibility level set to JAVA_16
+[23:37:39] [main/INFO]: Compatibility level set to JAVA_17
+[23:37:39] [main/INFO]: Compatibility level set to JAVA_18
+[23:37:39] [main/INFO]: Compatibility level set to JAVA_21
+[23:37:39] [main/INFO]: Loading Mixin Plugin for Axiom/4.8.0
+[23:37:39] [main/INFO]: Initializing com.ishland.c2me.base.mixin
+[23:37:39] [main/INFO]: Updating config from 0 to 1
+[23:37:39] [main/INFO]: Updating config from 1 to 2
+[23:37:39] [main/INFO]: Updating config from 2 to 3
+[23:37:39] [main/INFO]: Global Executor Parallelism: 3 configured, 3 evaluated, 3 default evaluated
+[23:37:39] [main/INFO]: Initializing com.ishland.c2me.fixes.chunkio.threading_issues.mixin
+[23:37:39] [main/INFO]: Initializing com.ishland.c2me.fixes.general.threading_issues.mixin
+[23:37:39] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.threading_issues.mixin
+[23:37:39] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.vanilla_bugs.mixin
+[23:37:39] [main/INFO]: Initializing com.ishland.c2me.notickvd.mixin
+[23:37:39] [main/INFO]: Initializing com.ishland.c2me.opts.allocs.mixin
+[23:37:39] [main/INFO]: Initializing com.ishland.c2me.opts.chunkio.mixin
+[23:37:39] [main/INFO]: Initializing com.ishland.c2me.opts.dfc.mixin
+[23:37:39] [main/INFO]: Initializing com.ishland.c2me.opts.math.mixin
+[23:37:39] [main/INFO]: Initializing com.ishland.c2me.opts.scheduling.mixin
+[23:37:39] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.general.mixin
+[23:37:39] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.vanilla.mixin
+[23:37:39] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunk_serializer.mixin
+[23:37:39] [main/INFO]: Disabling config ioSystem.gcFreeChunkSerializer: Incompatible with architectury@16.1.4 (*) (defined in c2me)
+[23:37:39] [main/INFO]: Disabling com.ishland.c2me.rewrites.chunk_serializer.mixin
+[23:37:39] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunksystem.mixin
+[23:37:39] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunkio.mixin
+[23:37:39] [main/INFO]: Initializing com.ishland.c2me.server.utils.mixin
+[23:37:39] [main/INFO]: Initializing com.ishland.c2me.threading.lighting.mixin
+[23:37:39] [main/WARN]: Mod 'ferritecore' attempted to override option 'mixin.alloc.blockstate', which doesn't exist, ignoring
+[23:37:39] [main/INFO]: Loaded configuration file for Lithium: 155 options available, 0 override(s) found.
+[23:37:40] [main/WARN]: Error loading class: ca/spottedleaf/starlight/common/thread/SchedulingUtil (java.lang.ClassNotFoundException: ca/spottedleaf/starlight/common/thread/SchedulingUtil)
+[23:37:40] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[23:37:47] [main/INFO]: Initializing Axiom/4.8.0. Build timestamp: 1746396334521
+[23:37:47] [main/INFO]: Enabled 27 bug fixes: [MC-2025, MC-7569, MC-8187, MC-30391, MC-69216, MC-88371, MC-89146, MC-93018, MC-100991, MC-119417, MC-119754, MC-121706, MC-121903, MC-129909, MC-132878, MC-155509, MC-160095, MC-179072, MC-183990, MC-199467, MC-200418, MC-206922, MC-215530, MC-223153, MC-224729, MC-231743, MC-232869]
+[23:37:47] [main/INFO]: Successfully Debugify'd your game!
+[23:37:47] [main/INFO]: Compression will use libdeflate (Linux x86_64), encryption will use OpenSSL 1.1.x (Linux x86_64)
+[23:37:47] [main/INFO]: Ksyxis: Booting... (platform: Fabric, manual: false)
+[23:37:47] [main/INFO]: Ksyxis: Found Mixin library. (version: 0.8.7)
+[23:37:47] [main/INFO]: Ksyxis: Ready. As always, this mod will speed up your world loading and might or might not break it. (1 ms)
+[23:37:47] [main/INFO]: Loading Noisium.
+[23:37:48] [Via-Mappingloader-0/INFO]: Loading block connection mappings ...
+[23:37:48] [Via-Mappingloader-0/INFO]: Using FastUtil Long2ObjectOpenHashMap for block connections
+[23:37:48] [main/INFO]: Loading translations...
+[23:37:48] [main/INFO]: Registering protocols...
+[23:37:48] [main/INFO]: Registering protocols...
+[23:37:49] [main/INFO]: ViaVersion detected server version: 1.21.5 (770)
+[23:37:49] [ViaFabric-2/INFO]: Finished mapping loading, shutting down loader executor.
+[23:37:49] [main/INFO]: Krypton is now accelerating your Minecraft server's networking stack 🚀
+[23:37:49] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[23:37:50] [main/INFO]: No existing world data, creating new world
+[23:37:51] [main/INFO]: Loaded 1379 recipes
+[23:37:51] [main/INFO]: Loaded 1485 advancements
+[23:37:51] [main/INFO]: Registered region minecraft:overworld to index 0 for type OVERWORLD
+[23:37:51] [main/INFO]: Registered region minecraft:nether to index 0 for type NETHER
+[23:37:51] [main/INFO]: Initialized TerraBlender biomes for level stem minecraft:the_nether
+[23:37:51] [main/INFO]: Initialized TerraBlender biomes for level stem minecraft:overworld
+[23:37:51] [main/INFO]: Applied 0 biome modifications to 0 of 161 new biomes in 2.212 ms
+[23:37:51] [Server thread/INFO]: Starting background profiler...
+[23:37:52] [Server thread/INFO]: Starting minecraft server version 1.21.5
+[23:37:52] [Server thread/INFO]: Loading properties
+[23:37:52] [Server thread/INFO]: Default game type: SURVIVAL
+[23:37:52] [Server thread/INFO]: Generating keypair
+[23:37:52] [Server thread/INFO]: Starting Minecraft server on *:25565
+[23:37:52] [Server thread/INFO]: Using epoll channel type
+[23:37:52] [e4mc_minecraft-init/INFO]: req: https://broker.e4mc.link/getBestRelay GET
+[23:37:52] [Server thread/INFO]: Using epoll channel type
+[23:37:52] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[23:37:52] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[23:37:52] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[23:37:52] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[23:37:52] [Server thread/INFO]: Preparing level "world"
+[23:37:52] [Server thread/INFO]: Enforcing safe world random access
+[23:37:53] [e4mc_minecraft-init/INFO]: resp: (GET https://broker.e4mc.link/getBestRelay) 200
+[23:37:53] [e4mc_minecraft-init/INFO]: using relay na
+[23:37:53] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 771.5 ms
+[23:37:53] [Server thread/INFO]: Using TheSpeedyObjectFactory with Unsafe
+[23:37:53] [nioEventLoopGroup-2-1/INFO]: control channel open: [id: 0x357b04ce, QuicStreamAddress{streamId=0}]
+[23:37:53] [nioEventLoopGroup-2-1/INFO]: control channel write complete
+[23:37:53] [nioEventLoopGroup-2-1/WARN]: e4mc running on Dedicated Server; This works, but isn't recommended as e4mc is designed for short-lived LAN servers
+[23:37:53] [nioEventLoopGroup-2-1/INFO]: Domain assigned: magnesium-dropkick.na.e4mc.link
+[23:38:00] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 4.869 ms
+[23:38:00] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 4.876 ms
+[23:38:00] [Server thread/INFO]: Ksyxis: Hey. This is Ksyxis. We will now load the world and will try to do it quickly. If the game is not responding after this, it's probably us to blame or delete for good. This message appears always, even if the mod works flawlessly. (modern)
+[23:38:00] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[23:38:00] [Server thread/INFO]: Time elapsed: 16 ms
+[23:38:00] [Server thread/INFO]: Done (8.475s)! For help, type "help"
+[23:39:00] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[23:45:52] [Server thread/INFO]: ciphergamer1123[/127.15.121.75:47609] logged in with entity id 1 at (-34.5, 74.0, -71.5)
+[23:45:52] [Server thread/INFO]: ciphergamer1123 joined the game
+[23:45:55] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4042ms or 80 ticks behind
+[23:46:21] [Server thread/INFO]: Made ciphergamer1123 a server operator
+[23:47:47] [Server thread/INFO]: ciphergamer1123 lost connection: Disconnected
+[23:47:47] [Server thread/INFO]: ciphergamer1123 left the game
+[23:48:47] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[23:49:33] [Server thread/INFO]: ciphergamer1123[/127.15.121.75:33801] logged in with entity id 1285 at (-179.12462340571417, 71.0, 2.748632165089237)
+[23:49:33] [Server thread/INFO]: ciphergamer1123 joined the game
+[23:50:27] [Server thread/INFO]: ciphergamer1123 lost connection: Disconnected
+[23:50:27] [Server thread/INFO]: ciphergamer1123 left the game
+[23:50:34] [Server thread/INFO]: Stopping the server
+[23:50:34] [Server thread/INFO]: ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
+[23:50:35] [Server thread/INFO]: Stopping server
+[23:50:35] [Server thread/INFO]: Saving players
+[23:50:35] [Server thread/INFO]: Saving worlds
+[23:50:35] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[23:50:35] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[23:50:35] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[23:50:35] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[23:50:35] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[23:50:35] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[23:50:35] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[23:50:35] [C2ME Storage #3/INFO]: Storage thread Thread[#84,C2ME Storage #3,5,main] stopped
+[23:50:35] [C2ME Storage #2/INFO]: Storage thread Thread[#81,C2ME Storage #2,5,main] stopped
+[23:50:35] [C2ME Storage #1/INFO]: Storage thread Thread[#80,C2ME Storage #1,5,main] stopped
+[23:50:35] [C2ME Storage #6/INFO]: Storage thread Thread[#91,C2ME Storage #6,5,main] stopped
+[23:50:35] [C2ME Storage #4/INFO]: Storage thread Thread[#89,C2ME Storage #4,5,main] stopped
+[23:50:35] [C2ME Storage #5/INFO]: Storage thread Thread[#90,C2ME Storage #5,5,main] stopped
+[23:50:35] [C2ME Storage #9/INFO]: Storage thread Thread[#95,C2ME Storage #9,5,main] stopped
+[23:50:35] [C2ME Storage #8/INFO]: Storage thread Thread[#94,C2ME Storage #8,5,main] stopped
+[23:50:35] [C2ME Storage #7/INFO]: Storage thread Thread[#93,C2ME Storage #7,5,main] stopped
