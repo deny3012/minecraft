@@ -1,10 +1,10 @@
-[23:37:38] [main/INFO]: Loading Minecraft 1.21.5 with Fabric Loader 0.16.14
-[23:37:39] [main/WARN]: Warnings were found!
+[00:01:32] [main/INFO]: Loading Minecraft 1.21.5 with Fabric Loader 0.16.14
+[00:01:32] [main/WARN]: Warnings were found!
  - Mod 'Debugify' (debugify) 1.21.5+1.0 recommends any version of yet_another_config_lib_v3, which is missing!
 	 - You should install any version of yet_another_config_lib_v3 for the optimal experience.
  - Mod 'Debugify' (debugify) 1.21.5+1.0 recommends any version of modmenu, which is missing!
 	 - You should install any version of modmenu for the optimal experience.
-[23:37:39] [main/INFO]: Loading 95 mods:
+[00:01:32] [main/INFO]: Loading 146 mods:
 	- architectury 16.1.4
 	- axiom 4.8.0
 	   |-- com_moulberry_axiomclientapi 1.0.0
@@ -93,6 +93,68 @@
 	- fabricloader 0.16.14
 	   \-- mixinextras 0.4.1
 	- ferritecore 8.0.0
+	- floodgate 2.2.4-SNAPSHOT
+	   |-- aopalliance_aopalliance 1.0
+	   |-- cloud 2.0.0-beta.10
+	   |    |-- io_leangen_geantyref_geantyref 1.3.15
+	   |    |-- org_incendo_cloud-brigadier 2.0.0-beta.10
+	   |    |-- org_incendo_cloud-core 2.0.0
+	   |    |-- org_incendo_cloud-minecraft-modded-common-fabric-repack 2.0.0-beta.10
+	   |    \-- org_incendo_cloud-services 2.0.0
+	   |-- com_google_guava_failureaccess 1.0.1
+	   |-- fabric-permissions-api-v0 0.3.3
+	   |-- jakarta_inject_jakarta_inject-api 2.0.1
+	   |-- javax_inject_javax_inject 1
+	   |-- org_geysermc_cumulus_cumulus 1.1.2
+	   |-- org_geysermc_event_events 1.1-SNAPSHOT
+	   |-- org_geysermc_geyser_common_unshaded 2.2.1-SNAPSHOT
+	   |-- org_java-websocket_java-websocket 1.5.2
+	   \-- org_lanternpowered_lmbda 2.0.0
+	- geyser-fabric 2.7.1-SNAPSHOT
+	   |-- cloud 2.0.0-beta.10
+	   |    |-- io_leangen_geantyref_geantyref 1.3.15
+	   |    |-- org_incendo_cloud-brigadier 2.0.0-beta.10
+	   |    |-- org_incendo_cloud-core 2.0.0
+	   |    |-- org_incendo_cloud-minecraft-modded-common-fabric-repack 2.0.0-beta.10
+	   |    \-- org_incendo_cloud-services 2.0.0
+	   |-- com_fasterxml_jackson_core_jackson-annotations 2.18.0
+	   |-- com_fasterxml_jackson_core_jackson-core 2.18.0
+	   |-- com_fasterxml_jackson_core_jackson-databind 2.18.0
+	   |-- com_fasterxml_jackson_dataformat_jackson-dataformat-yaml 2.18.0
+	   |-- com_google_errorprone_error_prone_annotations 2.27.0
+	   |-- com_nukkitx_natives 1.0.3
+	   |-- fabric-permissions-api-v0 0.3.3
+	   |-- io_airlift_aircompressor 0.27
+	   |-- io_jsonwebtoken_jjwt-api 0.12.6
+	   |-- io_jsonwebtoken_jjwt-gson 0.12.6
+	   |-- io_jsonwebtoken_jjwt-impl 0.12.6
+	   |-- io_netty_netty-codec-base 4.2.1
+	   |-- io_netty_netty-codec-dns 4.2.1
+	   |-- io_netty_netty-codec-haproxy 4.2.1
+	   |-- io_netty_netty-resolver-dns-classes-macos 4.2.1
+	   |-- net_jodah_expiringmap 0.5.10
+	   |-- net_kyori_adventure-api 4.17.0
+	   |-- net_kyori_adventure-key 4.17.0
+	   |-- net_kyori_adventure-nbt 4.17.0
+	   |-- net_kyori_adventure-text-serializer-gson 4.17.0
+	   |-- net_kyori_adventure-text-serializer-json 4.17.0
+	   |-- net_kyori_adventure-text-serializer-json-legacy-impl 4.17.0
+	   |-- net_kyori_adventure-text-serializer-legacy 4.17.0
+	   |-- net_kyori_adventure-text-serializer-plain 4.17.0
+	   |-- net_kyori_examination-api 1.3.0
+	   |-- net_kyori_examination-string 1.3.0
+	   |-- net_kyori_option 1.0.0
+	   |-- net_lenni0451_commons_httpclient 1.6.0
+	   |-- net_raphimc_minecraftauth 4.1.1
+	   |-- org_bitbucket_b_c_jose4j 0.9.6
+	   |-- org_cloudburstmc_math_api 2.0
+	   |-- org_cloudburstmc_math_immutable 2.0
+	   |-- org_cloudburstmc_nbt 3.0.3
+	   |-- org_geysermc_api_base-api 1.0.2
+	   |-- org_geysermc_cumulus_cumulus 1.1.2
+	   |-- org_geysermc_event_events 1.1-SNAPSHOT
+	   |-- org_lanternpowered_lmbda 2.0.0
+	   \-- org_yaml_snakeyaml 2.2
 	- java 21
 	- krypton 0.2.9
 	   \-- com_velocitypowered_velocity-native 3.4.0-SNAPSHOT
@@ -112,124 +174,364 @@
 	   \-- viafabric-mc1215 0.4.18+104-main
 	- viarewind 4.0.7
 	- viaversion 5.3.2
-[23:37:39] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/minecraft/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.15.5+mixin.0.8.7/sponge-mixin-0.15.5+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[23:37:39] [main/INFO]: Compatibility level set to JAVA_16
-[23:37:39] [main/INFO]: Compatibility level set to JAVA_17
-[23:37:39] [main/INFO]: Compatibility level set to JAVA_18
-[23:37:39] [main/INFO]: Compatibility level set to JAVA_21
-[23:37:39] [main/INFO]: Loading Mixin Plugin for Axiom/4.8.0
-[23:37:39] [main/INFO]: Initializing com.ishland.c2me.base.mixin
-[23:37:39] [main/INFO]: Updating config from 0 to 1
-[23:37:39] [main/INFO]: Updating config from 1 to 2
-[23:37:39] [main/INFO]: Updating config from 2 to 3
-[23:37:39] [main/INFO]: Global Executor Parallelism: 3 configured, 3 evaluated, 3 default evaluated
-[23:37:39] [main/INFO]: Initializing com.ishland.c2me.fixes.chunkio.threading_issues.mixin
-[23:37:39] [main/INFO]: Initializing com.ishland.c2me.fixes.general.threading_issues.mixin
-[23:37:39] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.threading_issues.mixin
-[23:37:39] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.vanilla_bugs.mixin
-[23:37:39] [main/INFO]: Initializing com.ishland.c2me.notickvd.mixin
-[23:37:39] [main/INFO]: Initializing com.ishland.c2me.opts.allocs.mixin
-[23:37:39] [main/INFO]: Initializing com.ishland.c2me.opts.chunkio.mixin
-[23:37:39] [main/INFO]: Initializing com.ishland.c2me.opts.dfc.mixin
-[23:37:39] [main/INFO]: Initializing com.ishland.c2me.opts.math.mixin
-[23:37:39] [main/INFO]: Initializing com.ishland.c2me.opts.scheduling.mixin
-[23:37:39] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.general.mixin
-[23:37:39] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.vanilla.mixin
-[23:37:39] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunk_serializer.mixin
-[23:37:39] [main/INFO]: Disabling config ioSystem.gcFreeChunkSerializer: Incompatible with architectury@16.1.4 (*) (defined in c2me)
-[23:37:39] [main/INFO]: Disabling com.ishland.c2me.rewrites.chunk_serializer.mixin
-[23:37:39] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunksystem.mixin
-[23:37:39] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunkio.mixin
-[23:37:39] [main/INFO]: Initializing com.ishland.c2me.server.utils.mixin
-[23:37:39] [main/INFO]: Initializing com.ishland.c2me.threading.lighting.mixin
-[23:37:39] [main/WARN]: Mod 'ferritecore' attempted to override option 'mixin.alloc.blockstate', which doesn't exist, ignoring
-[23:37:39] [main/INFO]: Loaded configuration file for Lithium: 155 options available, 0 override(s) found.
-[23:37:40] [main/WARN]: Error loading class: ca/spottedleaf/starlight/common/thread/SchedulingUtil (java.lang.ClassNotFoundException: ca/spottedleaf/starlight/common/thread/SchedulingUtil)
-[23:37:40] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
-[23:37:47] [main/INFO]: Initializing Axiom/4.8.0. Build timestamp: 1746396334521
-[23:37:47] [main/INFO]: Enabled 27 bug fixes: [MC-2025, MC-7569, MC-8187, MC-30391, MC-69216, MC-88371, MC-89146, MC-93018, MC-100991, MC-119417, MC-119754, MC-121706, MC-121903, MC-129909, MC-132878, MC-155509, MC-160095, MC-179072, MC-183990, MC-199467, MC-200418, MC-206922, MC-215530, MC-223153, MC-224729, MC-231743, MC-232869]
-[23:37:47] [main/INFO]: Successfully Debugify'd your game!
-[23:37:47] [main/INFO]: Compression will use libdeflate (Linux x86_64), encryption will use OpenSSL 1.1.x (Linux x86_64)
-[23:37:47] [main/INFO]: Ksyxis: Booting... (platform: Fabric, manual: false)
-[23:37:47] [main/INFO]: Ksyxis: Found Mixin library. (version: 0.8.7)
-[23:37:47] [main/INFO]: Ksyxis: Ready. As always, this mod will speed up your world loading and might or might not break it. (1 ms)
-[23:37:47] [main/INFO]: Loading Noisium.
-[23:37:48] [Via-Mappingloader-0/INFO]: Loading block connection mappings ...
-[23:37:48] [Via-Mappingloader-0/INFO]: Using FastUtil Long2ObjectOpenHashMap for block connections
-[23:37:48] [main/INFO]: Loading translations...
-[23:37:48] [main/INFO]: Registering protocols...
-[23:37:48] [main/INFO]: Registering protocols...
-[23:37:49] [main/INFO]: ViaVersion detected server version: 1.21.5 (770)
-[23:37:49] [ViaFabric-2/INFO]: Finished mapping loading, shutting down loader executor.
-[23:37:49] [main/INFO]: Krypton is now accelerating your Minecraft server's networking stack 🚀
-[23:37:49] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[23:37:50] [main/INFO]: No existing world data, creating new world
-[23:37:51] [main/INFO]: Loaded 1379 recipes
-[23:37:51] [main/INFO]: Loaded 1485 advancements
-[23:37:51] [main/INFO]: Registered region minecraft:overworld to index 0 for type OVERWORLD
-[23:37:51] [main/INFO]: Registered region minecraft:nether to index 0 for type NETHER
-[23:37:51] [main/INFO]: Initialized TerraBlender biomes for level stem minecraft:the_nether
-[23:37:51] [main/INFO]: Initialized TerraBlender biomes for level stem minecraft:overworld
-[23:37:51] [main/INFO]: Applied 0 biome modifications to 0 of 161 new biomes in 2.212 ms
-[23:37:51] [Server thread/INFO]: Starting background profiler...
-[23:37:52] [Server thread/INFO]: Starting minecraft server version 1.21.5
-[23:37:52] [Server thread/INFO]: Loading properties
-[23:37:52] [Server thread/INFO]: Default game type: SURVIVAL
-[23:37:52] [Server thread/INFO]: Generating keypair
-[23:37:52] [Server thread/INFO]: Starting Minecraft server on *:25565
-[23:37:52] [Server thread/INFO]: Using epoll channel type
-[23:37:52] [e4mc_minecraft-init/INFO]: req: https://broker.e4mc.link/getBestRelay GET
-[23:37:52] [Server thread/INFO]: Using epoll channel type
-[23:37:52] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[23:37:52] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[23:37:52] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[23:37:52] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[23:37:52] [Server thread/INFO]: Preparing level "world"
-[23:37:52] [Server thread/INFO]: Enforcing safe world random access
-[23:37:53] [e4mc_minecraft-init/INFO]: resp: (GET https://broker.e4mc.link/getBestRelay) 200
-[23:37:53] [e4mc_minecraft-init/INFO]: using relay na
-[23:37:53] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 771.5 ms
-[23:37:53] [Server thread/INFO]: Using TheSpeedyObjectFactory with Unsafe
-[23:37:53] [nioEventLoopGroup-2-1/INFO]: control channel open: [id: 0x357b04ce, QuicStreamAddress{streamId=0}]
-[23:37:53] [nioEventLoopGroup-2-1/INFO]: control channel write complete
-[23:37:53] [nioEventLoopGroup-2-1/WARN]: e4mc running on Dedicated Server; This works, but isn't recommended as e4mc is designed for short-lived LAN servers
-[23:37:53] [nioEventLoopGroup-2-1/INFO]: Domain assigned: magnesium-dropkick.na.e4mc.link
-[23:38:00] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 4.869 ms
-[23:38:00] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 4.876 ms
-[23:38:00] [Server thread/INFO]: Ksyxis: Hey. This is Ksyxis. We will now load the world and will try to do it quickly. If the game is not responding after this, it's probably us to blame or delete for good. This message appears always, even if the mod works flawlessly. (modern)
-[23:38:00] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[23:38:00] [Server thread/INFO]: Time elapsed: 16 ms
-[23:38:00] [Server thread/INFO]: Done (8.475s)! For help, type "help"
-[23:39:00] [Server thread/INFO]: Server empty for 60 seconds, pausing
-[23:45:52] [Server thread/INFO]: ciphergamer1123[/127.15.121.75:47609] logged in with entity id 1 at (-34.5, 74.0, -71.5)
-[23:45:52] [Server thread/INFO]: ciphergamer1123 joined the game
-[23:45:55] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4042ms or 80 ticks behind
-[23:46:21] [Server thread/INFO]: Made ciphergamer1123 a server operator
-[23:47:47] [Server thread/INFO]: ciphergamer1123 lost connection: Disconnected
-[23:47:47] [Server thread/INFO]: ciphergamer1123 left the game
-[23:48:47] [Server thread/INFO]: Server empty for 60 seconds, pausing
-[23:49:33] [Server thread/INFO]: ciphergamer1123[/127.15.121.75:33801] logged in with entity id 1285 at (-179.12462340571417, 71.0, 2.748632165089237)
-[23:49:33] [Server thread/INFO]: ciphergamer1123 joined the game
-[23:50:27] [Server thread/INFO]: ciphergamer1123 lost connection: Disconnected
-[23:50:27] [Server thread/INFO]: ciphergamer1123 left the game
-[23:50:34] [Server thread/INFO]: Stopping the server
-[23:50:34] [Server thread/INFO]: ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
-[23:50:35] [Server thread/INFO]: Stopping server
-[23:50:35] [Server thread/INFO]: Saving players
-[23:50:35] [Server thread/INFO]: Saving worlds
-[23:50:35] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[23:50:35] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[23:50:35] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[23:50:35] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[23:50:35] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[23:50:35] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[23:50:35] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[23:50:35] [C2ME Storage #3/INFO]: Storage thread Thread[#84,C2ME Storage #3,5,main] stopped
-[23:50:35] [C2ME Storage #2/INFO]: Storage thread Thread[#81,C2ME Storage #2,5,main] stopped
-[23:50:35] [C2ME Storage #1/INFO]: Storage thread Thread[#80,C2ME Storage #1,5,main] stopped
-[23:50:35] [C2ME Storage #6/INFO]: Storage thread Thread[#91,C2ME Storage #6,5,main] stopped
-[23:50:35] [C2ME Storage #4/INFO]: Storage thread Thread[#89,C2ME Storage #4,5,main] stopped
-[23:50:35] [C2ME Storage #5/INFO]: Storage thread Thread[#90,C2ME Storage #5,5,main] stopped
-[23:50:35] [C2ME Storage #9/INFO]: Storage thread Thread[#95,C2ME Storage #9,5,main] stopped
-[23:50:35] [C2ME Storage #8/INFO]: Storage thread Thread[#94,C2ME Storage #8,5,main] stopped
-[23:50:35] [C2ME Storage #7/INFO]: Storage thread Thread[#93,C2ME Storage #7,5,main] stopped
+[00:01:33] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/minecraft/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.15.5+mixin.0.8.7/sponge-mixin-0.15.5+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[00:01:33] [main/INFO]: Compatibility level set to JAVA_16
+[00:01:33] [main/INFO]: Compatibility level set to JAVA_17
+[00:01:33] [main/INFO]: Compatibility level set to JAVA_18
+[00:01:33] [main/INFO]: Compatibility level set to JAVA_21
+[00:01:33] [main/INFO]: Loading Mixin Plugin for Axiom/4.8.0
+[00:01:33] [main/INFO]: Initializing com.ishland.c2me.base.mixin
+[00:01:33] [main/INFO]: Global Executor Parallelism: 3 configured, 3 evaluated, 3 default evaluated
+[00:01:33] [main/INFO]: Initializing com.ishland.c2me.fixes.chunkio.threading_issues.mixin
+[00:01:33] [main/INFO]: Initializing com.ishland.c2me.fixes.general.threading_issues.mixin
+[00:01:33] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.threading_issues.mixin
+[00:01:33] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.vanilla_bugs.mixin
+[00:01:33] [main/INFO]: Initializing com.ishland.c2me.notickvd.mixin
+[00:01:33] [main/INFO]: Initializing com.ishland.c2me.opts.allocs.mixin
+[00:01:33] [main/INFO]: Initializing com.ishland.c2me.opts.chunkio.mixin
+[00:01:33] [main/INFO]: Initializing com.ishland.c2me.opts.dfc.mixin
+[00:01:33] [main/INFO]: Initializing com.ishland.c2me.opts.math.mixin
+[00:01:33] [main/INFO]: Initializing com.ishland.c2me.opts.scheduling.mixin
+[00:01:33] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.general.mixin
+[00:01:33] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.vanilla.mixin
+[00:01:33] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunk_serializer.mixin
+[00:01:33] [main/INFO]: Disabling config ioSystem.gcFreeChunkSerializer: Incompatible with architectury@16.1.4 (*) (defined in c2me)
+[00:01:33] [main/INFO]: Disabling com.ishland.c2me.rewrites.chunk_serializer.mixin
+[00:01:33] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunksystem.mixin
+[00:01:33] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunkio.mixin
+[00:01:33] [main/INFO]: Initializing com.ishland.c2me.server.utils.mixin
+[00:01:33] [main/INFO]: Initializing com.ishland.c2me.threading.lighting.mixin
+[00:01:33] [main/WARN]: Mod 'ferritecore' attempted to override option 'mixin.alloc.blockstate', which doesn't exist, ignoring
+[00:01:33] [main/INFO]: Loaded configuration file for Lithium: 155 options available, 0 override(s) found.
+[00:01:34] [main/WARN]: Error loading class: ca/spottedleaf/starlight/common/thread/SchedulingUtil (java.lang.ClassNotFoundException: ca/spottedleaf/starlight/common/thread/SchedulingUtil)
+[00:01:34] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[00:01:42] [main/INFO]: Initializing Axiom/4.8.0. Build timestamp: 1746396334521
+[00:01:42] [main/INFO]: Enabled 27 bug fixes: [MC-2025, MC-7569, MC-8187, MC-30391, MC-69216, MC-88371, MC-89146, MC-93018, MC-100991, MC-119417, MC-119754, MC-121706, MC-121903, MC-129909, MC-132878, MC-155509, MC-160095, MC-179072, MC-183990, MC-199467, MC-200418, MC-206922, MC-215530, MC-223153, MC-224729, MC-231743, MC-232869]
+[00:01:42] [main/INFO]: Successfully Debugify'd your game!
+[00:01:42] [main/WARN]: en_ is not a supported Floodgate language.
+[00:01:43] [main/INFO]: Loading extensions...
+[00:01:43] [main/INFO]: Loaded 0 extension(s)
+[00:01:43] [main/INFO]: Compression will use libdeflate (Linux x86_64), encryption will use OpenSSL 1.1.x (Linux x86_64)
+[00:01:43] [main/INFO]: Ksyxis: Booting... (platform: Fabric, manual: false)
+[00:01:43] [main/INFO]: Ksyxis: Found Mixin library. (version: 0.8.7)
+[00:01:43] [main/INFO]: Ksyxis: Ready. As always, this mod will speed up your world loading and might or might not break it. (2 ms)
+[00:01:43] [main/INFO]: Loading Noisium.
+[00:01:43] [Via-Mappingloader-0/INFO]: Loading block connection mappings ...
+[00:01:43] [Via-Mappingloader-0/INFO]: Using FastUtil Long2ObjectOpenHashMap for block connections
+[00:01:44] [main/INFO]: Loading translations...
+[00:01:44] [main/INFO]: Registering protocols...
+[00:01:44] [main/INFO]: Registering protocols...
+[00:01:44] [main/INFO]: ViaVersion detected server version: 1.21.5 (770)
+[00:01:44] [ViaFabric-2/INFO]: Finished mapping loading, shutting down loader executor.
+[00:01:44] [main/INFO]: Krypton is now accelerating your Minecraft server's networking stack 🚀
+[00:01:45] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[00:01:47] [main/INFO]: Loaded 1379 recipes
+[00:01:47] [main/INFO]: Loaded 1485 advancements
+[00:01:47] [main/INFO]: Registered region minecraft:overworld to index 0 for type OVERWORLD
+[00:01:47] [main/INFO]: Registered region minecraft:nether to index 0 for type NETHER
+[00:01:47] [main/INFO]: Initialized TerraBlender biomes for level stem minecraft:the_nether
+[00:01:47] [main/INFO]: Initialized TerraBlender biomes for level stem minecraft:overworld
+[00:01:47] [main/INFO]: Applied 0 biome modifications to 0 of 161 new biomes in 2.402 ms
+[00:01:48] [Server thread/INFO]: Starting background profiler...
+[00:01:48] [Server thread/INFO]: Starting minecraft server version 1.21.5
+[00:01:48] [Server thread/INFO]: Loading properties
+[00:01:48] [Server thread/INFO]: Default game type: SURVIVAL
+[00:01:48] [Server thread/INFO]: Generating keypair
+[00:01:48] [Server thread/INFO]: Starting Minecraft server on *:25565
+[00:01:48] [Server thread/INFO]: Using epoll channel type
+[00:01:48] [e4mc_minecraft-init/INFO]: req: https://broker.e4mc.link/getBestRelay GET
+[00:01:48] [Server thread/INFO]: Using epoll channel type
+[00:01:48] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[00:01:48] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[00:01:48] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[00:01:48] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[00:01:48] [Server thread/INFO]: Preparing level "world"
+[00:01:48] [Server thread/INFO]: Enforcing safe world random access
+[00:01:49] [e4mc_minecraft-init/INFO]: resp: (GET https://broker.e4mc.link/getBestRelay) 200
+[00:01:49] [e4mc_minecraft-init/INFO]: using relay na
+[00:01:49] [nioEventLoopGroup-2-1/INFO]: control channel open: [id: 0x9888a56a, QuicStreamAddress{streamId=0}]
+[00:01:49] [nioEventLoopGroup-2-1/INFO]: control channel write complete
+[00:01:49] [nioEventLoopGroup-2-1/WARN]: e4mc running on Dedicated Server; This works, but isn't recommended as e4mc is designed for short-lived LAN servers
+[00:01:49] [nioEventLoopGroup-2-1/INFO]: Domain assigned: grunt-sprite.na.e4mc.link
+[00:01:49] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 777.5 ms
+[00:01:49] [Server thread/INFO]: Using TheSpeedyObjectFactory with Unsafe
+[00:01:49] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 13.13 ms
+[00:01:50] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 8.803 ms
+[00:01:50] [Server thread/INFO]: Ksyxis: Hey. This is Ksyxis. We will now load the world and will try to do it quickly. If the game is not responding after this, it's probably us to blame or delete for good. This message appears always, even if the mod works flawlessly. (modern)
+[00:01:50] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[00:01:50] [Server thread/INFO]: Time elapsed: 1 ms
+[00:01:50] [Server thread/INFO]: Done (1.543s)! For help, type "help"
+[00:01:50] [Server thread/INFO]: Took 49ms to boot Floodgate
+[00:01:50] [Server thread/INFO]: ******************************************
+[00:01:50] [Server thread/INFO]: 
+[00:01:50] [Server thread/INFO]: Loading Geyser version 2.7.1-b852 (git-master-17baaf6)
+[00:01:50] [Server thread/INFO]: 
+[00:01:50] [Server thread/INFO]: ******************************************
+[00:01:54] [Server thread/INFO]: Started Geyser on UDP port 19132
+[00:01:54] [Server thread/INFO]: Done (4.784s)! Run /geyser help for help!
+[00:01:54] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4877ms or 97 ticks behind
+[00:01:55] [ForkJoinPool.commonPool-worker-1/WARN]: Missing MC locale file: en_us
+[00:01:55] [ForkJoinPool.commonPool-worker-1/INFO]: Downloading Minecraft JAR to extract required files, please wait... (this may take some time depending on the speed of your internet connection)
+[00:01:56] [ForkJoinPool.commonPool-worker-1/INFO]: Minecraft JAR has been successfully downloaded and loaded!
+[00:02:54] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[00:15:47] [Server thread/INFO]: ciphergamer1123[/127.15.121.75:51265] logged in with entity id 1 at (-233.71117619545973, 104.0, 46.76644502974795)
+[00:15:47] [Server thread/INFO]: ciphergamer1123 joined the game
+[00:15:47] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2585ms or 51 ticks behind
+[00:21:48] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-377, y=89, z=76} class_2338{x=-293, y=99, z=196}
+[00:22:11] [Server thread/INFO]: Destructor_dios[/127.249.45.129:58183] logged in with entity id 1850 at (-33.5, 71.0, -73.5)
+[00:22:11] [Server thread/INFO]: Destructor_dios joined the game
+[00:23:18] [Server thread/INFO]: [Not Secure] <Destructor_dios> hola
+[00:23:22] [Server thread/INFO]: [Not Secure] <ciphergamer1123> hola
+[00:23:24] [Server thread/INFO]: [ciphergamer1123: Set own game mode to Creative Mode]
+[00:23:32] [Server thread/INFO]: [Not Secure] <Destructor_dios> pasa seed
+[00:23:36] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=-36, y=70, z=-75}
+[00:23:37] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=-35, y=71, z=-75}
+[00:23:38] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=-35, y=72, z=-76}
+[00:23:39] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=-35, y=72, z=-76}
+[00:23:42] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=-33, y=70, z=-76}
+[00:23:42] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=-34, y=71, z=-76}
+[00:23:42] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=-33, y=70, z=-76}
+[00:23:52] [Server thread/INFO]: [Not Secure] <Destructor_dios> pq no puedo destruir nada?
+[00:23:59] [Server thread/INFO]: [Not Secure] <ciphergamer1123> -1605012286548692727
+[00:24:03] [Server thread/INFO]: [Not Secure] <ciphergamer1123> no puedes?
+[00:24:08] [Server thread/INFO]: [ciphergamer1123: Teleported ciphergamer1123 to Destructor_dios]
+[00:24:13] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=-35, y=71, z=-77}
+[00:24:14] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=-35, y=73, z=-77}
+[00:24:19] [Server thread/INFO]: [Not Secure] <Destructor_dios> nop
+[00:24:21] [Server thread/INFO]: [Not Secure] <ciphergamer1123> prueba
+[00:24:29] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=-34, y=71, z=-76}
+[00:24:29] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=-35, y=71, z=-77}
+[00:24:35] [Server thread/INFO]: [Not Secure] <Destructor_dios> nop
+[00:25:03] [Server thread/INFO]: [Not Secure] <ciphergamer1123> esta raro
+[00:25:12] [Server thread/INFO]: [Not Secure] <ciphergamer1123> en el chat si dice que rompiste algo
+[00:25:20] [Server thread/INFO]: [Not Secure] <Destructor_dios> XD
+[00:25:22] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=-33, y=70, z=-76}
+[00:25:28] [Server thread/INFO]: [Not Secure] <ciphergamer1123> prueba volver a entrar
+[00:25:37] [Server thread/INFO]: Destructor_dios lost connection: Disconnected
+[00:25:37] [Server thread/INFO]: Destructor_dios left the game
+[00:25:43] [Server thread/INFO]: [ciphergamer1123: The difficulty has been set to Peaceful]
+[00:26:00] [Server thread/INFO]: Destructor_dios[/127.249.45.129:55105] logged in with entity id 3262 at (-23.921583972344774, 66.0, -78.43450124839666)
+[00:26:00] [Server thread/INFO]: Destructor_dios joined the game
+[00:26:02] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=-26, y=67, z=-81}
+[00:26:03] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=-27, y=67, z=-81}
+[00:26:06] [Server thread/INFO]: [Not Secure] <ciphergamer1123> funciono?
+[00:26:08] [Server thread/INFO]: [Not Secure] <Destructor_dios> sigue sin dejar
+[00:26:16] [Server thread/INFO]: [Not Secure] <ciphergamer1123> estoy en creativo
+[00:26:32] [Server thread/INFO]: [Not Secure] <Destructor_dios> ya me deja
+[00:26:33] [Server thread/INFO]: [ciphergamer1123: Set own game mode to Survival Mode]
+[00:26:38] [Server thread/INFO]: [Not Secure] <Destructor_dios> tu delimitaste una zona?
+[00:26:42] [Server thread/INFO]: [Not Secure] <ciphergamer1123> no
+[00:26:51] [Server thread/INFO]: [Not Secure] <Destructor_dios> en el spawn no deja romper
+[00:27:03] [Server thread/INFO]: [Not Secure] <Destructor_dios> haces de dia?
+[00:27:06] [Server thread/INFO]: [Not Secure] <ciphergamer1123> supongo que ahi el servidor si delimito
+[00:27:13] [Server thread/INFO]: [ciphergamer1123: Set the time to 1000]
+[00:27:28] [Server thread/INFO]: [Not Secure] <Destructor_dios> gracias, esta el mod de la madera?
+[00:27:33] [Server thread/INFO]: [Not Secure] <ciphergamer1123> aun no
+[00:29:13] [Server thread/INFO]: [Not Secure] <ciphergamer1123> como vas?
+[00:29:23] [Server thread/INFO]: [Not Secure] <Destructor_dios> explorando
+[00:30:13] [Server thread/INFO]: Destructor_dios has made the advancement [Acquire Hardware]
+[00:31:35] [Server thread/INFO]: Destructor_dios has made the advancement [Isn't It Iron Pick]
+[00:31:51] [Server thread/INFO]: [Not Secure] <ciphergamer1123> ciertamente estaba pensando en hacer el servidor con plugins y añadirle estaciones
+[00:32:24] [Server thread/INFO]: [Not Secure] <Destructor_dios> good
+[00:32:46] [Server thread/INFO]: [Not Secure] <ciphergamer1123> el servidor va muy bien para ser una laptop del 2009
+[00:32:53] [Server thread/INFO]: [Not Secure] <Destructor_dios> ostia w
+[00:33:16] [Server thread/INFO]: [Not Secure] <Destructor_dios> oye y no le podes añadir de los mods o plugins el jei? el de los crafteos
+[00:33:39] [Server thread/INFO]: [Not Secure] <ciphergamer1123> si lo añado, creo que los de bedrock no podrian unirse
+[00:33:50] [Server thread/INFO]: [Not Secure] <Destructor_dios> vdd
+[00:34:28] [Server thread/INFO]: Destructor_dios has made the advancement [Stone Age]
+[00:35:36] [Server thread/INFO]: donax_x[/127.49.126.78:40109] logged in with entity id 7602 at (-23.5, 89.0, -83.5)
+[00:35:36] [Server thread/INFO]: donax_x joined the game
+[00:35:37] [c2me-worker-0/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 236 chunks (5.59%), ETA: 0:00:01, Rate: 2052.2 cps, Current: 7, 16
+[00:35:38] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 302 chunks (7.15%), ETA: 0:00:18, Rate: 210.3 cps, Current: 1, 22
+[00:35:39] [Server thread/INFO]: [Not Secure] <Destructor_dios> pusieron severo temon al lado de mi casa
+[00:35:39] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 324 chunks (7.67%), ETA: 0:00:29, Rate: 132.0 cps, Current: 3, 28
+[00:35:40] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 358 chunks (8.47%), ETA: 0:00:37, Rate: 102.1 cps, Current: 3, 30
+[00:35:42] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 396 chunks (9.37%), ETA: 0:00:46, Rate: 82.8 cps, Current: 11, 27
+[00:35:43] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 527 chunks (12.47%), ETA: 0:00:40, Rate: 90.5 cps, Current: 0, 31
+[00:35:44] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 798 chunks (18.89%), ETA: 0:00:37, Rate: 92.5 cps, Current: 23, 12
+[00:35:45] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 900 chunks (21.30%), ETA: 0:00:36, Rate: 91.3 cps, Current: 8, 31
+[00:35:46] [c2me-worker-2/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 1082 chunks (25.61%), ETA: 0:00:32, Rate: 95.3 cps, Current: 2, -25
+[00:35:47] [c2me-worker-2/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 1105 chunks (26.15%), ETA: 0:00:36, Rate: 86.2 cps, Current: 3, -28
+[00:35:48] [c2me-worker-1/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 1106 chunks (26.18%), ETA: 0:00:40, Rate: 76.9 cps, Current: 2, -26
+[00:35:49] [Server thread/INFO]: [Not Secure] <Destructor_dios> uno nuevo, holaaaaaa
+[00:35:50] [c2me-worker-0/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 1133 chunks (26.82%), ETA: 0:00:43, Rate: 70.4 cps, Current: 4, -29
+[00:35:51] [c2me-worker-1/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 1147 chunks (27.15%), ETA: 0:00:46, Rate: 66.2 cps, Current: 15, -25
+[00:35:51] [Server thread/INFO]: [Not Secure] <ciphergamer1123> cual?
+[00:35:52] [c2me-worker-0/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 1176 chunks (27.83%), ETA: 0:00:48, Rate: 63.3 cps, Current: 5, -30
+[00:35:53] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 1612 chunks (38.15%), ETA: 0:00:30, Rate: 86.6 cps, Current: 4, -32
+[00:35:54] [Chunky-minecraft:overworld Thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 1858 chunks (43.98%), ETA: 0:00:25, Rate: 92.3 cps, Current: 26, -20
+[00:35:55] [c2me-worker-2/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 2224 chunks (52.64%), ETA: 0:00:21, Rate: 93.9 cps, Current: -17, -21
+[00:35:56] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 2256 chunks (53.40%), ETA: 0:00:21, Rate: 90.4 cps, Current: -18, -23
+[00:35:57] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 2336 chunks (55.29%), ETA: 0:00:21, Rate: 85.9 cps, Current: -18, -24
+[00:35:58] [Server thread/INFO]: [Not Secure] <Destructor_dios> donax
+[00:35:58] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 2394 chunks (56.66%), ETA: 0:00:21, Rate: 84.1 cps, Current: -25, -18
+[00:35:59] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 3014 chunks (71.34%), ETA: 0:00:11, Rate: 107.5 cps, Current: 19, -26
+[00:36:00] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 3038 chunks (71.91%), ETA: 0:00:11, Rate: 103.5 cps, Current: -28, -14
+[00:36:01] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 3069 chunks (72.64%), ETA: 0:00:11, Rate: 100.4 cps, Current: -7, -26
+[00:36:01] [Server thread/INFO]: [Not Secure] <donax_x> ando en un arbol :v
+[00:36:02] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 3711 chunks (87.83%), ETA: 0:00:04, Rate: 113.7 cps, Current: -14, -28
+[00:36:03] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 3749 chunks (88.73%), ETA: 0:00:04, Rate: 110.8 cps, Current: -9, 26
+[00:36:04] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 3772 chunks (89.28%), ETA: 0:00:04, Rate: 107.5 cps, Current: -6, 27
+[00:36:06] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 4191 chunks (99.20%), ETA: 0:00:00, Rate: 114.7 cps, Current: -1, 31
+[00:36:07] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 4219 chunks (99.86%), ETA: 0:00:00, Rate: 111.7 cps, Current: -1, 32
+[00:36:07] [Server thread/INFO]: [Chunky] Task finished for minecraft:overworld. Processed: 4225 chunks (100.00%), Total time: 0:00:29
+[00:36:08] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=-26, y=90, z=-84}
+[00:36:08] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=-25, y=89, z=-84}
+[00:36:09] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=-24, y=89, z=-85}
+[00:36:09] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=-24, y=89, z=-86}
+[00:36:09] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=-24, y=88, z=-87}
+[00:36:13] [Server thread/INFO]: donax_x fell from a high place
+[00:36:13] [Server thread/INFO]: [Not Secure] <Destructor_dios> te voy a matar
+[00:36:17] [Server thread/INFO]: [Not Secure] <Destructor_dios> XD
+[00:36:34] [Server thread/INFO]: [Not Secure] <donax_x> no era lucky? :b
+[00:36:44] [Server thread/INFO]: [Not Secure] <Destructor_dios> eres esteban?
+[00:36:52] [Server thread/INFO]: [Not Secure] <donax_x> ci
+[00:36:56] [Server thread/INFO]: [Not Secure] <Destructor_dios> y oyee verdad que habiamos dicho que un lucky
+[00:37:07] [Server thread/INFO]: [Not Secure] <Destructor_dios> encontre una cueva
+[00:37:56] [Server thread/INFO]: [Not Secure] <donax_x> donde estan
+[00:38:01] [Server thread/INFO]: [Not Secure] <ciphergamer1123> lejos
+[00:38:04] [Server thread/INFO]: [Not Secure] <Destructor_dios> igual
+[00:38:14] [Server thread/INFO]: [Not Secure] <ciphergamer1123> 606.69 79.00 -126.76
+[00:38:19] [Server thread/INFO]: [Not Secure] <Destructor_dios> has de dios dios
+[00:38:24] [Server thread/INFO]: [Not Secure] <donax_x> se puede matar?
+[00:38:25] [Server thread/INFO]: [Not Secure] <Destructor_dios> dia xd
+[00:38:31] [Server thread/INFO]: [Not Secure] <Destructor_dios> pos si
+[00:38:50] [Server thread/INFO]: [Not Secure] <Destructor_dios> pq estas tan lejos y como tan rapido cipher xd?
+[00:38:52] [Server thread/INFO]: [Not Secure] <ciphergamer1123> -/hacer de dia
+[00:39:05] [Server thread/INFO]: [Not Secure] <ciphergamer1123> me puse a correr a lo loco
+[00:39:57] [Server thread/INFO]: [ciphergamer1123: Applied 10.0 damage to ciphergamer1123]
+[00:39:59] [Server thread/INFO]: [ciphergamer1123: Applied 10.0 damage to ciphergamer1123]
+[00:40:01] [Server thread/INFO]: %1$s was shot by %2$s
+[00:40:01] [Server thread/INFO]: [ciphergamer1123: Applied 10.0 damage to ciphergamer1123]
+[00:40:40] [Server thread/INFO]: [Not Secure] <Destructor_dios> espera
+[00:40:45] [Server thread/INFO]: [Not Secure] <Destructor_dios> somos inmortale
+[00:41:08] [Server thread/INFO]: donax_x was slain by Destructor_dios
+[00:41:12] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=-39, y=87, z=-83}
+[00:41:13] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=-39, y=87, z=-83}
+[00:41:14] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=-39, y=87, z=-83}
+[00:41:14] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=-39, y=87, z=-83}
+[00:41:14] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=-39, y=87, z=-83}
+[00:41:38] [Server thread/INFO]: [Not Secure] <ciphergamer1123> por dios soy un asesino
+[00:42:09] [Server thread/INFO]: donax_x was slain by Destructor_dios
+[00:42:39] [Server thread/INFO]: donax_x was slain by Destructor_dios
+[00:42:47] [Server thread/INFO]: [ciphergamer1123: Summoned new Lightning Bolt]
+[00:43:13] [Server thread/INFO]: [Not Secure] <ciphergamer1123> quien reto a zeus?
+[00:43:26] [Server thread/INFO]: [Not Secure] <Destructor_dios> yo pq el maldito rayo me cayo a mi
+[00:43:27] [Server thread/INFO]: [Not Secure] <donax_x> metee mods
+[00:43:40] [Server thread/INFO]: [Not Secure] <donax_x> el vanilla es muy easy
+[00:43:51] [Server thread/INFO]: [Not Secure] <ciphergamer1123> si los meto tengo que borrar el mundo para que carguen
+[00:43:51] [Server thread/INFO]: donax_x has made the advancement [Stone Age]
+[00:43:55] [Server thread/INFO]: [Not Secure] <Destructor_dios> como es tu pc donax?
+[00:44:06] [Server thread/INFO]: [Not Secure] <Destructor_dios> pq coño casi me matas namas pq tengo mejor espada
+[00:44:42] [Server thread/INFO]: [Not Secure] <donax_x> la compre hace poco, es una laptop, tiene 16 de ram, i5-12450HX y una rtx 3050
+[00:44:51] [Server thread/INFO]: [Not Secure] <Destructor_dios> ah no ma con razon
+[00:44:58] [Server thread/INFO]: [Not Secure] <donax_x> por?
+[00:45:14] [Server thread/INFO]: donax_x has made the advancement [Getting an Upgrade]
+[00:45:14] [Server thread/INFO]: [Not Secure] <Destructor_dios> yo ando con graficos integrados 8gb de ram y un internet de mrd
+[00:45:25] [Server thread/INFO]: [ciphergamer1123: Applied effect Haste to ciphergamer1123]
+[00:45:41] [Server thread/INFO]: [Not Secure] <donax_x> asi estaba, pero eran 4 de ram, duro hasta cargar el google ;-,
+[00:45:50] [Server thread/INFO]: [Not Secure] <Destructor_dios> XD
+[00:45:57] [Server thread/INFO]: [Not Secure] <donax_x> un mod dificil: fungal infection
+[00:46:03] [Server thread/INFO]: [Not Secure] <donax_x> ahi me violaron
+[00:46:10] [Server thread/INFO]: [Not Secure] <ciphergamer1123> y los de bedrock que?
+[00:46:19] [Server thread/INFO]: [Not Secure] <donax_x> nadie entro
+[00:46:44] [Server thread/INFO]: [Not Secure] <ciphergamer1123> yo entraba en bedrock
+[00:47:02] [Server thread/INFO]: [Not Secure] <donax_x> jugaban pvp en 1.8?
+[00:47:13] [Server thread/INFO]: [Not Secure] <Destructor_dios> nop
+[00:47:24] [Server thread/INFO]: [Not Secure] <Destructor_dios> bueno si pero en pandemia osea hace ufff
+[00:47:37] [Server thread/INFO]: [Not Secure] <donax_x> jugue hasta 2023
+[00:47:42] [Server thread/INFO]: [Not Secure] <donax_x> me vicie mucho
+[00:47:45] [Server thread/INFO]: [Not Secure] <donax_x> perdi level
+[00:48:01] [Server thread/INFO]: [Not Secure] <Destructor_dios> level? mano de noser pq mi espada hacia daño me matabas
+[00:48:33] [Server thread/INFO]: [Not Secure] <donax_x> pvp de 1.9 no se xd, solo se q hay q timear el salto
+[00:48:34] [Server thread/INFO]: ciphergamer1123 has made the advancement [Stone Age]
+[00:50:10] [Server thread/INFO]: ciphergamer1123 has made the advancement [Getting an Upgrade]
+[00:50:50] [Server thread/INFO]: [Not Secure] <ciphergamer1123> que
+[00:50:53] [Server thread/INFO]: [Not Secure] <donax_x> besame
+[00:50:56] [Server thread/INFO]: [Not Secure] <ciphergamer1123> a
+[00:50:58] [Server thread/INFO]: [ciphergamer1123: Set own game mode to Creative Mode]
+[00:51:00] [Server thread/INFO]: [Not Secure] <Destructor_dios> beso de 3?
+[00:51:15] [Server thread/INFO]: [Not Secure] <ciphergamer1123> a
+[00:51:18] [Server thread/INFO]: [ciphergamer1123: Set own game mode to Survival Mode]
+[00:51:28] [Server thread/INFO]: [ciphergamer1123: Set own game mode to Spectator Mode]
+[00:51:32] [Server thread/INFO]: [Not Secure] <donax_x> q
+[00:51:41] [Server thread/INFO]: [Not Secure] <Destructor_dios> shi beso de 3
+[00:51:48] [Server thread/INFO]: [ciphergamer1123: Teleported donax_x to Destructor_dios]
+[00:51:53] [Server thread/INFO]: [ciphergamer1123: Teleported ciphergamer1123 to Destructor_dios]
+[00:52:00] [Server thread/INFO]: [Not Secure] <ciphergamer1123> tu castigo
+[00:52:18] [Server thread/INFO]: [ciphergamer1123: Set own game mode to Creative Mode]
+[00:52:27] [Server thread/INFO]: [Not Secure] <Destructor_dios> pq me atacas
+[00:52:32] [Server thread/INFO]: [Not Secure] <donax_x> no me besaste
+[00:52:33] [Server thread/INFO]: [Not Secure] <Destructor_dios> mo w
+[00:52:44] [Server thread/INFO]: [Not Secure] <Destructor_dios> como hago eso?
+[00:53:38] [Server thread/INFO]: [Not Secure] <donax_x> viva petro
+[00:53:49] [Server thread/INFO]: [Not Secure] <Destructor_dios> volvi
+[00:53:52] [Server thread/INFO]: [Not Secure] <ciphergamer1123> a
+[00:54:27] [Server thread/INFO]: donax_x lost connection: Disconnected
+[00:54:27] [Server thread/INFO]: donax_x left the game
+[00:54:30] [Server thread/INFO]: [Not Secure] <ciphergamer1123> a
+[00:54:49] [Server thread/INFO]: [Not Secure] <Destructor_dios> no sabes donde esta?
+[00:54:53] [Server thread/INFO]: [Not Secure] <ciphergamer1123> se salio
+[00:54:59] [Server thread/INFO]: [Not Secure] <ciphergamer1123> no
+[00:55:09] [Server thread/INFO]: [Not Secure] <Destructor_dios> xd me haces tp afuera?
+[00:55:16] [Server thread/INFO]: [ciphergamer1123: Set own game mode to Spectator Mode]
+[00:55:30] [Server thread/INFO]: [ciphergamer1123: Teleported 2 entities to ciphergamer1123]
+[00:55:33] [Server thread/INFO]: [ciphergamer1123: Set own game mode to Survival Mode]
+[00:55:35] [Server thread/INFO]: [Not Secure] <Destructor_dios> gracias
+[00:55:55] [Server thread/INFO]: [Not Secure] <ciphergamer1123> una torrwe
+[00:55:56] [Server thread/INFO]: [Not Secure] <Destructor_dios> ya fui
+[00:56:00] [Server thread/INFO]: [Not Secure] <Destructor_dios> no tenia nada
+[00:56:08] [Server thread/INFO]: [Not Secure] <Destructor_dios> me decepciono
+[00:56:11] [Server thread/INFO]: [Not Secure] <ciphergamer1123> fuiste hasta arriba?
+[00:56:20] [Server thread/INFO]: [Not Secure] <Destructor_dios> sip
+[00:56:36] [Server thread/INFO]: [Not Secure] <Destructor_dios> solo habia una silla y un atril
+[00:57:01] [Server thread/INFO]: ciphergamer1123 fell from a high place
+[00:57:07] [Server thread/INFO]: [ciphergamer1123: Teleported ciphergamer1123 to Destructor_dios]
+[00:57:11] [Server thread/INFO]: Destructor_dios has made the advancement [Sweet Dreams]
+[00:58:04] [Server thread/INFO]: [ciphergamer1123: Teleported 51 entities to ciphergamer1123]
+[00:58:27] [Server thread/INFO]: [ciphergamer1123: Removed 51 item(s) from player ciphergamer1123]
+[00:59:02] [Server thread/INFO]: [Not Secure] <ciphergamer1123> ya me voy
+[00:59:05] [Server thread/INFO]: [Not Secure] <ciphergamer1123> te cuidas
+[00:59:15] [Server thread/INFO]: [Not Secure] <ciphergamer1123> pensare en los mods de dificultad
+[00:59:19] [Server thread/INFO]: [Not Secure] <Destructor_dios> ok
+[00:59:21] [Server thread/INFO]: ciphergamer1123 lost connection: Disconnected
+[00:59:21] [Server thread/INFO]: ciphergamer1123 left the game
+[01:01:14] [Server thread/INFO]: donax_x[/127.49.126.78:50361] logged in with entity id 14895 at (-238.05254494266555, 40.0, 26.85112474515154)
+[01:01:14] [Server thread/INFO]: donax_x joined the game
+[01:01:17] [Server thread/INFO]: [Not Secure] <donax_x> no
+[01:01:27] [Server thread/INFO]: [Not Secure] <Destructor_dios> no que?
+[01:01:40] [Server thread/INFO]: [Not Secure] <donax_x> y cipher?
+[01:04:05] [Server thread/INFO]: Destructor_dios has made the advancement [Ice Bucket Challenge]
+[01:04:05] [Server thread/INFO]: Destructor_dios has made the advancement [Suit Up]
+[01:04:23] [Server thread/INFO]: donax_x lost connection: Disconnected
+[01:04:23] [Server thread/INFO]: donax_x left the game
+[01:11:15] [Server thread/INFO]: You whisper to Destructor_dios: fuera de mi cerro
+[01:12:00] [Server thread/INFO]: You whisper to Destructor_dios: no en serio, voy a añadir mods
+[01:12:10] [Server thread/INFO]: Destructor_dios lost connection: Kicked by an operator
+[01:12:10] [Server thread/INFO]: Destructor_dios left the game
+[01:12:10] [Server thread/INFO]: Kicked Destructor_dios: Kicked by an operator
+[01:12:10] [Server thread/WARN]: handleDisconnection() called twice
+[01:12:14] [Server thread/INFO]: Stopping the server
+[01:12:14] [Server thread/INFO]: ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
+[01:12:14] [Server thread/INFO]: Shutting down Geyser.
+[01:12:14] [Server thread/INFO]: Geyser shutdown successfully.
+[01:12:14] [WebSocketConnectReadThread-109/INFO]: The skin uploader has been closed
+[01:12:16] [Server thread/INFO]: Stopping server
+[01:12:16] [Server thread/INFO]: Saving players
+[01:12:16] [Server thread/INFO]: Saving worlds
+[01:12:16] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[01:12:16] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[01:12:16] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[01:12:16] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[01:12:16] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[01:12:16] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[01:12:16] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[01:12:16] [C2ME Storage #3/INFO]: Storage thread Thread[#87,C2ME Storage #3,5,main] stopped
+[01:12:16] [C2ME Storage #2/INFO]: Storage thread Thread[#85,C2ME Storage #2,5,main] stopped
+[01:12:16] [C2ME Storage #1/INFO]: Storage thread Thread[#84,C2ME Storage #1,5,main] stopped
+[01:12:16] [C2ME Storage #5/INFO]: Storage thread Thread[#91,C2ME Storage #5,5,main] stopped
+[01:12:16] [C2ME Storage #6/INFO]: Storage thread Thread[#92,C2ME Storage #6,5,main] stopped
+[01:12:16] [C2ME Storage #4/INFO]: Storage thread Thread[#90,C2ME Storage #4,5,main] stopped
+[01:12:16] [C2ME Storage #9/INFO]: Storage thread Thread[#96,C2ME Storage #9,5,main] stopped
+[01:12:16] [C2ME Storage #8/INFO]: Storage thread Thread[#95,C2ME Storage #8,5,main] stopped
+[01:12:16] [C2ME Storage #7/INFO]: Storage thread Thread[#94,C2ME Storage #7,5,main] stopped
