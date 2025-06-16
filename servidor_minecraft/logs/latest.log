@@ -1,39 +1,442 @@
-[04:16:53] [main/INFO]: Loading Minecraft 1.21.5 with Fabric Loader 0.16.14
-[04:16:53] [ForkJoinPool-1-worker-4/WARN]: Mod getittogetherdrops uses the version fabric-1.21-1.3.1 which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'fabric'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
-[04:16:54] [main/WARN]: Mod resolution failed
-[04:16:54] [main/INFO]: Immediate reason: [HARD_DEP_NO_CANDIDATE silk-all 1.11.1 {depends fabric-language-kotlin @ [>=1.9.0+kotlin.1.8.0]}, ROOT_FORCELOAD_SINGLE silk-all 1.11.1]
-[04:16:54] [main/INFO]: Reason: [HARD_DEP silk-all 1.11.1 {depends fabric-language-kotlin @ [>=1.9.0+kotlin.1.8.0]}, HARD_DEP tectonic 3.0.1 {depends lithostitched @ [*]}, HARD_DEP veinminer 2.4.2 {depends fabric-language-kotlin @ [*]}, HARD_DEP silk-core 1.11.1 {depends fabric-language-kotlin @ [>=1.9.0+kotlin.1.8.0]}, HARD_DEP silk-commands 1.11.1 {depends fabric-language-kotlin @ [>=1.9.0+kotlin.1.8.0]}, HARD_DEP c2me-opts-natives-math 0.3.3.0.0+1.21.5 {depends java @ [>=22]}, HARD_DEP silk-game 1.11.1 {depends fabric-language-kotlin @ [>=1.9.0+kotlin.1.8.0]}, HARD_DEP silk-igui 1.11.1 {depends fabric-language-kotlin @ [>=1.9.0+kotlin.1.8.0]}, HARD_DEP silk-nbt 1.11.1 {depends fabric-language-kotlin @ [>=1.9.0+kotlin.1.8.0]}, HARD_DEP silk-network 1.11.1 {depends fabric-language-kotlin @ [>=1.9.0+kotlin.1.8.0]}, HARD_DEP silk-persistence 1.11.1 {depends fabric-language-kotlin @ [>=1.9.0+kotlin.1.8.0]}, HARD_DEP viafabric-mc1144 0.4.18+104-main {depends minecraft @ [1.14.4]}, HARD_DEP viafabric-mc1152 0.4.18+104-main {depends minecraft @ [1.15.2]}, HARD_DEP viafabric-mc1165 0.4.18+104-main {depends minecraft @ [1.16.4 || 1.16.5]}, HARD_DEP viafabric-mc1171 0.4.18+104-main {depends minecraft @ [1.17.1]}, HARD_DEP viafabric-mc1182 0.4.18+104-main {depends minecraft @ [1.18.2]}, HARD_DEP viafabric-mc1194 0.4.18+104-main {depends minecraft @ [1.19.4]}, HARD_DEP viafabric-mc1201 0.4.18+104-main {depends minecraft @ [1.20 || 1.20.1]}, HARD_DEP viafabric-mc1206 0.4.18+104-main {depends minecraft @ [1.20.5 || 1.20.6]}]
-[04:16:54] [main/INFO]: SERVER environment disabled: [c2me-client-uncapvd, fabric-renderer-api-v1, fabric-model-loading-api-v1, fabric-keybindings-v0, immediatelyfast, fabric-client-tags-api-v1, fabric-screen-api-v1, fabric-renderer-indigo, fabric-blockrenderlayer-v1, sodium, cotton-client-commands, fabric-sound-api-v1, fabric-key-binding-api-v1, fabric-rendering-v1]
-[04:16:54] [main/INFO]: Fix: add [add:fabric-language-kotlin 1.9.0+kotlin.1.8.0 ([[1.9.0+kotlin.1.8.0,∞)]), add:lithostitched 1 ([(-∞,∞)])], remove [], replace []
-[04:16:54] [main/ERROR]: Incompatible mods found!
-net.fabricmc.loader.impl.FormattedException: Some of your mods are incompatible with the game or each other!
-A potential solution has been determined, this may resolve your problem:
-	 - Install fabric-language-kotlin, version 1.9.0+kotlin.1.8.0 or later.
-	 - Install lithostitched, any version.
-More details:
-	 - Mod 'Silk (All modules)' (silk-all) 1.11.1 requires version 1.9.0+kotlin.1.8.0 or later of fabric-language-kotlin, which is missing!
-	 - Mod 'Tectonic' (tectonic) 3.0.1 requires any version of lithostitched, which is missing!
-	 - Mod 'Veinminer' (veinminer) 2.4.2 requires any version of fabric-language-kotlin, which is missing!
-	 - Mod 'Silk Core' (silk-core) 1.11.1 requires version 1.9.0+kotlin.1.8.0 or later of fabric-language-kotlin, which is missing!
-	 - Mod 'Silk Commands' (silk-commands) 1.11.1 requires version 1.9.0+kotlin.1.8.0 or later of fabric-language-kotlin, which is missing!
-	 - Mod 'Concurrent Chunk Management Engine (Optimizations/Natives Math)' (c2me-opts-natives-math) 0.3.3.0.0+1.21.5 requires version 22 or later of 'OpenJDK 64-Bit Server VM' (java), but only the wrong version is present: 21!
-	 - Mod 'Silk Game' (silk-game) 1.11.1 requires version 1.9.0+kotlin.1.8.0 or later of fabric-language-kotlin, which is missing!
-	 - Mod 'Silk Inventory GUI' (silk-igui) 1.11.1 requires version 1.9.0+kotlin.1.8.0 or later of fabric-language-kotlin, which is missing!
-	 - Mod 'Silk NBT' (silk-nbt) 1.11.1 requires version 1.9.0+kotlin.1.8.0 or later of fabric-language-kotlin, which is missing!
-	 - Mod 'Silk Network' (silk-network) 1.11.1 requires version 1.9.0+kotlin.1.8.0 or later of fabric-language-kotlin, which is missing!
-	 - Mod 'Silk Persistence' (silk-persistence) 1.11.1 requires version 1.9.0+kotlin.1.8.0 or later of fabric-language-kotlin, which is missing!
-	 - Mod 'ViaFabric for 1.14' (viafabric-mc1144) 0.4.18+104-main requires version 1.14.4 of 'Minecraft' (minecraft), but only the wrong version is present: 1.21.5!
-	 - Mod 'ViaFabric for 1.15' (viafabric-mc1152) 0.4.18+104-main requires version 1.15.2 of 'Minecraft' (minecraft), but only the wrong version is present: 1.21.5!
-	 - Mod 'ViaFabric for 1.16' (viafabric-mc1165) 0.4.18+104-main requires version 1.16.4 or version 1.16.5 of 'Minecraft' (minecraft), but only the wrong version is present: 1.21.5!
-	 - Mod 'ViaFabric for 1.17' (viafabric-mc1171) 0.4.18+104-main requires version 1.17.1 of 'Minecraft' (minecraft), but only the wrong version is present: 1.21.5!
-	 - Mod 'ViaFabric for 1.18' (viafabric-mc1182) 0.4.18+104-main requires version 1.18.2 of 'Minecraft' (minecraft), but only the wrong version is present: 1.21.5!
-	 - Mod 'ViaFabric for 1.19' (viafabric-mc1194) 0.4.18+104-main requires version 1.19.4 of 'Minecraft' (minecraft), but only the wrong version is present: 1.21.5!
-	 - Mod 'ViaFabric for 1.20.1' (viafabric-mc1201) 0.4.18+104-main requires version 1.20 or version 1.20.1 of 'Minecraft' (minecraft), but only the wrong version is present: 1.21.5!
-	 - Mod 'ViaFabric for 1.20.5/6' (viafabric-mc1206) 0.4.18+104-main requires version 1.20.5 or version 1.20.6 of 'Minecraft' (minecraft), but only the wrong version is present: 1.21.5!
-	at net.fabricmc.loader.impl.FormattedException.ofLocalized(FormattedException.java:51) ~[fabric-loader-0.16.14.jar:?]
-	at net.fabricmc.loader.impl.FabricLoaderImpl.load(FabricLoaderImpl.java:196) ~[fabric-loader-0.16.14.jar:?]
-	at net.fabricmc.loader.impl.launch.knot.Knot.init(Knot.java:146) ~[fabric-loader-0.16.14.jar:?]
-	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:68) [fabric-loader-0.16.14.jar:?]
-	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) [fabric-loader-0.16.14.jar:?]
-	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) [fabric-loader-0.16.14.jar:?]
-	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) [fabric-server-launch.jar:1.0.1]
+[04:20:13] [main/INFO]: Loading Minecraft 1.21.5 with Fabric Loader 0.16.14
+[04:20:13] [ForkJoinPool-1-worker-3/WARN]: Mod ctov uses the version 3.5.9a which isn't compatible with Loader's extended semantic version format (Could not parse version number component '9a'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[04:20:13] [ForkJoinPool-1-worker-3/WARN]: Mod getittogetherdrops uses the version fabric-1.21-1.3.1 which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'fabric'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[04:20:13] [main/WARN]: Warnings were found!
+ - Mod 'Debugify' (debugify) 1.21.5+1.0 recommends any version of yet_another_config_lib_v3, which is missing!
+	 - You should install any version of yet_another_config_lib_v3 for the optimal experience.
+ - Mod 'Debugify' (debugify) 1.21.5+1.0 recommends any version of modmenu, which is missing!
+	 - You should install any version of modmenu for the optimal experience.
+[04:20:13] [main/INFO]: Loading 190 mods:
+	- architectury 16.1.4
+	- axiom 4.8.0
+	   |-- com_moulberry_axiomclientapi 1.0.0
+	   \-- com_moulberry_mixinconstraints 1.0.8
+	- c2me 0.3.3.0.0+1.21.5
+	   |-- c2me-base 0.3.3.0.0+1.21.5
+	   |-- c2me-client-uncapvd 0.3.3.0.0+1.21.5
+	   |-- c2me-fixes-chunkio-threading-issues 0.3.3.0.0+1.21.5
+	   |-- c2me-fixes-general-threading-issues 0.3.3.0.0+1.21.5
+	   |-- c2me-fixes-worldgen-threading-issues 0.3.3.0.0+1.21.5
+	   |-- c2me-fixes-worldgen-vanilla-bugs 0.3.3.0.0+1.21.5
+	   |-- c2me-notickvd 0.3.3.0.0+1.21.5
+	   |-- c2me-opts-allocs 0.3.3.0.0+1.21.5
+	   |-- c2me-opts-chunkio 0.3.3.0.0+1.21.5
+	   |-- c2me-opts-dfc 0.3.3.0.0+1.21.5
+	   |-- c2me-opts-math 0.3.3.0.0+1.21.5
+	   |-- c2me-opts-scheduling 0.3.3.0.0+1.21.5
+	   |-- c2me-opts-worldgen-general 0.3.3.0.0+1.21.5
+	   |-- c2me-opts-worldgen-vanilla 0.3.3.0.0+1.21.5
+	   |-- c2me-rewrites-chunk-serializer 0.3.3.0.0+1.21.5
+	   |-- c2me-rewrites-chunk-system 0.3.3.0.0+1.21.5
+	   |-- c2me-rewrites-chunkio 0.3.3.0.0+1.21.5
+	   |-- c2me-server-utils 0.3.3.0.0+1.21.5
+	   |-- c2me-threading-lighting 0.3.3.0.0+1.21.5
+	   |-- com_ibm_async_asyncutil 0.1.0
+	   |-- io_reactivex_rxjava3_rxjava 3.1.8
+	   |-- mixinsquared 0.2.0-beta.6
+	   |-- net_objecthunter_exp4j 0.4.8
+	   |-- org_jctools_jctools-core 4.0.5
+	   \-- org_reactivestreams_reactive-streams 1.0.4
+	- chunky 1.4.36
+	- cloth-config 18.0.145
+	   \-- cloth-basic-math 0.6.1
+	- clumps 23.0.0.1
+	- collective 8.3
+	- ctov 3.5.9a
+	- darktimer 1.2.1
+	- debugify 1.21.5+1.0
+	- e4mc_minecraft 5.3.1
+	   \-- folk_sisby_kaleido-config 0.3.1+1.3.1
+	- explorify 1.6.2
+	- fabric-api 0.127.0+1.21.5
+	   |-- fabric-api-base 0.4.62+73a52b4b49
+	   |-- fabric-api-lookup-api-v1 1.6.96+86c3a9f149
+	   |-- fabric-biome-api-v1 16.0.7+2dd063df49
+	   |-- fabric-block-api-v1 1.1.0+ed91556f49
+	   |-- fabric-block-view-api-v2 1.0.26+aa6d566c49
+	   |-- fabric-blockrenderlayer-v1 2.0.16+86c3a9f149
+	   |-- fabric-client-tags-api-v1 1.1.37+86c3a9f149
+	   |-- fabric-command-api-v1 1.2.70+f71b366f49
+	   |-- fabric-command-api-v2 2.2.49+73a52b4b49
+	   |-- fabric-commands-v0 0.2.87+df3654b349
+	   |-- fabric-content-registries-v0 10.0.14+3e6c1f7d49
+	   |-- fabric-convention-tags-v1 2.1.33+7f945d5b49
+	   |-- fabric-convention-tags-v2 2.15.2+6d9989f349
+	   |-- fabric-crash-report-info-v1 0.3.12+86c3a9f149
+	   |-- fabric-data-attachment-api-v1 1.8.4+6d9989f349
+	   |-- fabric-data-generation-api-v1 22.5.0+790a8b4449
+	   |-- fabric-dimensions-v1 4.0.17+3e6c1f7d49
+	   |-- fabric-entity-events-v1 2.1.0+3ce7866349
+	   |-- fabric-events-interaction-v0 4.0.15+64e3057949
+	   |-- fabric-game-rule-api-v1 1.0.70+c327076a49
+	   |-- fabric-item-api-v1 11.4.1+e46fd76a49
+	   |-- fabric-item-group-api-v1 4.2.9+3459fc6149
+	   |-- fabric-key-binding-api-v1 1.0.63+ecf51cdc49
+	   |-- fabric-keybindings-v0 0.2.61+df3654b349
+	   |-- fabric-lifecycle-events-v1 2.6.0+230071a049
+	   |-- fabric-loot-api-v2 3.0.48+3f89f5a549
+	   |-- fabric-loot-api-v3 1.0.36+86c3a9f149
+	   |-- fabric-message-api-v1 6.1.0+fe971bba49
+	   |-- fabric-model-loading-api-v1 5.2.2+5281b90749
+	   |-- fabric-networking-api-v1 4.5.0+775be32c49
+	   |-- fabric-object-builder-api-v1 21.1.1+b8d6ba7049
+	   |-- fabric-particles-v1 4.1.2+112e550e49
+	   |-- fabric-recipe-api-v1 8.1.8+3235ab3249
+	   |-- fabric-registry-sync-v0 6.1.21+b556383249
+	   |-- fabric-renderer-api-v1 6.1.1+bdf4842249
+	   |-- fabric-renderer-indigo 3.1.1+5281b90749
+	   |-- fabric-rendering-data-attachment-v1 0.3.64+73761d2e49
+	   |-- fabric-rendering-fluids-v1 3.1.27+86c3a9f149
+	   |-- fabric-rendering-v1 11.2.0+acfc689549
+	   |-- fabric-resource-conditions-api-v1 5.0.21+73a52b4b49
+	   |-- fabric-resource-loader-v0 3.1.7+847e5f5c49
+	   |-- fabric-screen-api-v1 2.0.46+86c3a9f149
+	   |-- fabric-screen-handler-api-v1 1.3.128+c327076a49
+	   |-- fabric-sound-api-v1 1.0.38+86c3a9f149
+	   |-- fabric-tag-api-v1 1.0.17+ecf51cdc49
+	   |-- fabric-transfer-api-v1 5.4.24+7b20cbb049
+	   \-- fabric-transitive-access-wideners-v1 6.3.17+f17a180c49
+	- fabric-language-kotlin 1.13.3+kotlin.2.1.21
+	   |-- org_jetbrains_kotlin_kotlin-reflect 2.1.21
+	   |-- org_jetbrains_kotlin_kotlin-stdlib 2.1.21
+	   |-- org_jetbrains_kotlin_kotlin-stdlib-jdk7 2.1.21
+	   |-- org_jetbrains_kotlin_kotlin-stdlib-jdk8 2.1.21
+	   |-- org_jetbrains_kotlinx_atomicfu-jvm 0.27.0
+	   |-- org_jetbrains_kotlinx_kotlinx-coroutines-core-jvm 1.10.2
+	   |-- org_jetbrains_kotlinx_kotlinx-coroutines-jdk8 1.10.2
+	   |-- org_jetbrains_kotlinx_kotlinx-datetime-jvm 0.6.2
+	   |-- org_jetbrains_kotlinx_kotlinx-io-bytestring-jvm 0.7.0
+	   |-- org_jetbrains_kotlinx_kotlinx-io-core-jvm 0.7.0
+	   |-- org_jetbrains_kotlinx_kotlinx-serialization-cbor-jvm 1.8.1
+	   |-- org_jetbrains_kotlinx_kotlinx-serialization-core-jvm 1.8.1
+	   \-- org_jetbrains_kotlinx_kotlinx-serialization-json-jvm 1.8.1
+	- fabricloader 0.16.14
+	   \-- mixinextras 0.4.1
+	- ferritecore 8.0.0
+	- floodgate 2.2.4-SNAPSHOT
+	   |-- aopalliance_aopalliance 1.0
+	   |-- cloud 2.0.0-beta.10
+	   |    |-- io_leangen_geantyref_geantyref 1.3.15
+	   |    |-- org_incendo_cloud-brigadier 2.0.0-beta.10
+	   |    |-- org_incendo_cloud-core 2.0.0
+	   |    |-- org_incendo_cloud-minecraft-modded-common-fabric-repack 2.0.0-beta.10
+	   |    \-- org_incendo_cloud-services 2.0.0
+	   |-- com_google_guava_failureaccess 1.0.1
+	   |-- fabric-permissions-api-v0 0.3.3
+	   |-- jakarta_inject_jakarta_inject-api 2.0.1
+	   |-- javax_inject_javax_inject 1
+	   |-- org_geysermc_cumulus_cumulus 1.1.2
+	   |-- org_geysermc_event_events 1.1-SNAPSHOT
+	   |-- org_geysermc_geyser_common_unshaded 2.2.1-SNAPSHOT
+	   |-- org_java-websocket_java-websocket 1.5.2
+	   \-- org_lanternpowered_lmbda 2.0.0
+	- getittogetherdrops fabric-1.21-1.3.1
+	- geyser-fabric 2.7.1-SNAPSHOT
+	   |-- cloud 2.0.0-beta.10
+	   |    |-- io_leangen_geantyref_geantyref 1.3.15
+	   |    |-- org_incendo_cloud-brigadier 2.0.0-beta.10
+	   |    |-- org_incendo_cloud-core 2.0.0
+	   |    |-- org_incendo_cloud-minecraft-modded-common-fabric-repack 2.0.0-beta.10
+	   |    \-- org_incendo_cloud-services 2.0.0
+	   |-- com_fasterxml_jackson_core_jackson-annotations 2.18.0
+	   |-- com_fasterxml_jackson_core_jackson-core 2.18.0
+	   |-- com_fasterxml_jackson_core_jackson-databind 2.18.0
+	   |-- com_fasterxml_jackson_dataformat_jackson-dataformat-yaml 2.18.0
+	   |-- com_google_errorprone_error_prone_annotations 2.27.0
+	   |-- com_nukkitx_natives 1.0.3
+	   |-- fabric-permissions-api-v0 0.3.3
+	   |-- io_airlift_aircompressor 0.27
+	   |-- io_jsonwebtoken_jjwt-api 0.12.6
+	   |-- io_jsonwebtoken_jjwt-gson 0.12.6
+	   |-- io_jsonwebtoken_jjwt-impl 0.12.6
+	   |-- io_netty_netty-codec-base 4.2.1
+	   |-- io_netty_netty-codec-dns 4.2.1
+	   |-- io_netty_netty-codec-haproxy 4.2.1
+	   |-- io_netty_netty-resolver-dns-classes-macos 4.2.1
+	   |-- net_jodah_expiringmap 0.5.10
+	   |-- net_kyori_adventure-api 4.17.0
+	   |-- net_kyori_adventure-key 4.17.0
+	   |-- net_kyori_adventure-nbt 4.17.0
+	   |-- net_kyori_adventure-text-serializer-gson 4.17.0
+	   |-- net_kyori_adventure-text-serializer-json 4.17.0
+	   |-- net_kyori_adventure-text-serializer-json-legacy-impl 4.17.0
+	   |-- net_kyori_adventure-text-serializer-legacy 4.17.0
+	   |-- net_kyori_adventure-text-serializer-plain 4.17.0
+	   |-- net_kyori_examination-api 1.3.0
+	   |-- net_kyori_examination-string 1.3.0
+	   |-- net_kyori_option 1.0.0
+	   |-- net_lenni0451_commons_httpclient 1.6.0
+	   |-- net_raphimc_minecraftauth 4.1.1
+	   |-- org_bitbucket_b_c_jose4j 0.9.6
+	   |-- org_cloudburstmc_math_api 2.0
+	   |-- org_cloudburstmc_math_immutable 2.0
+	   |-- org_cloudburstmc_nbt 3.0.3
+	   |-- org_geysermc_api_base-api 1.0.2
+	   |-- org_geysermc_cumulus_cumulus 1.1.2
+	   |-- org_geysermc_event_events 1.1-SNAPSHOT
+	   |-- org_lanternpowered_lmbda 2.0.0
+	   \-- org_yaml_snakeyaml 2.2
+	- hopperhedgehog 2.2.0-1.21.2
+	- incendium 5.4.6
+	- java 21
+	- krypton 0.2.9
+	   \-- com_velocitypowered_velocity-native 3.4.0-SNAPSHOT
+	- ksyxis 1.3.3
+	- lithium 0.16.2+mc1.21.5
+	- lithostitched 1.4.8
+	- minecraft 1.21.5
+	- mr_lithosphere 1.5
+	- noisium 2.6.0+mc1.21.5
+	- oreharvester 1.5
+	- owo 0.12.21+1.21.5
+	   |-- blue_endless_jankson 1.2.2
+	   |-- io_wispforest_endec 0.1.9
+	   |-- io_wispforest_endec_gson 0.1.6
+	   |-- io_wispforest_endec_jankson 0.1.6
+	   \-- io_wispforest_endec_netty 0.1.5
+	- silk-all 1.11.1
+	   |-- silk-commands 1.11.1
+	   |-- silk-core 1.11.1
+	   |-- silk-game 1.11.1
+	   |-- silk-igui 1.11.1
+	   |-- silk-nbt 1.11.1
+	   |-- silk-network 1.11.1
+	   \-- silk-persistence 1.11.1
+	- smelterhedgehog 1.1.3-1.21.4
+	- spark 1.10.138
+	   \-- fabric-permissions-api-v0 0.3.3
+	- structory 1.3.10
+	- tectonic 3.0.1
+	- terrablender 5.0.0.1
+	   |-- com_electronwill_night-config_core 3.6.7
+	   \-- com_electronwill_night-config_toml 3.6.7
+	- terralith 2.5.9
+	- treeharvester 9.1
+	- veinminer 2.4.2
+	   |-- de_miraculixx_core_dev 2.4.2
+	   \-- fabric-permissions-api-v0 0.3.3
+	- viabackwards 5.3.2
+	- viafabric 0.4.18+104-main
+	   |-- cotton-client-commands 1.1.0+1.15.2
+	   \-- viafabric-mc1215 0.4.18+104-main
+	- viarewind 4.0.7
+	- viaversion 5.3.2
+[04:20:14] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/minecraft/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.15.5+mixin.0.8.7/sponge-mixin-0.15.5+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[04:20:14] [main/INFO]: Compatibility level set to JAVA_16
+[04:20:14] [main/INFO]: Compatibility level set to JAVA_17
+[04:20:14] [main/INFO]: Compatibility level set to JAVA_18
+[04:20:14] [main/INFO]: Compatibility level set to JAVA_21
+[04:20:14] [main/INFO]: Loading Mixin Plugin for Axiom/4.8.0
+[04:20:14] [main/INFO]: Initializing com.ishland.c2me.base.mixin
+[04:20:14] [main/INFO]: Global Executor Parallelism: 3 configured, 3 evaluated, 3 default evaluated
+[04:20:14] [main/INFO]: Initializing com.ishland.c2me.fixes.chunkio.threading_issues.mixin
+[04:20:14] [main/INFO]: Initializing com.ishland.c2me.fixes.general.threading_issues.mixin
+[04:20:14] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.threading_issues.mixin
+[04:20:14] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.vanilla_bugs.mixin
+[04:20:14] [main/INFO]: Initializing com.ishland.c2me.notickvd.mixin
+[04:20:14] [main/INFO]: Initializing com.ishland.c2me.opts.allocs.mixin
+[04:20:14] [main/INFO]: Initializing com.ishland.c2me.opts.chunkio.mixin
+[04:20:14] [main/INFO]: Initializing com.ishland.c2me.opts.dfc.mixin
+[04:20:14] [main/INFO]: Initializing com.ishland.c2me.opts.math.mixin
+[04:20:14] [main/INFO]: Initializing com.ishland.c2me.opts.scheduling.mixin
+[04:20:14] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.general.mixin
+[04:20:14] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.vanilla.mixin
+[04:20:14] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunk_serializer.mixin
+[04:20:14] [main/INFO]: Disabling config ioSystem.gcFreeChunkSerializer: Incompatible with architectury@16.1.4 (*) (defined in c2me)
+[04:20:14] [main/INFO]: Disabling com.ishland.c2me.rewrites.chunk_serializer.mixin
+[04:20:14] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunksystem.mixin
+[04:20:14] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunkio.mixin
+[04:20:14] [main/INFO]: Initializing com.ishland.c2me.server.utils.mixin
+[04:20:14] [main/INFO]: Initializing com.ishland.c2me.threading.lighting.mixin
+[04:20:14] [main/WARN]: Reference map '[common]ctov-common-refmap.json' for ctov-common.mixins.json could not be read. If this is a development environment you can ignore this message
+[04:20:14] [main/WARN]: Mod 'ferritecore' attempted to override option 'mixin.alloc.blockstate', which doesn't exist, ignoring
+[04:20:14] [main/INFO]: Option 'mixin.minimal_nonvanilla.world.block_entity_ticking.support_cache' requires 'mixin.world.block_entity_ticking=true' but found 'false'. Setting 'mixin.minimal_nonvanilla.world.block_entity_ticking.support_cache=false'.
+[04:20:14] [main/INFO]: Loaded configuration file for Lithium: 155 options available, 2 override(s) found.
+[04:20:15] [main/WARN]: Error loading class: ca/spottedleaf/starlight/common/thread/SchedulingUtil (java.lang.ClassNotFoundException: ca/spottedleaf/starlight/common/thread/SchedulingUtil)
+[04:20:15] [main/INFO]: Force-disabling mixin 'block.hopper.AbstractChestBoatMixin' as rule 'mixin.block.hopper' (added by mods [hopperhedgehog]) disables it and children
+[04:20:15] [main/INFO]: Force-disabling mixin 'block.hopper.AbstractContainerMenuMixin' as rule 'mixin.block.hopper' (added by mods [hopperhedgehog]) disables it and children
+[04:20:15] [main/INFO]: Force-disabling mixin 'block.hopper.BlockBehaviourMixin' as rule 'mixin.block.hopper' (added by mods [hopperhedgehog]) disables it and children
+[04:20:15] [main/INFO]: Force-disabling mixin 'block.hopper.ChiseledBookShelfBlockEntityMixin' as rule 'mixin.block.hopper' (added by mods [hopperhedgehog]) disables it and children
+[04:20:15] [main/INFO]: Force-disabling mixin 'block.hopper.ClassInstanceMultiMapMixin' as rule 'mixin.block.hopper' (added by mods [hopperhedgehog]) disables it and children
+[04:20:15] [main/INFO]: Force-disabling mixin 'block.hopper.ComposterMixin$ComposterBlockComposterInventoryMixin' as rule 'mixin.block.hopper' (added by mods [hopperhedgehog]) disables it and children
+[04:20:15] [main/INFO]: Force-disabling mixin 'block.hopper.ComposterMixin$ComposterBlockDummyInventoryMixin' as rule 'mixin.block.hopper' (added by mods [hopperhedgehog]) disables it and children
+[04:20:15] [main/INFO]: Force-disabling mixin 'block.hopper.ComposterMixin$ComposterBlockFullComposterInventoryMixin' as rule 'mixin.block.hopper' (added by mods [hopperhedgehog]) disables it and children
+[04:20:15] [main/INFO]: Force-disabling mixin 'block.hopper.CompoundContainerAccessor' as rule 'mixin.block.hopper' (added by mods [hopperhedgehog]) disables it and children
+[04:20:15] [main/INFO]: Force-disabling mixin 'block.hopper.ContainerMixin' as rule 'mixin.block.hopper' (added by mods [hopperhedgehog]) disables it and children
+[04:20:15] [main/INFO]: Force-disabling mixin 'block.hopper.EntityAccessor' as rule 'mixin.block.hopper' (added by mods [hopperhedgehog]) disables it and children
+[04:20:15] [main/INFO]: Force-disabling mixin 'block.hopper.EntityDataAccessorMixin' as rule 'mixin.block.hopper' (added by mods [hopperhedgehog]) disables it and children
+[04:20:15] [main/INFO]: Force-disabling mixin 'block.hopper.EntitySectionAccessor' as rule 'mixin.block.hopper' (added by mods [hopperhedgehog]) disables it and children
+[04:20:15] [main/INFO]: Force-disabling mixin 'block.hopper.HopperBlockEntityMixin' as rule 'mixin.block.hopper' (added by mods [hopperhedgehog]) disables it and children
+[04:20:15] [main/INFO]: Force-disabling mixin 'block.hopper.HopperBlockMixin' as rule 'mixin.block.hopper' (added by mods [hopperhedgehog]) disables it and children
+[04:20:15] [main/INFO]: Force-disabling mixin 'block.hopper.InventoryAccessors$AbstractFurnaceBlockEntityMixin' as rule 'mixin.block.hopper' (added by mods [hopperhedgehog]) disables it and children
+[04:20:15] [main/INFO]: Force-disabling mixin 'block.hopper.InventoryAccessors$AbstractMinecartContainerMixin' as rule 'mixin.block.hopper' (added by mods [hopperhedgehog]) disables it and children
+[04:20:15] [main/INFO]: Force-disabling mixin 'block.hopper.InventoryAccessors$BarrelBlockEntityMixin' as rule 'mixin.block.hopper' (added by mods [hopperhedgehog]) disables it and children
+[04:20:15] [main/INFO]: Force-disabling mixin 'block.hopper.InventoryAccessors$BrewingStandBlockEntityMixin' as rule 'mixin.block.hopper' (added by mods [hopperhedgehog]) disables it and children
+[04:20:15] [main/INFO]: Force-disabling mixin 'block.hopper.InventoryAccessors$ChestBlockEntityMixin' as rule 'mixin.block.hopper' (added by mods [hopperhedgehog]) disables it and children
+[04:20:15] [main/INFO]: Force-disabling mixin 'block.hopper.InventoryAccessors$DispenserBlockEntityMixin' as rule 'mixin.block.hopper' (added by mods [hopperhedgehog]) disables it and children
+[04:20:15] [main/INFO]: Force-disabling mixin 'block.hopper.InventoryAccessors$HopperBlockEntityMixin' as rule 'mixin.block.hopper' (added by mods [hopperhedgehog]) disables it and children
+[04:20:15] [main/INFO]: Force-disabling mixin 'block.hopper.InventoryAccessors$ShulkerBoxBlockEntityMixin' as rule 'mixin.block.hopper' (added by mods [hopperhedgehog]) disables it and children
+[04:20:15] [main/INFO]: Force-disabling mixin 'block.hopper.NonNullListAccessor' as rule 'mixin.block.hopper' (added by mods [hopperhedgehog]) disables it and children
+[04:20:15] [main/INFO]: Force-disabling mixin 'block.hopper.OldMinecartBehaviorMixin' as rule 'mixin.block.hopper' (added by mods [hopperhedgehog]) disables it and children
+[04:20:15] [main/INFO]: Force-disabling mixin 'world.block_entity_ticking.chunk_tickable.LevelMixin' as rule 'mixin.world.block_entity_ticking' (added by mods [smelterhedgehog]) disables it and children
+[04:20:15] [main/INFO]: Force-disabling mixin 'world.block_entity_ticking.sleeping.BlockEntityMixin' as rule 'mixin.world.block_entity_ticking' (added by mods [smelterhedgehog]) disables it and children
+[04:20:15] [main/INFO]: Force-disabling mixin 'world.block_entity_ticking.sleeping.LevelChunkMixin' as rule 'mixin.world.block_entity_ticking' (added by mods [smelterhedgehog]) disables it and children
+[04:20:15] [main/INFO]: Force-disabling mixin 'world.block_entity_ticking.sleeping.LevelMixin' as rule 'mixin.world.block_entity_ticking' (added by mods [smelterhedgehog]) disables it and children
+[04:20:15] [main/INFO]: Force-disabling mixin 'world.block_entity_ticking.sleeping.ServerLevelMixin' as rule 'mixin.world.block_entity_ticking' (added by mods [smelterhedgehog]) disables it and children
+[04:20:15] [main/INFO]: Force-disabling mixin 'world.block_entity_ticking.sleeping.WrappedBlockEntityTickInvokerAccessor' as rule 'mixin.world.block_entity_ticking' (added by mods [smelterhedgehog]) disables it and children
+[04:20:15] [main/INFO]: Force-disabling mixin 'world.block_entity_ticking.sleeping.brewing_stand.BrewingStandBlockEntityMixin' as rule 'mixin.world.block_entity_ticking' (added by mods [smelterhedgehog]) disables it and children
+[04:20:15] [main/INFO]: Force-disabling mixin 'world.block_entity_ticking.sleeping.campfire.CampfireBlockEntityMixin' as rule 'mixin.world.block_entity_ticking' (added by mods [smelterhedgehog]) disables it and children
+[04:20:15] [main/INFO]: Force-disabling mixin 'world.block_entity_ticking.sleeping.campfire.lit.CampfireBlockEntityMixin' as rule 'mixin.world.block_entity_ticking' (added by mods [smelterhedgehog]) disables it and children
+[04:20:15] [main/INFO]: Force-disabling mixin 'world.block_entity_ticking.sleeping.campfire.unlit.CampfireBlockEntityMixin' as rule 'mixin.world.block_entity_ticking' (added by mods [smelterhedgehog]) disables it and children
+[04:20:15] [main/INFO]: Force-disabling mixin 'world.block_entity_ticking.sleeping.crafter.CrafterBlockEntityMixin' as rule 'mixin.world.block_entity_ticking' (added by mods [smelterhedgehog]) disables it and children
+[04:20:15] [main/INFO]: Force-disabling mixin 'world.block_entity_ticking.sleeping.furnace.AbstractFurnaceBlockEntityMixin' as rule 'mixin.world.block_entity_ticking' (added by mods [smelterhedgehog]) disables it and children
+[04:20:15] [main/INFO]: Force-disabling mixin 'world.block_entity_ticking.sleeping.hopper.HopperBlockEntityMixin' as rule 'mixin.world.block_entity_ticking' (added by mods [smelterhedgehog]) disables it and children
+[04:20:15] [main/INFO]: Force-disabling mixin 'world.block_entity_ticking.sleeping.shulker_box.ShulkerBoxBlockEntityMixin' as rule 'mixin.world.block_entity_ticking' (added by mods [smelterhedgehog]) disables it and children
+[04:20:15] [main/INFO]: Force-disabling mixin 'world.block_entity_ticking.world_border.DirectBlockEntityTickInvokerMixin' as rule 'mixin.world.block_entity_ticking' (added by mods [smelterhedgehog]) disables it and children
+[04:20:15] [main/INFO]: Force-disabling mixin 'block.hopper.LevelMixin' as rule 'mixin.block.hopper' (added by mods [hopperhedgehog]) disables it and children
+[04:20:15] [main/WARN]: Error loading class: net/minecraft/class_437 (java.lang.ClassNotFoundException: net/minecraft/class_437)
+[04:20:15] [main/WARN]: @Mixin target net.minecraft.class_437 was not found owo.mixins.json:ScreenAccessor from mod owo
+[04:20:15] [main/WARN]: Error loading class: xyz/nucleoid/server/translations/impl/language/SystemDelegatedLanguage (java.lang.ClassNotFoundException: xyz/nucleoid/server/translations/impl/language/SystemDelegatedLanguage)
+[04:20:15] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[04:20:23] [main/INFO]: Initializing Axiom/4.8.0. Build timestamp: 1746396334521
+[04:20:23] [main/INFO]: Loading Collective version 8.3.
+[04:20:23] [main/INFO]: Enabled 27 bug fixes: [MC-2025, MC-7569, MC-8187, MC-30391, MC-69216, MC-88371, MC-89146, MC-93018, MC-100991, MC-119417, MC-119754, MC-121706, MC-121903, MC-129909, MC-132878, MC-155509, MC-160095, MC-179072, MC-183990, MC-199467, MC-200418, MC-206922, MC-215530, MC-223153, MC-224729, MC-231743, MC-232869]
+[04:20:23] [main/INFO]: Successfully Debugify'd your game!
+[04:20:24] [main/WARN]: en_ is not a supported Floodgate language.
+[04:20:25] [main/INFO]: Loading extensions...
+[04:20:25] [main/INFO]: Loaded 0 extension(s)
+[04:20:25] [main/INFO]: Starting Load for Hopper the Hedgehog
+[04:20:25] [main/INFO]: Load for Hopper the Hedgehog successful
+[04:20:25] [main/INFO]: Compression will use libdeflate (Linux x86_64), encryption will use OpenSSL 1.1.x (Linux x86_64)
+[04:20:25] [main/INFO]: Ksyxis: Booting... (platform: Fabric, manual: false)
+[04:20:25] [main/INFO]: Ksyxis: Found Mixin library. (version: 0.8.7)
+[04:20:25] [main/INFO]: Ksyxis: Ready. As always, this mod will speed up your world loading and might or might not break it. (0 ms)
+[04:20:25] [main/INFO]: Loading Noisium.
+[04:20:25] [main/INFO]: it seems to react to redstone
+[04:20:25] [main/INFO]: Initializing Silk
+[04:20:25] [main/INFO]: Burning through Items faster than gacha games through wallets
+[04:20:25] [main/INFO]: Veinminer Version: 2.4.2 (fabric)
+[04:20:26] [main/INFO]: [STDOUT]: [Veinminer] Created blocks.json default config
+[04:20:26] [main/INFO]: [STDOUT]: [Veinminer] Created settings.json default config
+[04:20:26] [main/INFO]: [STDOUT]: [Veinminer] Created groups.json default config
+[04:20:26] [DefaultDispatcher-worker-3/INFO]: [STDOUT]: [VeinminerUpdater] veinminer is up to date
+[04:20:26] [Via-Mappingloader-0/INFO]: Loading block connection mappings ...
+[04:20:26] [Via-Mappingloader-0/INFO]: Using FastUtil Long2ObjectOpenHashMap for block connections
+[04:20:26] [main/INFO]: Loading translations...
+[04:20:26] [main/INFO]: Registering protocols...
+[04:20:27] [main/INFO]: Registering protocols...
+[04:20:27] [main/INFO]: ViaVersion detected server version: 1.21.5 (770)
+[04:20:27] [ViaFabric-2/INFO]: Finished mapping loading, shutting down loader executor.
+[04:20:27] [main/INFO]: Krypton is now accelerating your Minecraft server's networking stack 🚀
+[04:20:27] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[04:20:27] [main/INFO]: Found new data pack collective, loading it automatically
+[04:20:27] [main/INFO]: Found new data pack ctov, loading it automatically
+[04:20:27] [main/INFO]: Found new data pack darktimer, loading it automatically
+[04:20:27] [main/INFO]: Found new data pack explorify, loading it automatically
+[04:20:27] [main/INFO]: Found new data pack incendium, loading it automatically
+[04:20:27] [main/INFO]: Found new data pack lithostitched, loading it automatically
+[04:20:27] [main/INFO]: Found new data pack mr_lithosphere, loading it automatically
+[04:20:27] [main/INFO]: Found new data pack structory, loading it automatically
+[04:20:27] [main/INFO]: Found new data pack tectonic:tectonic, loading it automatically
+[04:20:28] [main/WARN]: Creating a MIN function between two non-overlapping inputs: class_7051[function=Direct{class_6923[value=0.15]}] and class_7051[function=Direct{class_6917[type=MUL, argument1=class_7051[function=Direct{class_6923[value=1.435]}], argument2=class_7051[function=Direct{class_6917[type=ADD, argument1=class_7051[function=Direct{class_6923[value=-0.73]}], argument2=class_7051[function=Direct{class_6925[type=ABS, input=class_7051[function=Reference{ResourceKey[minecraft:worldgen/density_function / minecraft:overworld/ridges]=class_6927[type=FlatCache, wrapped=class_7051[function=Direct{class_6927[type=Cache2D, wrapped=class_7051[function=Direct{class_6917[type=MUL, argument1=class_7051[function=Direct{class_7076[spline=class_6738[coordinate=Coordinate[Direct{class_6917[type=MUL, argument1=class_7051[function=Direct{class_6917[type=MUL, argument1=class_7051[function=Direct{class_6917[type=ADD, argument1=class_7051[function=Direct{class_6927[type=FlatCache, wrapped=class_7051[function=Direct{class_6927[type=Cache2D, wrapped=class_7051[function=Reference{ResourceKey[minecraft:worldgen/density_function / lithosphere:topography_final]=null}]]}]]}], argument2=class_7051[function=Direct{class_6923[value=0.6]}], minValue=-Infinity, maxValue=Infinity]}], argument2=class_7051[function=Direct{class_6923[value=0.9]}], minValue=-Infinity, maxValue=Infinity]}], argument2=class_7051[function=Direct{class_6923[value=0.75]}], minValue=-Infinity, maxValue=Infinity]}], locations=[F@689dbc47, values=[class_6494[value=0.0], class_6494[value=0.05], class_6494[value=0.1], class_6494[value=0.15], class_6494[value=0.62], class_6494[value=0.63]], derivatives=[F@35f84425, minValue=-0.0125, maxValue=0.6362549]]}], argument2=class_7051[function=Direct{class_6917[type=MUL, argument1=class_7051[function=Direct{class_7076[spline=class_6738[coordinate=Coordinate[Direct{class_6925[type=ABS, input=class_7051[function=Direct{class_6931[noise=class_7270[noiseData=Reference{ResourceKey[minecraft:worldgen/noise / lithosphere:rivers]=class_5487[firstOctave=-11, amplitudes=[5.0, 3.0, 0.0, 3.0, 3.0, 1.0, 0.5, 0.5]]}, noise=null], xzScale=0.7, yScale=0.0]}], minValue=0.0, maxValue=2.0]}], locations=[F@2d1351d4, values=[class_6494[value=-1.0], class_6494[value=0.0], class_6494[value=0.0], class_6494[value=0.0], class_6494[value=1.0]], derivatives=[F@2e240cda, minValue=-1.0, maxValue=1.0]]}], argument2=class_7051[function=Direct{class_7076[spline=class_6738[coordinate=Coordinate[Direct{class_6931[noise=class_7270[noiseData=Reference{ResourceKey[minecraft:worldgen/noise / lithosphere:biome_variation]=class_5487[firstOctave=-9, amplitudes=[0.7, 0.6, 0.6, 0.7, 0.9, 0.9, 0.1, 0.1]]}, noise=null], xzScale=1.0, yScale=0.0]}], locations=[F@b9c90f3, values=[class_6494[value=-1.0], class_6494[value=1.0]], derivatives=[F@5dc60aae, minValue=-1.0, maxValue=1.0]]}], minValue=-1.0, maxValue=1.0]}], minValue=-0.6362549066543579, maxValue=0.6362549066543579]}]]}]]}], minValue=0.0, maxValue=0.6362549066543579]}], minValue=-0.73, maxValue=-0.09374509334564207]}], minValue=-1.04755, maxValue=-0.13452420895099637]}]
+[04:20:28] [main/WARN]: Creating a MAX function between two non-overlapping inputs: class_7051[function=Direct{class_6923[value=-0.12]}] and class_7051[function=Direct{class_6917[type=MUL, argument1=class_7051[function=Direct{class_6923[value=-1.45]}], argument2=class_7051[function=Direct{class_6917[type=ADD, argument1=class_7051[function=Direct{class_6923[value=-0.73]}], argument2=class_7051[function=Direct{class_6925[type=ABS, input=class_7051[function=Reference{ResourceKey[minecraft:worldgen/density_function / minecraft:overworld/ridges]=class_6927[type=FlatCache, wrapped=class_7051[function=Direct{class_6927[type=Cache2D, wrapped=class_7051[function=Direct{class_6917[type=MUL, argument1=class_7051[function=Direct{class_7076[spline=class_6738[coordinate=Coordinate[Direct{class_6917[type=MUL, argument1=class_7051[function=Direct{class_6917[type=MUL, argument1=class_7051[function=Direct{class_6917[type=ADD, argument1=class_7051[function=Direct{class_6927[type=FlatCache, wrapped=class_7051[function=Direct{class_6927[type=Cache2D, wrapped=class_7051[function=Reference{ResourceKey[minecraft:worldgen/density_function / lithosphere:topography_final]=null}]]}]]}], argument2=class_7051[function=Direct{class_6923[value=0.6]}], minValue=-Infinity, maxValue=Infinity]}], argument2=class_7051[function=Direct{class_6923[value=0.9]}], minValue=-Infinity, maxValue=Infinity]}], argument2=class_7051[function=Direct{class_6923[value=0.75]}], minValue=-Infinity, maxValue=Infinity]}], locations=[F@689dbc47, values=[class_6494[value=0.0], class_6494[value=0.05], class_6494[value=0.1], class_6494[value=0.15], class_6494[value=0.62], class_6494[value=0.63]], derivatives=[F@35f84425, minValue=-0.0125, maxValue=0.6362549]]}], argument2=class_7051[function=Direct{class_6917[type=MUL, argument1=class_7051[function=Direct{class_7076[spline=class_6738[coordinate=Coordinate[Direct{class_6925[type=ABS, input=class_7051[function=Direct{class_6931[noise=class_7270[noiseData=Reference{ResourceKey[minecraft:worldgen/noise / lithosphere:rivers]=class_5487[firstOctave=-11, amplitudes=[5.0, 3.0, 0.0, 3.0, 3.0, 1.0, 0.5, 0.5]]}, noise=null], xzScale=0.7, yScale=0.0]}], minValue=0.0, maxValue=2.0]}], locations=[F@2d1351d4, values=[class_6494[value=-1.0], class_6494[value=0.0], class_6494[value=0.0], class_6494[value=0.0], class_6494[value=1.0]], derivatives=[F@2e240cda, minValue=-1.0, maxValue=1.0]]}], argument2=class_7051[function=Direct{class_7076[spline=class_6738[coordinate=Coordinate[Direct{class_6931[noise=class_7270[noiseData=Reference{ResourceKey[minecraft:worldgen/noise / lithosphere:biome_variation]=class_5487[firstOctave=-9, amplitudes=[0.7, 0.6, 0.6, 0.7, 0.9, 0.9, 0.1, 0.1]]}, noise=null], xzScale=1.0, yScale=0.0]}], locations=[F@b9c90f3, values=[class_6494[value=-1.0], class_6494[value=1.0]], derivatives=[F@5dc60aae, minValue=-1.0, maxValue=1.0]]}], minValue=-1.0, maxValue=1.0]}], minValue=-0.6362549066543579, maxValue=0.6362549066543579]}]]}]]}], minValue=0.0, maxValue=0.6362549066543579]}], minValue=-0.73, maxValue=-0.09374509334564207]}], minValue=0.135930385351181, maxValue=1.0585]}]
+[04:20:28] [main/WARN]: Creating a MIN function between two non-overlapping inputs: class_7051[function=Direct{class_6923[value=0.15]}] and class_7051[function=Direct{class_6917[type=MUL, argument1=class_7051[function=Direct{class_6923[value=-2.25]}], argument2=class_7051[function=Direct{class_6917[type=ADD, argument1=class_7051[function=Direct{class_6923[value=0.68]}], argument2=class_7051[function=Reference{ResourceKey[minecraft:worldgen/density_function / minecraft:overworld/ridges]=class_6927[type=FlatCache, wrapped=class_7051[function=Direct{class_6927[type=Cache2D, wrapped=class_7051[function=Direct{class_6917[type=MUL, argument1=class_7051[function=Direct{class_7076[spline=class_6738[coordinate=Coordinate[Direct{class_6917[type=MUL, argument1=class_7051[function=Direct{class_6917[type=MUL, argument1=class_7051[function=Direct{class_6917[type=ADD, argument1=class_7051[function=Direct{class_6927[type=FlatCache, wrapped=class_7051[function=Direct{class_6927[type=Cache2D, wrapped=class_7051[function=Reference{ResourceKey[minecraft:worldgen/density_function / lithosphere:topography_final]=null}]]}]]}], argument2=class_7051[function=Direct{class_6923[value=0.6]}], minValue=-Infinity, maxValue=Infinity]}], argument2=class_7051[function=Direct{class_6923[value=0.9]}], minValue=-Infinity, maxValue=Infinity]}], argument2=class_7051[function=Direct{class_6923[value=0.75]}], minValue=-Infinity, maxValue=Infinity]}], locations=[F@689dbc47, values=[class_6494[value=0.0], class_6494[value=0.05], class_6494[value=0.1], class_6494[value=0.15], class_6494[value=0.62], class_6494[value=0.63]], derivatives=[F@35f84425, minValue=-0.0125, maxValue=0.6362549]]}], argument2=class_7051[function=Direct{class_6917[type=MUL, argument1=class_7051[function=Direct{class_7076[spline=class_6738[coordinate=Coordinate[Direct{class_6925[type=ABS, input=class_7051[function=Direct{class_6931[noise=class_7270[noiseData=Reference{ResourceKey[minecraft:worldgen/noise / lithosphere:rivers]=class_5487[firstOctave=-11, amplitudes=[5.0, 3.0, 0.0, 3.0, 3.0, 1.0, 0.5, 0.5]]}, noise=null], xzScale=0.7, yScale=0.0]}], minValue=0.0, maxValue=2.0]}], locations=[F@2d1351d4, values=[class_6494[value=-1.0], class_6494[value=0.0], class_6494[value=0.0], class_6494[value=0.0], class_6494[value=1.0]], derivatives=[F@2e240cda, minValue=-1.0, maxValue=1.0]]}], argument2=class_7051[function=Direct{class_7076[spline=class_6738[coordinate=Coordinate[Direct{class_6931[noise=class_7270[noiseData=Reference{ResourceKey[minecraft:worldgen/noise / lithosphere:biome_variation]=class_5487[firstOctave=-9, amplitudes=[0.7, 0.6, 0.6, 0.7, 0.9, 0.9, 0.1, 0.1]]}, noise=null], xzScale=1.0, yScale=0.0]}], locations=[F@b9c90f3, values=[class_6494[value=-1.0], class_6494[value=1.0]], derivatives=[F@5dc60aae, minValue=-1.0, maxValue=1.0]]}], minValue=-1.0, maxValue=1.0]}], minValue=-0.6362549066543579, maxValue=0.6362549066543579]}]]}]]}], minValue=0.04374509334564214, maxValue=1.316254906654358]}], minValue=-2.9615735399723055, maxValue=-0.09842646002769481]}]
+[04:20:28] [main/WARN]: Creating a MAX function between two non-overlapping inputs: class_7051[function=Direct{class_6923[value=-0.12]}] and class_7051[function=Direct{class_6917[type=MUL, argument1=class_7051[function=Direct{class_6923[value=1.2]}], argument2=class_7051[function=Direct{class_6917[type=ADD, argument1=class_7051[function=Direct{class_6923[value=0.72]}], argument2=class_7051[function=Reference{ResourceKey[minecraft:worldgen/density_function / minecraft:overworld/ridges]=class_6927[type=FlatCache, wrapped=class_7051[function=Direct{class_6927[type=Cache2D, wrapped=class_7051[function=Direct{class_6917[type=MUL, argument1=class_7051[function=Direct{class_7076[spline=class_6738[coordinate=Coordinate[Direct{class_6917[type=MUL, argument1=class_7051[function=Direct{class_6917[type=MUL, argument1=class_7051[function=Direct{class_6917[type=ADD, argument1=class_7051[function=Direct{class_6927[type=FlatCache, wrapped=class_7051[function=Direct{class_6927[type=Cache2D, wrapped=class_7051[function=Reference{ResourceKey[minecraft:worldgen/density_function / lithosphere:topography_final]=null}]]}]]}], argument2=class_7051[function=Direct{class_6923[value=0.6]}], minValue=-Infinity, maxValue=Infinity]}], argument2=class_7051[function=Direct{class_6923[value=0.9]}], minValue=-Infinity, maxValue=Infinity]}], argument2=class_7051[function=Direct{class_6923[value=0.75]}], minValue=-Infinity, maxValue=Infinity]}], locations=[F@689dbc47, values=[class_6494[value=0.0], class_6494[value=0.05], class_6494[value=0.1], class_6494[value=0.15], class_6494[value=0.62], class_6494[value=0.63]], derivatives=[F@35f84425, minValue=-0.0125, maxValue=0.6362549]]}], argument2=class_7051[function=Direct{class_6917[type=MUL, argument1=class_7051[function=Direct{class_7076[spline=class_6738[coordinate=Coordinate[Direct{class_6925[type=ABS, input=class_7051[function=Direct{class_6931[noise=class_7270[noiseData=Reference{ResourceKey[minecraft:worldgen/noise / lithosphere:rivers]=class_5487[firstOctave=-11, amplitudes=[5.0, 3.0, 0.0, 3.0, 3.0, 1.0, 0.5, 0.5]]}, noise=null], xzScale=0.7, yScale=0.0]}], minValue=0.0, maxValue=2.0]}], locations=[F@2d1351d4, values=[class_6494[value=-1.0], class_6494[value=0.0], class_6494[value=0.0], class_6494[value=0.0], class_6494[value=1.0]], derivatives=[F@2e240cda, minValue=-1.0, maxValue=1.0]]}], argument2=class_7051[function=Direct{class_7076[spline=class_6738[coordinate=Coordinate[Direct{class_6931[noise=class_7270[noiseData=Reference{ResourceKey[minecraft:worldgen/noise / lithosphere:biome_variation]=class_5487[firstOctave=-9, amplitudes=[0.7, 0.6, 0.6, 0.7, 0.9, 0.9, 0.1, 0.1]]}, noise=null], xzScale=1.0, yScale=0.0]}], locations=[F@b9c90f3, values=[class_6494[value=-1.0], class_6494[value=1.0]], derivatives=[F@5dc60aae, minValue=-1.0, maxValue=1.0]]}], minValue=-1.0, maxValue=1.0]}], minValue=-0.6362549066543579, maxValue=0.6362549066543579]}]]}]]}], minValue=0.08374509334564206, maxValue=1.3562549066543579]}], minValue=0.10049411201477047, maxValue=1.6275058879852293]}]
+[04:20:29] [main/INFO]: No existing world data, creating new world
+[04:20:30] [main/INFO]: Loaded 1380 recipes
+[04:20:30] [main/INFO]: Loaded 1546 advancements
+[04:20:31] [main/INFO]: Registered region minecraft:overworld to index 0 for type OVERWORLD
+[04:20:31] [main/INFO]: Registered region minecraft:nether to index 0 for type NETHER
+[04:20:31] [main/INFO]: Initialized TerraBlender biomes for level stem minecraft:overworld
+[04:20:31] [main/INFO]: Initialized TerraBlender biomes for level stem minecraft:the_nether
+[04:20:31] [main/INFO]: Applied 0 biome modifications to 0 of 169 new biomes in 2.107 ms
+[04:20:31] [Server thread/INFO]: Initialized mcCoroutineScope (MinecraftServer as executor)
+[04:20:31] [Server thread/INFO]: Starting background profiler...
+[04:20:31] [Server thread/INFO]: Starting minecraft server version 1.21.5
+[04:20:31] [Server thread/INFO]: Loading properties
+[04:20:31] [Server thread/INFO]: Default game type: SURVIVAL
+[04:20:31] [Server thread/INFO]: Generating keypair
+[04:20:31] [Server thread/INFO]: Starting Minecraft server on *:25565
+[04:20:31] [Server thread/INFO]: Using epoll channel type
+[04:20:31] [e4mc_minecraft-init/INFO]: req: https://broker.e4mc.link/getBestRelay GET
+[04:20:31] [Server thread/INFO]: Using epoll channel type
+[04:20:31] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[04:20:31] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[04:20:31] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[04:20:31] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[04:20:31] [Server thread/INFO]: Preparing level "world"
+[04:20:31] [Server thread/INFO]: Enforcing safe world random access
+[04:20:32] [e4mc_minecraft-init/INFO]: resp: (GET https://broker.e4mc.link/getBestRelay) 200
+[04:20:32] [e4mc_minecraft-init/INFO]: using relay na
+[04:20:32] [nioEventLoopGroup-2-1/INFO]: control channel open: [id: 0xe7ea7b9f, QuicStreamAddress{streamId=0}]
+[04:20:32] [nioEventLoopGroup-2-1/INFO]: control channel write complete
+[04:20:32] [nioEventLoopGroup-2-1/WARN]: e4mc running on Dedicated Server; This works, but isn't recommended as e4mc is designed for short-lived LAN servers
+[04:20:32] [nioEventLoopGroup-2-1/INFO]: Domain assigned: uncouple-floral.na.e4mc.link
+[04:20:33] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 996.5 ms
+[04:20:33] [Server thread/INFO]: Using TheSpeedyObjectFactory with Unsafe
+[04:20:45] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 4.960 ms
+[04:20:45] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 42.04 ms
+[04:20:45] [Server thread/INFO]: Ksyxis: Hey. This is Ksyxis. We will now load the world and will try to do it quickly. If the game is not responding after this, it's probably us to blame or delete for good. This message appears always, even if the mod works flawlessly. (modern)
+[04:20:45] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[04:20:45] [Server thread/INFO]: Time elapsed: 17 ms
+[04:20:45] [Server thread/INFO]: Done (13.751s)! For help, type "help"
+[04:20:45] [Server thread/INFO]: Took 19ms to boot Floodgate
+[04:20:45] [Server thread/INFO]: ******************************************
+[04:20:45] [Server thread/INFO]: 
+[04:20:45] [Server thread/INFO]: Loading Geyser version 2.7.1-b852 (git-master-17baaf6)
+[04:20:45] [Server thread/INFO]: 
+[04:20:45] [Server thread/INFO]: ******************************************
+[04:20:48] [epollEventLoopGroup-4-2/INFO]: Started Geyser on UDP port 19132
+[04:20:48] [Server thread/INFO]: Done (3.007s)! Run /geyser help for help!
+[04:20:48] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3061ms or 61 ticks behind
+[04:20:57] [spark-worker-pool-1-thread-1/INFO]: [⚡] Calculating GC statistics...
+[04:20:57] [spark-worker-pool-1-thread-1/INFO]: 
+> Garbage Collector statistics
+
+    G1 Young Generation collector:
+      86 ms avg, 7 total collections
+      3s avg frequency
+
+    G1 Concurrent GC collector:
+      12 ms avg, 4 total collections
+      6s avg frequency
+
+    G1 Old Generation collector:
+      0 collections
+[04:21:48] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[04:22:56] [Server thread/INFO]: ciphergamer1123[/127.15.121.75:51907] logged in with entity id 3 at (-217.5, 104.0, 153.5)
+[04:22:56] [Server thread/INFO]: Sending server config values to client
+[04:22:56] [Server thread/INFO]: ciphergamer1123 joined the game
+[04:22:57] [Server thread/INFO]: ciphergamer1123 lost connection: Disconnected
+[04:22:57] [Server thread/INFO]: ciphergamer1123 left the game
+[04:23:07] [Server thread/INFO]: ciphergamer1123[/127.15.121.75:41519] logged in with entity id 5 at (-217.5, 104.0, 153.5)
+[04:23:07] [Server thread/INFO]: Sending server config values to client
+[04:23:07] [Server thread/INFO]: ciphergamer1123 joined the game
+[04:23:07] [Server thread/INFO]: ciphergamer1123 lost connection: Disconnected
+[04:23:07] [Server thread/INFO]: ciphergamer1123 left the game
+[04:24:07] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[04:25:23] [Server thread/INFO]: Stopping the server
+[04:25:23] [Server thread/INFO]: ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
+[04:25:23] [Server thread/INFO]: Shutting down Geyser.
+[04:25:23] [Server thread/INFO]: Geyser shutdown successfully.
+[04:25:23] [WebSocketConnectReadThread-123/INFO]: The skin uploader has been closed
+[04:25:25] [Server thread/INFO]: Stopping server
+[04:25:25] [Server thread/INFO]: Saving players
+[04:25:25] [Server thread/INFO]: Saving worlds
+[04:25:25] [Server thread/INFO]: ServerLevel[world]/minecraft:overworld: waiting for 729 chunks to unload
+[04:25:25] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[04:25:25] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[04:25:25] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[04:25:25] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[04:25:25] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[04:25:25] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[04:25:25] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[04:25:25] [C2ME Storage #3/INFO]: Storage thread Thread[#91,C2ME Storage #3,5,main] stopped
+[04:25:25] [C2ME Storage #2/INFO]: Storage thread Thread[#89,C2ME Storage #2,5,main] stopped
+[04:25:25] [C2ME Storage #1/INFO]: Storage thread Thread[#88,C2ME Storage #1,5,main] stopped
+[04:25:25] [C2ME Storage #6/INFO]: Storage thread Thread[#98,C2ME Storage #6,5,main] stopped
+[04:25:25] [C2ME Storage #5/INFO]: Storage thread Thread[#97,C2ME Storage #5,5,main] stopped
+[04:25:25] [C2ME Storage #4/INFO]: Storage thread Thread[#96,C2ME Storage #4,5,main] stopped
+[04:25:25] [C2ME Storage #9/INFO]: Storage thread Thread[#102,C2ME Storage #9,5,main] stopped
+[04:25:25] [C2ME Storage #7/INFO]: Storage thread Thread[#100,C2ME Storage #7,5,main] stopped
+[04:25:25] [C2ME Storage #8/INFO]: Storage thread Thread[#101,C2ME Storage #8,5,main] stopped
