@@ -1689,3 +1689,13 @@
 [20:49:54] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 16593 chunks (99.71%), ETA: 0:00:01, Rate: 33.1 cps, Current: 17, 64
 [20:49:55] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 16629 chunks (99.93%), ETA: 0:00:00, Rate: 32.4 cps, Current: 52, 64
 [20:49:55] [Server thread/INFO]: [Chunky] Task finished for minecraft:the_nether. Processed: 16641 chunks (100.00%), Total time: 0:08:06
+[21:04:30] [Server thread/INFO]: [ciphergamer1123: Set own game mode to Creative Mode]
+[21:04:34] [Chunky-minecraft:the_nether Thread/INFO]: [Chunky] Task finished for minecraft:the_nether. Processed: 16641 chunks (100.00%), Total time: 0:00:00
+[21:06:18] [Server thread/INFO]: [ciphergamer1123: Running function darktimer:darktimerwarn10s]
+[21:06:25] [Server thread/INFO]: [ciphergamer1123: Running function incendium:_admin_menu]
+[21:06:41] [Server thread/INFO]: [ciphergamer1123: Running function incendium:_admin_menu]
+[21:07:12] [Server thread/INFO]: [ciphergamer1123: Set own game mode to Spectator Mode]
+[21:07:17] [Server thread/INFO]: [ciphergamer1123: Set own game mode to Creative Mode]
+[21:07:23] [Server thread/INFO]: ciphergamer1123 has reached the goal [Piglin Pillage]
+[21:08:27] [Server thread/INFO]: [ciphergamer1123: Running function darktimer:darktimerwarn10s]
+[21:08:54] [Server thread/INFO]: [ciphergamer1123: Removed 3 item(s) from player ciphergamer1123]
