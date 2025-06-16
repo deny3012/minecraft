@@ -1,12 +1,12 @@
-[04:32:20] [main/INFO]: Loading Minecraft 1.21.5 with Fabric Loader 0.16.14
-[04:32:20] [ForkJoinPool-1-worker-3/WARN]: Mod getittogetherdrops uses the version fabric-1.21-1.3.1 which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'fabric'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
-[04:32:20] [ForkJoinPool-1-worker-4/WARN]: Mod ctov uses the version 3.5.9a which isn't compatible with Loader's extended semantic version format (Could not parse version number component '9a'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
-[04:32:21] [main/WARN]: Warnings were found!
+[20:19:46] [main/INFO]: Loading Minecraft 1.21.5 with Fabric Loader 0.16.14
+[20:19:47] [ForkJoinPool-1-worker-4/WARN]: Mod ctov uses the version 3.5.9a which isn't compatible with Loader's extended semantic version format (Could not parse version number component '9a'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[20:19:47] [ForkJoinPool-1-worker-3/WARN]: Mod getittogetherdrops uses the version fabric-1.21-1.3.1 which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'fabric'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[20:19:50] [main/WARN]: Warnings were found!
  - Mod 'Debugify' (debugify) 1.21.5+1.0 recommends any version of yet_another_config_lib_v3, which is missing!
 	 - You should install any version of yet_another_config_lib_v3 for the optimal experience.
  - Mod 'Debugify' (debugify) 1.21.5+1.0 recommends any version of modmenu, which is missing!
 	 - You should install any version of modmenu for the optimal experience.
-[04:32:21] [main/INFO]: Loading 178 mods:
+[20:19:50] [main/INFO]: Loading 178 mods:
 	- architectury 16.1.4
 	- axiom 4.8.0
 	   |-- com_moulberry_axiomclientapi 1.0.0
@@ -208,198 +208,424 @@
 	   \-- viafabric-mc1215 0.4.18+104-main
 	- viarewind 4.0.7
 	- viaversion 5.3.2
-[04:32:21] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/minecraft/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.15.5+mixin.0.8.7/sponge-mixin-0.15.5+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[04:32:21] [main/INFO]: Compatibility level set to JAVA_16
-[04:32:21] [main/INFO]: Compatibility level set to JAVA_17
-[04:32:21] [main/INFO]: Compatibility level set to JAVA_18
-[04:32:21] [main/INFO]: Compatibility level set to JAVA_21
-[04:32:21] [main/INFO]: Loading Mixin Plugin for Axiom/4.8.0
-[04:32:21] [main/INFO]: Initializing com.ishland.c2me.base.mixin
-[04:32:21] [main/INFO]: Global Executor Parallelism: 3 configured, 3 evaluated, 3 default evaluated
-[04:32:21] [main/INFO]: Initializing com.ishland.c2me.fixes.chunkio.threading_issues.mixin
-[04:32:21] [main/INFO]: Initializing com.ishland.c2me.fixes.general.threading_issues.mixin
-[04:32:21] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.threading_issues.mixin
-[04:32:21] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.vanilla_bugs.mixin
-[04:32:21] [main/INFO]: Initializing com.ishland.c2me.notickvd.mixin
-[04:32:21] [main/INFO]: Initializing com.ishland.c2me.opts.allocs.mixin
-[04:32:21] [main/INFO]: Initializing com.ishland.c2me.opts.chunkio.mixin
-[04:32:21] [main/INFO]: Initializing com.ishland.c2me.opts.dfc.mixin
-[04:32:21] [main/INFO]: Initializing com.ishland.c2me.opts.math.mixin
-[04:32:21] [main/INFO]: Initializing com.ishland.c2me.opts.scheduling.mixin
-[04:32:21] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.general.mixin
-[04:32:21] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.vanilla.mixin
-[04:32:21] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunk_serializer.mixin
-[04:32:21] [main/INFO]: Disabling config ioSystem.gcFreeChunkSerializer: Incompatible with architectury@16.1.4 (*) (defined in c2me)
-[04:32:21] [main/INFO]: Disabling com.ishland.c2me.rewrites.chunk_serializer.mixin
-[04:32:21] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunksystem.mixin
-[04:32:21] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunkio.mixin
-[04:32:21] [main/INFO]: Initializing com.ishland.c2me.server.utils.mixin
-[04:32:21] [main/INFO]: Initializing com.ishland.c2me.threading.lighting.mixin
-[04:32:21] [main/WARN]: Reference map '[common]ctov-common-refmap.json' for ctov-common.mixins.json could not be read. If this is a development environment you can ignore this message
-[04:32:21] [main/WARN]: Mod 'ferritecore' attempted to override option 'mixin.alloc.blockstate', which doesn't exist, ignoring
-[04:32:21] [main/INFO]: Option 'mixin.minimal_nonvanilla.world.block_entity_ticking.support_cache' requires 'mixin.world.block_entity_ticking=true' but found 'false'. Setting 'mixin.minimal_nonvanilla.world.block_entity_ticking.support_cache=false'.
-[04:32:21] [main/INFO]: Loaded configuration file for Lithium: 155 options available, 2 override(s) found.
-[04:32:22] [main/WARN]: Error loading class: ca/spottedleaf/starlight/common/thread/SchedulingUtil (java.lang.ClassNotFoundException: ca/spottedleaf/starlight/common/thread/SchedulingUtil)
-[04:32:22] [main/INFO]: Force-disabling mixin 'block.hopper.AbstractChestBoatMixin' as rule 'mixin.block.hopper' (added by mods [hopperhedgehog]) disables it and children
-[04:32:22] [main/INFO]: Force-disabling mixin 'block.hopper.AbstractContainerMenuMixin' as rule 'mixin.block.hopper' (added by mods [hopperhedgehog]) disables it and children
-[04:32:22] [main/INFO]: Force-disabling mixin 'block.hopper.BlockBehaviourMixin' as rule 'mixin.block.hopper' (added by mods [hopperhedgehog]) disables it and children
-[04:32:22] [main/INFO]: Force-disabling mixin 'block.hopper.ChiseledBookShelfBlockEntityMixin' as rule 'mixin.block.hopper' (added by mods [hopperhedgehog]) disables it and children
-[04:32:22] [main/INFO]: Force-disabling mixin 'block.hopper.ClassInstanceMultiMapMixin' as rule 'mixin.block.hopper' (added by mods [hopperhedgehog]) disables it and children
-[04:32:22] [main/INFO]: Force-disabling mixin 'block.hopper.ComposterMixin$ComposterBlockComposterInventoryMixin' as rule 'mixin.block.hopper' (added by mods [hopperhedgehog]) disables it and children
-[04:32:22] [main/INFO]: Force-disabling mixin 'block.hopper.ComposterMixin$ComposterBlockDummyInventoryMixin' as rule 'mixin.block.hopper' (added by mods [hopperhedgehog]) disables it and children
-[04:32:22] [main/INFO]: Force-disabling mixin 'block.hopper.ComposterMixin$ComposterBlockFullComposterInventoryMixin' as rule 'mixin.block.hopper' (added by mods [hopperhedgehog]) disables it and children
-[04:32:22] [main/INFO]: Force-disabling mixin 'block.hopper.CompoundContainerAccessor' as rule 'mixin.block.hopper' (added by mods [hopperhedgehog]) disables it and children
-[04:32:22] [main/INFO]: Force-disabling mixin 'block.hopper.ContainerMixin' as rule 'mixin.block.hopper' (added by mods [hopperhedgehog]) disables it and children
-[04:32:22] [main/INFO]: Force-disabling mixin 'block.hopper.EntityAccessor' as rule 'mixin.block.hopper' (added by mods [hopperhedgehog]) disables it and children
-[04:32:22] [main/INFO]: Force-disabling mixin 'block.hopper.EntityDataAccessorMixin' as rule 'mixin.block.hopper' (added by mods [hopperhedgehog]) disables it and children
-[04:32:22] [main/INFO]: Force-disabling mixin 'block.hopper.EntitySectionAccessor' as rule 'mixin.block.hopper' (added by mods [hopperhedgehog]) disables it and children
-[04:32:22] [main/INFO]: Force-disabling mixin 'block.hopper.HopperBlockEntityMixin' as rule 'mixin.block.hopper' (added by mods [hopperhedgehog]) disables it and children
-[04:32:22] [main/INFO]: Force-disabling mixin 'block.hopper.HopperBlockMixin' as rule 'mixin.block.hopper' (added by mods [hopperhedgehog]) disables it and children
-[04:32:22] [main/INFO]: Force-disabling mixin 'block.hopper.InventoryAccessors$AbstractFurnaceBlockEntityMixin' as rule 'mixin.block.hopper' (added by mods [hopperhedgehog]) disables it and children
-[04:32:22] [main/INFO]: Force-disabling mixin 'block.hopper.InventoryAccessors$AbstractMinecartContainerMixin' as rule 'mixin.block.hopper' (added by mods [hopperhedgehog]) disables it and children
-[04:32:22] [main/INFO]: Force-disabling mixin 'block.hopper.InventoryAccessors$BarrelBlockEntityMixin' as rule 'mixin.block.hopper' (added by mods [hopperhedgehog]) disables it and children
-[04:32:22] [main/INFO]: Force-disabling mixin 'block.hopper.InventoryAccessors$BrewingStandBlockEntityMixin' as rule 'mixin.block.hopper' (added by mods [hopperhedgehog]) disables it and children
-[04:32:22] [main/INFO]: Force-disabling mixin 'block.hopper.InventoryAccessors$ChestBlockEntityMixin' as rule 'mixin.block.hopper' (added by mods [hopperhedgehog]) disables it and children
-[04:32:22] [main/INFO]: Force-disabling mixin 'block.hopper.InventoryAccessors$DispenserBlockEntityMixin' as rule 'mixin.block.hopper' (added by mods [hopperhedgehog]) disables it and children
-[04:32:22] [main/INFO]: Force-disabling mixin 'block.hopper.InventoryAccessors$HopperBlockEntityMixin' as rule 'mixin.block.hopper' (added by mods [hopperhedgehog]) disables it and children
-[04:32:22] [main/INFO]: Force-disabling mixin 'block.hopper.InventoryAccessors$ShulkerBoxBlockEntityMixin' as rule 'mixin.block.hopper' (added by mods [hopperhedgehog]) disables it and children
-[04:32:22] [main/INFO]: Force-disabling mixin 'block.hopper.NonNullListAccessor' as rule 'mixin.block.hopper' (added by mods [hopperhedgehog]) disables it and children
-[04:32:22] [main/INFO]: Force-disabling mixin 'block.hopper.OldMinecartBehaviorMixin' as rule 'mixin.block.hopper' (added by mods [hopperhedgehog]) disables it and children
-[04:32:22] [main/INFO]: Force-disabling mixin 'world.block_entity_ticking.chunk_tickable.LevelMixin' as rule 'mixin.world.block_entity_ticking' (added by mods [smelterhedgehog]) disables it and children
-[04:32:22] [main/INFO]: Force-disabling mixin 'world.block_entity_ticking.sleeping.BlockEntityMixin' as rule 'mixin.world.block_entity_ticking' (added by mods [smelterhedgehog]) disables it and children
-[04:32:22] [main/INFO]: Force-disabling mixin 'world.block_entity_ticking.sleeping.LevelChunkMixin' as rule 'mixin.world.block_entity_ticking' (added by mods [smelterhedgehog]) disables it and children
-[04:32:22] [main/INFO]: Force-disabling mixin 'world.block_entity_ticking.sleeping.LevelMixin' as rule 'mixin.world.block_entity_ticking' (added by mods [smelterhedgehog]) disables it and children
-[04:32:22] [main/INFO]: Force-disabling mixin 'world.block_entity_ticking.sleeping.ServerLevelMixin' as rule 'mixin.world.block_entity_ticking' (added by mods [smelterhedgehog]) disables it and children
-[04:32:22] [main/INFO]: Force-disabling mixin 'world.block_entity_ticking.sleeping.WrappedBlockEntityTickInvokerAccessor' as rule 'mixin.world.block_entity_ticking' (added by mods [smelterhedgehog]) disables it and children
-[04:32:22] [main/INFO]: Force-disabling mixin 'world.block_entity_ticking.sleeping.brewing_stand.BrewingStandBlockEntityMixin' as rule 'mixin.world.block_entity_ticking' (added by mods [smelterhedgehog]) disables it and children
-[04:32:22] [main/INFO]: Force-disabling mixin 'world.block_entity_ticking.sleeping.campfire.CampfireBlockEntityMixin' as rule 'mixin.world.block_entity_ticking' (added by mods [smelterhedgehog]) disables it and children
-[04:32:22] [main/INFO]: Force-disabling mixin 'world.block_entity_ticking.sleeping.campfire.lit.CampfireBlockEntityMixin' as rule 'mixin.world.block_entity_ticking' (added by mods [smelterhedgehog]) disables it and children
-[04:32:22] [main/INFO]: Force-disabling mixin 'world.block_entity_ticking.sleeping.campfire.unlit.CampfireBlockEntityMixin' as rule 'mixin.world.block_entity_ticking' (added by mods [smelterhedgehog]) disables it and children
-[04:32:22] [main/INFO]: Force-disabling mixin 'world.block_entity_ticking.sleeping.crafter.CrafterBlockEntityMixin' as rule 'mixin.world.block_entity_ticking' (added by mods [smelterhedgehog]) disables it and children
-[04:32:22] [main/INFO]: Force-disabling mixin 'world.block_entity_ticking.sleeping.furnace.AbstractFurnaceBlockEntityMixin' as rule 'mixin.world.block_entity_ticking' (added by mods [smelterhedgehog]) disables it and children
-[04:32:22] [main/INFO]: Force-disabling mixin 'world.block_entity_ticking.sleeping.hopper.HopperBlockEntityMixin' as rule 'mixin.world.block_entity_ticking' (added by mods [smelterhedgehog]) disables it and children
-[04:32:22] [main/INFO]: Force-disabling mixin 'world.block_entity_ticking.sleeping.shulker_box.ShulkerBoxBlockEntityMixin' as rule 'mixin.world.block_entity_ticking' (added by mods [smelterhedgehog]) disables it and children
-[04:32:22] [main/INFO]: Force-disabling mixin 'world.block_entity_ticking.world_border.DirectBlockEntityTickInvokerMixin' as rule 'mixin.world.block_entity_ticking' (added by mods [smelterhedgehog]) disables it and children
-[04:32:22] [main/INFO]: Force-disabling mixin 'block.hopper.LevelMixin' as rule 'mixin.block.hopper' (added by mods [hopperhedgehog]) disables it and children
-[04:32:22] [main/WARN]: Error loading class: net/minecraft/class_437 (java.lang.ClassNotFoundException: net/minecraft/class_437)
-[04:32:22] [main/WARN]: @Mixin target net.minecraft.class_437 was not found owo.mixins.json:ScreenAccessor from mod owo
-[04:32:22] [main/WARN]: Error loading class: xyz/nucleoid/server/translations/impl/language/SystemDelegatedLanguage (java.lang.ClassNotFoundException: xyz/nucleoid/server/translations/impl/language/SystemDelegatedLanguage)
-[04:32:22] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
-[04:32:30] [main/INFO]: Initializing Axiom/4.8.0. Build timestamp: 1746396334521
-[04:32:30] [main/INFO]: Loading Collective version 8.3.
-[04:32:30] [main/INFO]: Enabled 27 bug fixes: [MC-2025, MC-7569, MC-8187, MC-30391, MC-69216, MC-88371, MC-89146, MC-93018, MC-100991, MC-119417, MC-119754, MC-121706, MC-121903, MC-129909, MC-132878, MC-155509, MC-160095, MC-179072, MC-183990, MC-199467, MC-200418, MC-206922, MC-215530, MC-223153, MC-224729, MC-231743, MC-232869]
-[04:32:30] [main/INFO]: Successfully Debugify'd your game!
-[04:32:30] [main/WARN]: en_ is not a supported Floodgate language.
-[04:32:31] [main/INFO]: Loading extensions...
-[04:32:31] [main/INFO]: Loaded 0 extension(s)
-[04:32:31] [main/INFO]: Starting Load for Hopper the Hedgehog
-[04:32:31] [main/INFO]: Load for Hopper the Hedgehog successful
-[04:32:31] [main/INFO]: Compression will use libdeflate (Linux x86_64), encryption will use OpenSSL 1.1.x (Linux x86_64)
-[04:32:31] [main/INFO]: Ksyxis: Booting... (platform: Fabric, manual: false)
-[04:32:31] [main/INFO]: Ksyxis: Found Mixin library. (version: 0.8.7)
-[04:32:31] [main/INFO]: Ksyxis: Ready. As always, this mod will speed up your world loading and might or might not break it. (1 ms)
-[04:32:31] [main/INFO]: Loading Noisium.
-[04:32:31] [main/INFO]: I think that's not the only reason Spectrum isn't compatible with Quilt
-[04:32:31] [main/INFO]: Burning through Items faster than gacha games through wallets
-[04:32:32] [Via-Mappingloader-0/INFO]: Loading block connection mappings ...
-[04:32:32] [Via-Mappingloader-0/INFO]: Using FastUtil Long2ObjectOpenHashMap for block connections
-[04:32:32] [main/INFO]: Loading translations...
-[04:32:32] [main/INFO]: Registering protocols...
-[04:32:33] [main/INFO]: Registering protocols...
-[04:32:33] [main/INFO]: ViaVersion detected server version: 1.21.5 (770)
-[04:32:33] [ViaFabric-2/INFO]: Finished mapping loading, shutting down loader executor.
-[04:32:33] [main/INFO]: Krypton is now accelerating your Minecraft server's networking stack 🚀
-[04:32:33] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[04:32:33] [main/INFO]: Found new data pack ctov, loading it automatically
-[04:32:33] [main/INFO]: Found new data pack explorify, loading it automatically
-[04:32:33] [main/INFO]: Found new data pack incendium, loading it automatically
-[04:32:33] [main/INFO]: Found new data pack mr_lithosphere, loading it automatically
-[04:32:33] [main/INFO]: Found new data pack structory, loading it automatically
-[04:32:33] [main/INFO]: Found new data pack tectonic:tectonic, loading it automatically
-[04:32:34] [main/WARN]: Creating a MIN function between two non-overlapping inputs: class_7051[function=Direct{class_6923[value=0.15]}] and class_7051[function=Direct{class_6917[type=MUL, argument1=class_7051[function=Direct{class_6923[value=1.435]}], argument2=class_7051[function=Direct{class_6917[type=ADD, argument1=class_7051[function=Direct{class_6923[value=-0.73]}], argument2=class_7051[function=Direct{class_6925[type=ABS, input=class_7051[function=Reference{ResourceKey[minecraft:worldgen/density_function / minecraft:overworld/ridges]=class_6927[type=FlatCache, wrapped=class_7051[function=Direct{class_6927[type=Cache2D, wrapped=class_7051[function=Direct{class_6917[type=MUL, argument1=class_7051[function=Direct{class_7076[spline=class_6738[coordinate=Coordinate[Direct{class_6917[type=MUL, argument1=class_7051[function=Direct{class_6917[type=MUL, argument1=class_7051[function=Direct{class_6917[type=ADD, argument1=class_7051[function=Direct{class_6927[type=FlatCache, wrapped=class_7051[function=Direct{class_6927[type=Cache2D, wrapped=class_7051[function=Reference{ResourceKey[minecraft:worldgen/density_function / lithosphere:topography_final]=null}]]}]]}], argument2=class_7051[function=Direct{class_6923[value=0.6]}], minValue=-Infinity, maxValue=Infinity]}], argument2=class_7051[function=Direct{class_6923[value=0.9]}], minValue=-Infinity, maxValue=Infinity]}], argument2=class_7051[function=Direct{class_6923[value=0.75]}], minValue=-Infinity, maxValue=Infinity]}], locations=[F@ddefa26, values=[class_6494[value=0.0], class_6494[value=0.05], class_6494[value=0.1], class_6494[value=0.15], class_6494[value=0.62], class_6494[value=0.63]], derivatives=[F@80c04b5, minValue=-0.0125, maxValue=0.6362549]]}], argument2=class_7051[function=Direct{class_6917[type=MUL, argument1=class_7051[function=Direct{class_7076[spline=class_6738[coordinate=Coordinate[Direct{class_6925[type=ABS, input=class_7051[function=Direct{class_6931[noise=class_7270[noiseData=Reference{ResourceKey[minecraft:worldgen/noise / lithosphere:rivers]=class_5487[firstOctave=-11, amplitudes=[5.0, 3.0, 0.0, 3.0, 3.0, 1.0, 0.5, 0.5]]}, noise=null], xzScale=0.7, yScale=0.0]}], minValue=0.0, maxValue=2.0]}], locations=[F@5ec196f9, values=[class_6494[value=-1.0], class_6494[value=0.0], class_6494[value=0.0], class_6494[value=0.0], class_6494[value=1.0]], derivatives=[F@bbc55c7, minValue=-1.0, maxValue=1.0]]}], argument2=class_7051[function=Direct{class_7076[spline=class_6738[coordinate=Coordinate[Direct{class_6931[noise=class_7270[noiseData=Reference{ResourceKey[minecraft:worldgen/noise / lithosphere:biome_variation]=class_5487[firstOctave=-9, amplitudes=[0.7, 0.6, 0.6, 0.7, 0.9, 0.9, 0.1, 0.1]]}, noise=null], xzScale=1.0, yScale=0.0]}], locations=[F@43915258, values=[class_6494[value=-1.0], class_6494[value=1.0]], derivatives=[F@e015b2a, minValue=-1.0, maxValue=1.0]]}], minValue=-1.0, maxValue=1.0]}], minValue=-0.6362549066543579, maxValue=0.6362549066543579]}]]}]]}], minValue=0.0, maxValue=0.6362549066543579]}], minValue=-0.73, maxValue=-0.09374509334564207]}], minValue=-1.04755, maxValue=-0.13452420895099637]}]
-[04:32:34] [main/WARN]: Creating a MAX function between two non-overlapping inputs: class_7051[function=Direct{class_6923[value=-0.12]}] and class_7051[function=Direct{class_6917[type=MUL, argument1=class_7051[function=Direct{class_6923[value=-1.45]}], argument2=class_7051[function=Direct{class_6917[type=ADD, argument1=class_7051[function=Direct{class_6923[value=-0.73]}], argument2=class_7051[function=Direct{class_6925[type=ABS, input=class_7051[function=Reference{ResourceKey[minecraft:worldgen/density_function / minecraft:overworld/ridges]=class_6927[type=FlatCache, wrapped=class_7051[function=Direct{class_6927[type=Cache2D, wrapped=class_7051[function=Direct{class_6917[type=MUL, argument1=class_7051[function=Direct{class_7076[spline=class_6738[coordinate=Coordinate[Direct{class_6917[type=MUL, argument1=class_7051[function=Direct{class_6917[type=MUL, argument1=class_7051[function=Direct{class_6917[type=ADD, argument1=class_7051[function=Direct{class_6927[type=FlatCache, wrapped=class_7051[function=Direct{class_6927[type=Cache2D, wrapped=class_7051[function=Reference{ResourceKey[minecraft:worldgen/density_function / lithosphere:topography_final]=null}]]}]]}], argument2=class_7051[function=Direct{class_6923[value=0.6]}], minValue=-Infinity, maxValue=Infinity]}], argument2=class_7051[function=Direct{class_6923[value=0.9]}], minValue=-Infinity, maxValue=Infinity]}], argument2=class_7051[function=Direct{class_6923[value=0.75]}], minValue=-Infinity, maxValue=Infinity]}], locations=[F@ddefa26, values=[class_6494[value=0.0], class_6494[value=0.05], class_6494[value=0.1], class_6494[value=0.15], class_6494[value=0.62], class_6494[value=0.63]], derivatives=[F@80c04b5, minValue=-0.0125, maxValue=0.6362549]]}], argument2=class_7051[function=Direct{class_6917[type=MUL, argument1=class_7051[function=Direct{class_7076[spline=class_6738[coordinate=Coordinate[Direct{class_6925[type=ABS, input=class_7051[function=Direct{class_6931[noise=class_7270[noiseData=Reference{ResourceKey[minecraft:worldgen/noise / lithosphere:rivers]=class_5487[firstOctave=-11, amplitudes=[5.0, 3.0, 0.0, 3.0, 3.0, 1.0, 0.5, 0.5]]}, noise=null], xzScale=0.7, yScale=0.0]}], minValue=0.0, maxValue=2.0]}], locations=[F@5ec196f9, values=[class_6494[value=-1.0], class_6494[value=0.0], class_6494[value=0.0], class_6494[value=0.0], class_6494[value=1.0]], derivatives=[F@bbc55c7, minValue=-1.0, maxValue=1.0]]}], argument2=class_7051[function=Direct{class_7076[spline=class_6738[coordinate=Coordinate[Direct{class_6931[noise=class_7270[noiseData=Reference{ResourceKey[minecraft:worldgen/noise / lithosphere:biome_variation]=class_5487[firstOctave=-9, amplitudes=[0.7, 0.6, 0.6, 0.7, 0.9, 0.9, 0.1, 0.1]]}, noise=null], xzScale=1.0, yScale=0.0]}], locations=[F@43915258, values=[class_6494[value=-1.0], class_6494[value=1.0]], derivatives=[F@e015b2a, minValue=-1.0, maxValue=1.0]]}], minValue=-1.0, maxValue=1.0]}], minValue=-0.6362549066543579, maxValue=0.6362549066543579]}]]}]]}], minValue=0.0, maxValue=0.6362549066543579]}], minValue=-0.73, maxValue=-0.09374509334564207]}], minValue=0.135930385351181, maxValue=1.0585]}]
-[04:32:34] [main/WARN]: Creating a MIN function between two non-overlapping inputs: class_7051[function=Direct{class_6923[value=0.15]}] and class_7051[function=Direct{class_6917[type=MUL, argument1=class_7051[function=Direct{class_6923[value=-2.25]}], argument2=class_7051[function=Direct{class_6917[type=ADD, argument1=class_7051[function=Direct{class_6923[value=0.68]}], argument2=class_7051[function=Reference{ResourceKey[minecraft:worldgen/density_function / minecraft:overworld/ridges]=class_6927[type=FlatCache, wrapped=class_7051[function=Direct{class_6927[type=Cache2D, wrapped=class_7051[function=Direct{class_6917[type=MUL, argument1=class_7051[function=Direct{class_7076[spline=class_6738[coordinate=Coordinate[Direct{class_6917[type=MUL, argument1=class_7051[function=Direct{class_6917[type=MUL, argument1=class_7051[function=Direct{class_6917[type=ADD, argument1=class_7051[function=Direct{class_6927[type=FlatCache, wrapped=class_7051[function=Direct{class_6927[type=Cache2D, wrapped=class_7051[function=Reference{ResourceKey[minecraft:worldgen/density_function / lithosphere:topography_final]=null}]]}]]}], argument2=class_7051[function=Direct{class_6923[value=0.6]}], minValue=-Infinity, maxValue=Infinity]}], argument2=class_7051[function=Direct{class_6923[value=0.9]}], minValue=-Infinity, maxValue=Infinity]}], argument2=class_7051[function=Direct{class_6923[value=0.75]}], minValue=-Infinity, maxValue=Infinity]}], locations=[F@ddefa26, values=[class_6494[value=0.0], class_6494[value=0.05], class_6494[value=0.1], class_6494[value=0.15], class_6494[value=0.62], class_6494[value=0.63]], derivatives=[F@80c04b5, minValue=-0.0125, maxValue=0.6362549]]}], argument2=class_7051[function=Direct{class_6917[type=MUL, argument1=class_7051[function=Direct{class_7076[spline=class_6738[coordinate=Coordinate[Direct{class_6925[type=ABS, input=class_7051[function=Direct{class_6931[noise=class_7270[noiseData=Reference{ResourceKey[minecraft:worldgen/noise / lithosphere:rivers]=class_5487[firstOctave=-11, amplitudes=[5.0, 3.0, 0.0, 3.0, 3.0, 1.0, 0.5, 0.5]]}, noise=null], xzScale=0.7, yScale=0.0]}], minValue=0.0, maxValue=2.0]}], locations=[F@5ec196f9, values=[class_6494[value=-1.0], class_6494[value=0.0], class_6494[value=0.0], class_6494[value=0.0], class_6494[value=1.0]], derivatives=[F@bbc55c7, minValue=-1.0, maxValue=1.0]]}], argument2=class_7051[function=Direct{class_7076[spline=class_6738[coordinate=Coordinate[Direct{class_6931[noise=class_7270[noiseData=Reference{ResourceKey[minecraft:worldgen/noise / lithosphere:biome_variation]=class_5487[firstOctave=-9, amplitudes=[0.7, 0.6, 0.6, 0.7, 0.9, 0.9, 0.1, 0.1]]}, noise=null], xzScale=1.0, yScale=0.0]}], locations=[F@43915258, values=[class_6494[value=-1.0], class_6494[value=1.0]], derivatives=[F@e015b2a, minValue=-1.0, maxValue=1.0]]}], minValue=-1.0, maxValue=1.0]}], minValue=-0.6362549066543579, maxValue=0.6362549066543579]}]]}]]}], minValue=0.04374509334564214, maxValue=1.316254906654358]}], minValue=-2.9615735399723055, maxValue=-0.09842646002769481]}]
-[04:32:34] [main/WARN]: Creating a MAX function between two non-overlapping inputs: class_7051[function=Direct{class_6923[value=-0.12]}] and class_7051[function=Direct{class_6917[type=MUL, argument1=class_7051[function=Direct{class_6923[value=1.2]}], argument2=class_7051[function=Direct{class_6917[type=ADD, argument1=class_7051[function=Direct{class_6923[value=0.72]}], argument2=class_7051[function=Reference{ResourceKey[minecraft:worldgen/density_function / minecraft:overworld/ridges]=class_6927[type=FlatCache, wrapped=class_7051[function=Direct{class_6927[type=Cache2D, wrapped=class_7051[function=Direct{class_6917[type=MUL, argument1=class_7051[function=Direct{class_7076[spline=class_6738[coordinate=Coordinate[Direct{class_6917[type=MUL, argument1=class_7051[function=Direct{class_6917[type=MUL, argument1=class_7051[function=Direct{class_6917[type=ADD, argument1=class_7051[function=Direct{class_6927[type=FlatCache, wrapped=class_7051[function=Direct{class_6927[type=Cache2D, wrapped=class_7051[function=Reference{ResourceKey[minecraft:worldgen/density_function / lithosphere:topography_final]=null}]]}]]}], argument2=class_7051[function=Direct{class_6923[value=0.6]}], minValue=-Infinity, maxValue=Infinity]}], argument2=class_7051[function=Direct{class_6923[value=0.9]}], minValue=-Infinity, maxValue=Infinity]}], argument2=class_7051[function=Direct{class_6923[value=0.75]}], minValue=-Infinity, maxValue=Infinity]}], locations=[F@ddefa26, values=[class_6494[value=0.0], class_6494[value=0.05], class_6494[value=0.1], class_6494[value=0.15], class_6494[value=0.62], class_6494[value=0.63]], derivatives=[F@80c04b5, minValue=-0.0125, maxValue=0.6362549]]}], argument2=class_7051[function=Direct{class_6917[type=MUL, argument1=class_7051[function=Direct{class_7076[spline=class_6738[coordinate=Coordinate[Direct{class_6925[type=ABS, input=class_7051[function=Direct{class_6931[noise=class_7270[noiseData=Reference{ResourceKey[minecraft:worldgen/noise / lithosphere:rivers]=class_5487[firstOctave=-11, amplitudes=[5.0, 3.0, 0.0, 3.0, 3.0, 1.0, 0.5, 0.5]]}, noise=null], xzScale=0.7, yScale=0.0]}], minValue=0.0, maxValue=2.0]}], locations=[F@5ec196f9, values=[class_6494[value=-1.0], class_6494[value=0.0], class_6494[value=0.0], class_6494[value=0.0], class_6494[value=1.0]], derivatives=[F@bbc55c7, minValue=-1.0, maxValue=1.0]]}], argument2=class_7051[function=Direct{class_7076[spline=class_6738[coordinate=Coordinate[Direct{class_6931[noise=class_7270[noiseData=Reference{ResourceKey[minecraft:worldgen/noise / lithosphere:biome_variation]=class_5487[firstOctave=-9, amplitudes=[0.7, 0.6, 0.6, 0.7, 0.9, 0.9, 0.1, 0.1]]}, noise=null], xzScale=1.0, yScale=0.0]}], locations=[F@43915258, values=[class_6494[value=-1.0], class_6494[value=1.0]], derivatives=[F@e015b2a, minValue=-1.0, maxValue=1.0]]}], minValue=-1.0, maxValue=1.0]}], minValue=-0.6362549066543579, maxValue=0.6362549066543579]}]]}]]}], minValue=0.08374509334564206, maxValue=1.3562549066543579]}], minValue=0.10049411201477047, maxValue=1.6275058879852293]}]
-[04:32:36] [main/INFO]: Loaded 1380 recipes
-[04:32:36] [main/INFO]: Loaded 1546 advancements
-[04:32:36] [main/ERROR]: Failed to save level ./world
-java.nio.file.NoSuchFileException: ./world/level12003780208190963335.dat
-	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92) ~[?:?]
-	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106) ~[?:?]
-	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111) ~[?:?]
-	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:261) ~[?:?]
-	at java.base/java.nio.file.Files.newByteChannel(Files.java:380) ~[?:?]
-	at java.base/java.nio.file.Files.createFile(Files.java:658) ~[?:?]
-	at java.base/java.nio.file.TempFileHelper.create(TempFileHelper.java:136) ~[?:?]
-	at java.base/java.nio.file.TempFileHelper.createTempFile(TempFileHelper.java:159) ~[?:?]
-	at java.base/java.nio.file.Files.createTempFile(Files.java:879) ~[?:?]
-	at knot/net.minecraft.class_32$class_5143.method_54538(class_32.java:463) [server-intermediary.jar:?]
-	at knot/net.minecraft.class_32$class_5143.method_27426(class_32.java:457) [server-intermediary.jar:?]
-	at knot/net.minecraft.class_32$class_5143.method_27425(class_32.java:448) [server-intermediary.jar:?]
-	at knot/net.minecraft.server.Main.main(Main.java:245) [server-intermediary.jar:?]
-	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:480) [fabric-loader-0.16.14.jar:?]
-	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.16.14.jar:?]
-	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) [fabric-loader-0.16.14.jar:?]
-	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) [fabric-loader-0.16.14.jar:?]
-	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) [fabric-server-launch.jar:1.0.1]
-[04:32:37] [main/INFO]: Registered region minecraft:overworld to index 0 for type OVERWORLD
-[04:32:37] [main/INFO]: Registered region minecraft:nether to index 0 for type NETHER
-[04:32:37] [main/INFO]: Initialized TerraBlender biomes for level stem minecraft:the_nether
-[04:32:37] [main/INFO]: Initialized TerraBlender biomes for level stem minecraft:overworld
-[04:32:37] [main/INFO]: Applied 0 biome modifications to 0 of 169 new biomes in 2.343 ms
-[04:32:37] [Server thread/INFO]: Starting background profiler...
-[04:32:37] [Server thread/INFO]: Starting minecraft server version 1.21.5
-[04:32:37] [Server thread/INFO]: Loading properties
-[04:32:37] [Server thread/INFO]: Default game type: SURVIVAL
-[04:32:37] [Server thread/INFO]: Generating keypair
-[04:32:37] [Server thread/INFO]: Starting Minecraft server on *:25565
-[04:32:37] [Server thread/INFO]: Using epoll channel type
-[04:32:37] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[04:32:37] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[04:32:37] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[04:32:37] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[04:32:37] [Server thread/INFO]: Preparing level "world"
-[04:32:37] [Server thread/INFO]: Enforcing safe world random access
-[04:32:39] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 1.031 s
-[04:32:39] [Server thread/INFO]: Using TheSpeedyObjectFactory with Unsafe
-[04:32:39] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 115.1 ms
-[04:32:39] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 11.09 ms
-[04:32:39] [Server thread/INFO]: Ksyxis: Hey. This is Ksyxis. We will now load the world and will try to do it quickly. If the game is not responding after this, it's probably us to blame or delete for good. This message appears always, even if the mod works flawlessly. (modern)
-[04:32:39] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[04:32:39] [Server thread/INFO]: Time elapsed: 2 ms
-[04:32:39] [Server thread/INFO]: Done (2.100s)! For help, type "help"
-[04:32:39] [Server thread/INFO]: Took 36ms to boot Floodgate
-[04:32:39] [Server thread/INFO]: ******************************************
-[04:32:39] [Server thread/INFO]: 
-[04:32:39] [Server thread/INFO]: Loading Geyser version 2.7.1-b852 (git-master-17baaf6)
-[04:32:39] [Server thread/INFO]: 
-[04:32:39] [Server thread/INFO]: ******************************************
-[04:32:46] [Server thread/INFO]: Started Geyser on UDP port 19132
-[04:32:46] [Server thread/INFO]: Done (6.739s)! Run /geyser help for help!
-[04:32:46] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6860ms or 137 ticks behind
-[04:33:46] [Server thread/INFO]: Server empty for 60 seconds, pausing
-[04:33:48] [Server thread/INFO]: Stopping the server
-[04:33:48] [Server thread/INFO]: ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
-[04:33:48] [Server thread/INFO]: Shutting down Geyser.
-[04:33:48] [Server thread/INFO]: Geyser shutdown successfully.
-[04:33:49] [WebSocketConnectReadThread-105/INFO]: The skin uploader has been closed
-[04:33:50] [Server thread/INFO]: Stopping server
-[04:33:50] [Server thread/INFO]: Saving players
-[04:33:50] [Server thread/INFO]: Saving worlds
-[04:33:50] [Server thread/INFO]: ServerLevel[world]/minecraft:overworld: waiting for 729 chunks to unload
-[04:33:51] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[04:33:51] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[04:33:51] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[04:33:51] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[04:33:51] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[04:33:51] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[04:33:51] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[04:33:51] [C2ME Storage #3/INFO]: Storage thread Thread[#80,C2ME Storage #3,5,main] stopped
-[04:33:51] [C2ME Storage #2/INFO]: Storage thread Thread[#79,C2ME Storage #2,5,main] stopped
-[04:33:51] [C2ME Storage #6/INFO]: Storage thread Thread[#85,C2ME Storage #6,5,main] stopped
-[04:33:51] [C2ME Storage #5/INFO]: Storage thread Thread[#84,C2ME Storage #5,5,main] stopped
-[04:33:51] [C2ME Storage #1/INFO]: Storage thread Thread[#78,C2ME Storage #1,5,main] stopped
-[04:33:51] [C2ME Storage #4/INFO]: Storage thread Thread[#83,C2ME Storage #4,5,main] stopped
-[04:33:51] [C2ME Storage #9/INFO]: Storage thread Thread[#89,C2ME Storage #9,5,main] stopped
-[04:33:51] [C2ME Storage #7/INFO]: Storage thread Thread[#87,C2ME Storage #7,5,main] stopped
-[04:33:51] [C2ME Storage #8/INFO]: Storage thread Thread[#88,C2ME Storage #8,5,main] stopped
+[20:19:51] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/minecraft/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.15.5+mixin.0.8.7/sponge-mixin-0.15.5+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[20:19:51] [main/INFO]: Compatibility level set to JAVA_16
+[20:19:52] [main/INFO]: Compatibility level set to JAVA_17
+[20:19:52] [main/INFO]: Compatibility level set to JAVA_18
+[20:19:52] [main/INFO]: Compatibility level set to JAVA_21
+[20:19:52] [main/INFO]: Loading Mixin Plugin for Axiom/4.8.0
+[20:19:52] [main/INFO]: Initializing com.ishland.c2me.base.mixin
+[20:19:52] [main/INFO]: Global Executor Parallelism: 3 configured, 3 evaluated, 3 default evaluated
+[20:19:52] [main/INFO]: Initializing com.ishland.c2me.fixes.chunkio.threading_issues.mixin
+[20:19:52] [main/INFO]: Initializing com.ishland.c2me.fixes.general.threading_issues.mixin
+[20:19:52] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.threading_issues.mixin
+[20:19:52] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.vanilla_bugs.mixin
+[20:19:52] [main/INFO]: Initializing com.ishland.c2me.notickvd.mixin
+[20:19:52] [main/INFO]: Initializing com.ishland.c2me.opts.allocs.mixin
+[20:19:52] [main/INFO]: Initializing com.ishland.c2me.opts.chunkio.mixin
+[20:19:52] [main/INFO]: Initializing com.ishland.c2me.opts.dfc.mixin
+[20:19:52] [main/INFO]: Initializing com.ishland.c2me.opts.math.mixin
+[20:19:52] [main/INFO]: Initializing com.ishland.c2me.opts.scheduling.mixin
+[20:19:52] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.general.mixin
+[20:19:52] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.vanilla.mixin
+[20:19:52] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunk_serializer.mixin
+[20:19:52] [main/INFO]: Disabling config ioSystem.gcFreeChunkSerializer: Incompatible with architectury@16.1.4 (*) (defined in c2me)
+[20:19:52] [main/INFO]: Disabling com.ishland.c2me.rewrites.chunk_serializer.mixin
+[20:19:52] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunksystem.mixin
+[20:19:52] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunkio.mixin
+[20:19:52] [main/INFO]: Initializing com.ishland.c2me.server.utils.mixin
+[20:19:52] [main/INFO]: Initializing com.ishland.c2me.threading.lighting.mixin
+[20:19:52] [main/WARN]: Reference map '[common]ctov-common-refmap.json' for ctov-common.mixins.json could not be read. If this is a development environment you can ignore this message
+[20:19:52] [main/WARN]: Mod 'ferritecore' attempted to override option 'mixin.alloc.blockstate', which doesn't exist, ignoring
+[20:19:52] [main/INFO]: Option 'mixin.minimal_nonvanilla.world.block_entity_ticking.support_cache' requires 'mixin.world.block_entity_ticking=true' but found 'false'. Setting 'mixin.minimal_nonvanilla.world.block_entity_ticking.support_cache=false'.
+[20:19:52] [main/INFO]: Loaded configuration file for Lithium: 155 options available, 2 override(s) found.
+[20:19:53] [main/WARN]: Error loading class: ca/spottedleaf/starlight/common/thread/SchedulingUtil (java.lang.ClassNotFoundException: ca/spottedleaf/starlight/common/thread/SchedulingUtil)
+[20:19:54] [main/INFO]: Force-disabling mixin 'block.hopper.AbstractChestBoatMixin' as rule 'mixin.block.hopper' (added by mods [hopperhedgehog]) disables it and children
+[20:19:54] [main/INFO]: Force-disabling mixin 'block.hopper.AbstractContainerMenuMixin' as rule 'mixin.block.hopper' (added by mods [hopperhedgehog]) disables it and children
+[20:19:54] [main/INFO]: Force-disabling mixin 'block.hopper.BlockBehaviourMixin' as rule 'mixin.block.hopper' (added by mods [hopperhedgehog]) disables it and children
+[20:19:54] [main/INFO]: Force-disabling mixin 'block.hopper.ChiseledBookShelfBlockEntityMixin' as rule 'mixin.block.hopper' (added by mods [hopperhedgehog]) disables it and children
+[20:19:54] [main/INFO]: Force-disabling mixin 'block.hopper.ClassInstanceMultiMapMixin' as rule 'mixin.block.hopper' (added by mods [hopperhedgehog]) disables it and children
+[20:19:54] [main/INFO]: Force-disabling mixin 'block.hopper.ComposterMixin$ComposterBlockComposterInventoryMixin' as rule 'mixin.block.hopper' (added by mods [hopperhedgehog]) disables it and children
+[20:19:54] [main/INFO]: Force-disabling mixin 'block.hopper.ComposterMixin$ComposterBlockDummyInventoryMixin' as rule 'mixin.block.hopper' (added by mods [hopperhedgehog]) disables it and children
+[20:19:54] [main/INFO]: Force-disabling mixin 'block.hopper.ComposterMixin$ComposterBlockFullComposterInventoryMixin' as rule 'mixin.block.hopper' (added by mods [hopperhedgehog]) disables it and children
+[20:19:54] [main/INFO]: Force-disabling mixin 'block.hopper.CompoundContainerAccessor' as rule 'mixin.block.hopper' (added by mods [hopperhedgehog]) disables it and children
+[20:19:54] [main/INFO]: Force-disabling mixin 'block.hopper.ContainerMixin' as rule 'mixin.block.hopper' (added by mods [hopperhedgehog]) disables it and children
+[20:19:54] [main/INFO]: Force-disabling mixin 'block.hopper.EntityAccessor' as rule 'mixin.block.hopper' (added by mods [hopperhedgehog]) disables it and children
+[20:19:54] [main/INFO]: Force-disabling mixin 'block.hopper.EntityDataAccessorMixin' as rule 'mixin.block.hopper' (added by mods [hopperhedgehog]) disables it and children
+[20:19:54] [main/INFO]: Force-disabling mixin 'block.hopper.EntitySectionAccessor' as rule 'mixin.block.hopper' (added by mods [hopperhedgehog]) disables it and children
+[20:19:54] [main/INFO]: Force-disabling mixin 'block.hopper.HopperBlockEntityMixin' as rule 'mixin.block.hopper' (added by mods [hopperhedgehog]) disables it and children
+[20:19:54] [main/INFO]: Force-disabling mixin 'block.hopper.HopperBlockMixin' as rule 'mixin.block.hopper' (added by mods [hopperhedgehog]) disables it and children
+[20:19:54] [main/INFO]: Force-disabling mixin 'block.hopper.InventoryAccessors$AbstractFurnaceBlockEntityMixin' as rule 'mixin.block.hopper' (added by mods [hopperhedgehog]) disables it and children
+[20:19:54] [main/INFO]: Force-disabling mixin 'block.hopper.InventoryAccessors$AbstractMinecartContainerMixin' as rule 'mixin.block.hopper' (added by mods [hopperhedgehog]) disables it and children
+[20:19:54] [main/INFO]: Force-disabling mixin 'block.hopper.InventoryAccessors$BarrelBlockEntityMixin' as rule 'mixin.block.hopper' (added by mods [hopperhedgehog]) disables it and children
+[20:19:54] [main/INFO]: Force-disabling mixin 'block.hopper.InventoryAccessors$BrewingStandBlockEntityMixin' as rule 'mixin.block.hopper' (added by mods [hopperhedgehog]) disables it and children
+[20:19:54] [main/INFO]: Force-disabling mixin 'block.hopper.InventoryAccessors$ChestBlockEntityMixin' as rule 'mixin.block.hopper' (added by mods [hopperhedgehog]) disables it and children
+[20:19:54] [main/INFO]: Force-disabling mixin 'block.hopper.InventoryAccessors$DispenserBlockEntityMixin' as rule 'mixin.block.hopper' (added by mods [hopperhedgehog]) disables it and children
+[20:19:54] [main/INFO]: Force-disabling mixin 'block.hopper.InventoryAccessors$HopperBlockEntityMixin' as rule 'mixin.block.hopper' (added by mods [hopperhedgehog]) disables it and children
+[20:19:54] [main/INFO]: Force-disabling mixin 'block.hopper.InventoryAccessors$ShulkerBoxBlockEntityMixin' as rule 'mixin.block.hopper' (added by mods [hopperhedgehog]) disables it and children
+[20:19:54] [main/INFO]: Force-disabling mixin 'block.hopper.NonNullListAccessor' as rule 'mixin.block.hopper' (added by mods [hopperhedgehog]) disables it and children
+[20:19:54] [main/INFO]: Force-disabling mixin 'block.hopper.OldMinecartBehaviorMixin' as rule 'mixin.block.hopper' (added by mods [hopperhedgehog]) disables it and children
+[20:19:54] [main/INFO]: Force-disabling mixin 'world.block_entity_ticking.chunk_tickable.LevelMixin' as rule 'mixin.world.block_entity_ticking' (added by mods [smelterhedgehog]) disables it and children
+[20:19:54] [main/INFO]: Force-disabling mixin 'world.block_entity_ticking.sleeping.BlockEntityMixin' as rule 'mixin.world.block_entity_ticking' (added by mods [smelterhedgehog]) disables it and children
+[20:19:54] [main/INFO]: Force-disabling mixin 'world.block_entity_ticking.sleeping.LevelChunkMixin' as rule 'mixin.world.block_entity_ticking' (added by mods [smelterhedgehog]) disables it and children
+[20:19:54] [main/INFO]: Force-disabling mixin 'world.block_entity_ticking.sleeping.LevelMixin' as rule 'mixin.world.block_entity_ticking' (added by mods [smelterhedgehog]) disables it and children
+[20:19:54] [main/INFO]: Force-disabling mixin 'world.block_entity_ticking.sleeping.ServerLevelMixin' as rule 'mixin.world.block_entity_ticking' (added by mods [smelterhedgehog]) disables it and children
+[20:19:54] [main/INFO]: Force-disabling mixin 'world.block_entity_ticking.sleeping.WrappedBlockEntityTickInvokerAccessor' as rule 'mixin.world.block_entity_ticking' (added by mods [smelterhedgehog]) disables it and children
+[20:19:54] [main/INFO]: Force-disabling mixin 'world.block_entity_ticking.sleeping.brewing_stand.BrewingStandBlockEntityMixin' as rule 'mixin.world.block_entity_ticking' (added by mods [smelterhedgehog]) disables it and children
+[20:19:54] [main/INFO]: Force-disabling mixin 'world.block_entity_ticking.sleeping.campfire.CampfireBlockEntityMixin' as rule 'mixin.world.block_entity_ticking' (added by mods [smelterhedgehog]) disables it and children
+[20:19:54] [main/INFO]: Force-disabling mixin 'world.block_entity_ticking.sleeping.campfire.lit.CampfireBlockEntityMixin' as rule 'mixin.world.block_entity_ticking' (added by mods [smelterhedgehog]) disables it and children
+[20:19:54] [main/INFO]: Force-disabling mixin 'world.block_entity_ticking.sleeping.campfire.unlit.CampfireBlockEntityMixin' as rule 'mixin.world.block_entity_ticking' (added by mods [smelterhedgehog]) disables it and children
+[20:19:54] [main/INFO]: Force-disabling mixin 'world.block_entity_ticking.sleeping.crafter.CrafterBlockEntityMixin' as rule 'mixin.world.block_entity_ticking' (added by mods [smelterhedgehog]) disables it and children
+[20:19:54] [main/INFO]: Force-disabling mixin 'world.block_entity_ticking.sleeping.furnace.AbstractFurnaceBlockEntityMixin' as rule 'mixin.world.block_entity_ticking' (added by mods [smelterhedgehog]) disables it and children
+[20:19:54] [main/INFO]: Force-disabling mixin 'world.block_entity_ticking.sleeping.hopper.HopperBlockEntityMixin' as rule 'mixin.world.block_entity_ticking' (added by mods [smelterhedgehog]) disables it and children
+[20:19:54] [main/INFO]: Force-disabling mixin 'world.block_entity_ticking.sleeping.shulker_box.ShulkerBoxBlockEntityMixin' as rule 'mixin.world.block_entity_ticking' (added by mods [smelterhedgehog]) disables it and children
+[20:19:54] [main/INFO]: Force-disabling mixin 'world.block_entity_ticking.world_border.DirectBlockEntityTickInvokerMixin' as rule 'mixin.world.block_entity_ticking' (added by mods [smelterhedgehog]) disables it and children
+[20:19:54] [main/INFO]: Force-disabling mixin 'block.hopper.LevelMixin' as rule 'mixin.block.hopper' (added by mods [hopperhedgehog]) disables it and children
+[20:19:54] [main/WARN]: Error loading class: net/minecraft/class_437 (java.lang.ClassNotFoundException: net/minecraft/class_437)
+[20:19:54] [main/WARN]: @Mixin target net.minecraft.class_437 was not found owo.mixins.json:ScreenAccessor from mod owo
+[20:19:54] [main/WARN]: Error loading class: xyz/nucleoid/server/translations/impl/language/SystemDelegatedLanguage (java.lang.ClassNotFoundException: xyz/nucleoid/server/translations/impl/language/SystemDelegatedLanguage)
+[20:19:54] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[20:20:06] [main/INFO]: Initializing Axiom/4.8.0. Build timestamp: 1746396334521
+[20:20:06] [main/INFO]: Loading Collective version 8.3.
+[20:20:06] [main/INFO]: Enabled 27 bug fixes: [MC-2025, MC-7569, MC-8187, MC-30391, MC-69216, MC-88371, MC-89146, MC-93018, MC-100991, MC-119417, MC-119754, MC-121706, MC-121903, MC-129909, MC-132878, MC-155509, MC-160095, MC-179072, MC-183990, MC-199467, MC-200418, MC-206922, MC-215530, MC-223153, MC-224729, MC-231743, MC-232869]
+[20:20:06] [main/INFO]: Successfully Debugify'd your game!
+[20:20:06] [main/WARN]: en_ is not a supported Floodgate language.
+[20:20:07] [main/INFO]: Loading extensions...
+[20:20:07] [main/INFO]: Loaded 0 extension(s)
+[20:20:08] [main/INFO]: Starting Load for Hopper the Hedgehog
+[20:20:08] [main/INFO]: Load for Hopper the Hedgehog successful
+[20:20:08] [main/INFO]: Compression will use libdeflate (Linux x86_64), encryption will use OpenSSL 1.1.x (Linux x86_64)
+[20:20:08] [main/INFO]: Ksyxis: Booting... (platform: Fabric, manual: false)
+[20:20:08] [main/INFO]: Ksyxis: Found Mixin library. (version: 0.8.7)
+[20:20:08] [main/INFO]: Ksyxis: Ready. As always, this mod will speed up your world loading and might or might not break it. (1 ms)
+[20:20:08] [main/INFO]: Loading Noisium.
+[20:20:08] [main/INFO]: There is a 1% chance that instead of Frog, you get Froge!
+[20:20:08] [main/INFO]: Burning through Items faster than gacha games through wallets
+[20:20:09] [Via-Mappingloader-0/INFO]: Loading block connection mappings ...
+[20:20:09] [Via-Mappingloader-0/INFO]: Using FastUtil Long2ObjectOpenHashMap for block connections
+[20:20:09] [main/INFO]: Loading translations...
+[20:20:09] [main/INFO]: Registering protocols...
+[20:20:10] [main/INFO]: Registering protocols...
+[20:20:10] [main/INFO]: ViaVersion detected server version: 1.21.5 (770)
+[20:20:10] [ViaFabric-2/INFO]: Finished mapping loading, shutting down loader executor.
+[20:20:10] [main/INFO]: Krypton is now accelerating your Minecraft server's networking stack 🚀
+[20:20:10] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[20:20:12] [main/WARN]: Creating a MIN function between two non-overlapping inputs: class_7051[function=Direct{class_6923[value=0.15]}] and class_7051[function=Direct{class_6917[type=MUL, argument1=class_7051[function=Direct{class_6923[value=1.435]}], argument2=class_7051[function=Direct{class_6917[type=ADD, argument1=class_7051[function=Direct{class_6923[value=-0.73]}], argument2=class_7051[function=Direct{class_6925[type=ABS, input=class_7051[function=Reference{ResourceKey[minecraft:worldgen/density_function / minecraft:overworld/ridges]=class_6927[type=FlatCache, wrapped=class_7051[function=Direct{class_6927[type=Cache2D, wrapped=class_7051[function=Direct{class_6917[type=MUL, argument1=class_7051[function=Direct{class_7076[spline=class_6738[coordinate=Coordinate[Direct{class_6917[type=MUL, argument1=class_7051[function=Direct{class_6917[type=MUL, argument1=class_7051[function=Direct{class_6917[type=ADD, argument1=class_7051[function=Direct{class_6927[type=FlatCache, wrapped=class_7051[function=Direct{class_6927[type=Cache2D, wrapped=class_7051[function=Reference{ResourceKey[minecraft:worldgen/density_function / lithosphere:topography_final]=null}]]}]]}], argument2=class_7051[function=Direct{class_6923[value=0.6]}], minValue=-Infinity, maxValue=Infinity]}], argument2=class_7051[function=Direct{class_6923[value=0.9]}], minValue=-Infinity, maxValue=Infinity]}], argument2=class_7051[function=Direct{class_6923[value=0.75]}], minValue=-Infinity, maxValue=Infinity]}], locations=[F@6a5585b7, values=[class_6494[value=0.0], class_6494[value=0.05], class_6494[value=0.1], class_6494[value=0.15], class_6494[value=0.62], class_6494[value=0.63]], derivatives=[F@57e5729, minValue=-0.0125, maxValue=0.6362549]]}], argument2=class_7051[function=Direct{class_6917[type=MUL, argument1=class_7051[function=Direct{class_7076[spline=class_6738[coordinate=Coordinate[Direct{class_6925[type=ABS, input=class_7051[function=Direct{class_6931[noise=class_7270[noiseData=Reference{ResourceKey[minecraft:worldgen/noise / lithosphere:rivers]=class_5487[firstOctave=-11, amplitudes=[5.0, 3.0, 0.0, 3.0, 3.0, 1.0, 0.5, 0.5]]}, noise=null], xzScale=0.7, yScale=0.0]}], minValue=0.0, maxValue=2.0]}], locations=[F@7e758b03, values=[class_6494[value=-1.0], class_6494[value=0.0], class_6494[value=0.0], class_6494[value=0.0], class_6494[value=1.0]], derivatives=[F@1226c080, minValue=-1.0, maxValue=1.0]]}], argument2=class_7051[function=Direct{class_7076[spline=class_6738[coordinate=Coordinate[Direct{class_6931[noise=class_7270[noiseData=Reference{ResourceKey[minecraft:worldgen/noise / lithosphere:biome_variation]=class_5487[firstOctave=-9, amplitudes=[0.7, 0.6, 0.6, 0.7, 0.9, 0.9, 0.1, 0.1]]}, noise=null], xzScale=1.0, yScale=0.0]}], locations=[F@17055d9e, values=[class_6494[value=-1.0], class_6494[value=1.0]], derivatives=[F@434085df, minValue=-1.0, maxValue=1.0]]}], minValue=-1.0, maxValue=1.0]}], minValue=-0.6362549066543579, maxValue=0.6362549066543579]}]]}]]}], minValue=0.0, maxValue=0.6362549066543579]}], minValue=-0.73, maxValue=-0.09374509334564207]}], minValue=-1.04755, maxValue=-0.13452420895099637]}]
+[20:20:12] [main/WARN]: Creating a MAX function between two non-overlapping inputs: class_7051[function=Direct{class_6923[value=-0.12]}] and class_7051[function=Direct{class_6917[type=MUL, argument1=class_7051[function=Direct{class_6923[value=-1.45]}], argument2=class_7051[function=Direct{class_6917[type=ADD, argument1=class_7051[function=Direct{class_6923[value=-0.73]}], argument2=class_7051[function=Direct{class_6925[type=ABS, input=class_7051[function=Reference{ResourceKey[minecraft:worldgen/density_function / minecraft:overworld/ridges]=class_6927[type=FlatCache, wrapped=class_7051[function=Direct{class_6927[type=Cache2D, wrapped=class_7051[function=Direct{class_6917[type=MUL, argument1=class_7051[function=Direct{class_7076[spline=class_6738[coordinate=Coordinate[Direct{class_6917[type=MUL, argument1=class_7051[function=Direct{class_6917[type=MUL, argument1=class_7051[function=Direct{class_6917[type=ADD, argument1=class_7051[function=Direct{class_6927[type=FlatCache, wrapped=class_7051[function=Direct{class_6927[type=Cache2D, wrapped=class_7051[function=Reference{ResourceKey[minecraft:worldgen/density_function / lithosphere:topography_final]=null}]]}]]}], argument2=class_7051[function=Direct{class_6923[value=0.6]}], minValue=-Infinity, maxValue=Infinity]}], argument2=class_7051[function=Direct{class_6923[value=0.9]}], minValue=-Infinity, maxValue=Infinity]}], argument2=class_7051[function=Direct{class_6923[value=0.75]}], minValue=-Infinity, maxValue=Infinity]}], locations=[F@6a5585b7, values=[class_6494[value=0.0], class_6494[value=0.05], class_6494[value=0.1], class_6494[value=0.15], class_6494[value=0.62], class_6494[value=0.63]], derivatives=[F@57e5729, minValue=-0.0125, maxValue=0.6362549]]}], argument2=class_7051[function=Direct{class_6917[type=MUL, argument1=class_7051[function=Direct{class_7076[spline=class_6738[coordinate=Coordinate[Direct{class_6925[type=ABS, input=class_7051[function=Direct{class_6931[noise=class_7270[noiseData=Reference{ResourceKey[minecraft:worldgen/noise / lithosphere:rivers]=class_5487[firstOctave=-11, amplitudes=[5.0, 3.0, 0.0, 3.0, 3.0, 1.0, 0.5, 0.5]]}, noise=null], xzScale=0.7, yScale=0.0]}], minValue=0.0, maxValue=2.0]}], locations=[F@7e758b03, values=[class_6494[value=-1.0], class_6494[value=0.0], class_6494[value=0.0], class_6494[value=0.0], class_6494[value=1.0]], derivatives=[F@1226c080, minValue=-1.0, maxValue=1.0]]}], argument2=class_7051[function=Direct{class_7076[spline=class_6738[coordinate=Coordinate[Direct{class_6931[noise=class_7270[noiseData=Reference{ResourceKey[minecraft:worldgen/noise / lithosphere:biome_variation]=class_5487[firstOctave=-9, amplitudes=[0.7, 0.6, 0.6, 0.7, 0.9, 0.9, 0.1, 0.1]]}, noise=null], xzScale=1.0, yScale=0.0]}], locations=[F@17055d9e, values=[class_6494[value=-1.0], class_6494[value=1.0]], derivatives=[F@434085df, minValue=-1.0, maxValue=1.0]]}], minValue=-1.0, maxValue=1.0]}], minValue=-0.6362549066543579, maxValue=0.6362549066543579]}]]}]]}], minValue=0.0, maxValue=0.6362549066543579]}], minValue=-0.73, maxValue=-0.09374509334564207]}], minValue=0.135930385351181, maxValue=1.0585]}]
+[20:20:12] [main/WARN]: Creating a MIN function between two non-overlapping inputs: class_7051[function=Direct{class_6923[value=0.15]}] and class_7051[function=Direct{class_6917[type=MUL, argument1=class_7051[function=Direct{class_6923[value=-2.25]}], argument2=class_7051[function=Direct{class_6917[type=ADD, argument1=class_7051[function=Direct{class_6923[value=0.68]}], argument2=class_7051[function=Reference{ResourceKey[minecraft:worldgen/density_function / minecraft:overworld/ridges]=class_6927[type=FlatCache, wrapped=class_7051[function=Direct{class_6927[type=Cache2D, wrapped=class_7051[function=Direct{class_6917[type=MUL, argument1=class_7051[function=Direct{class_7076[spline=class_6738[coordinate=Coordinate[Direct{class_6917[type=MUL, argument1=class_7051[function=Direct{class_6917[type=MUL, argument1=class_7051[function=Direct{class_6917[type=ADD, argument1=class_7051[function=Direct{class_6927[type=FlatCache, wrapped=class_7051[function=Direct{class_6927[type=Cache2D, wrapped=class_7051[function=Reference{ResourceKey[minecraft:worldgen/density_function / lithosphere:topography_final]=null}]]}]]}], argument2=class_7051[function=Direct{class_6923[value=0.6]}], minValue=-Infinity, maxValue=Infinity]}], argument2=class_7051[function=Direct{class_6923[value=0.9]}], minValue=-Infinity, maxValue=Infinity]}], argument2=class_7051[function=Direct{class_6923[value=0.75]}], minValue=-Infinity, maxValue=Infinity]}], locations=[F@6a5585b7, values=[class_6494[value=0.0], class_6494[value=0.05], class_6494[value=0.1], class_6494[value=0.15], class_6494[value=0.62], class_6494[value=0.63]], derivatives=[F@57e5729, minValue=-0.0125, maxValue=0.6362549]]}], argument2=class_7051[function=Direct{class_6917[type=MUL, argument1=class_7051[function=Direct{class_7076[spline=class_6738[coordinate=Coordinate[Direct{class_6925[type=ABS, input=class_7051[function=Direct{class_6931[noise=class_7270[noiseData=Reference{ResourceKey[minecraft:worldgen/noise / lithosphere:rivers]=class_5487[firstOctave=-11, amplitudes=[5.0, 3.0, 0.0, 3.0, 3.0, 1.0, 0.5, 0.5]]}, noise=null], xzScale=0.7, yScale=0.0]}], minValue=0.0, maxValue=2.0]}], locations=[F@7e758b03, values=[class_6494[value=-1.0], class_6494[value=0.0], class_6494[value=0.0], class_6494[value=0.0], class_6494[value=1.0]], derivatives=[F@1226c080, minValue=-1.0, maxValue=1.0]]}], argument2=class_7051[function=Direct{class_7076[spline=class_6738[coordinate=Coordinate[Direct{class_6931[noise=class_7270[noiseData=Reference{ResourceKey[minecraft:worldgen/noise / lithosphere:biome_variation]=class_5487[firstOctave=-9, amplitudes=[0.7, 0.6, 0.6, 0.7, 0.9, 0.9, 0.1, 0.1]]}, noise=null], xzScale=1.0, yScale=0.0]}], locations=[F@17055d9e, values=[class_6494[value=-1.0], class_6494[value=1.0]], derivatives=[F@434085df, minValue=-1.0, maxValue=1.0]]}], minValue=-1.0, maxValue=1.0]}], minValue=-0.6362549066543579, maxValue=0.6362549066543579]}]]}]]}], minValue=0.04374509334564214, maxValue=1.316254906654358]}], minValue=-2.9615735399723055, maxValue=-0.09842646002769481]}]
+[20:20:12] [main/WARN]: Creating a MAX function between two non-overlapping inputs: class_7051[function=Direct{class_6923[value=-0.12]}] and class_7051[function=Direct{class_6917[type=MUL, argument1=class_7051[function=Direct{class_6923[value=1.2]}], argument2=class_7051[function=Direct{class_6917[type=ADD, argument1=class_7051[function=Direct{class_6923[value=0.72]}], argument2=class_7051[function=Reference{ResourceKey[minecraft:worldgen/density_function / minecraft:overworld/ridges]=class_6927[type=FlatCache, wrapped=class_7051[function=Direct{class_6927[type=Cache2D, wrapped=class_7051[function=Direct{class_6917[type=MUL, argument1=class_7051[function=Direct{class_7076[spline=class_6738[coordinate=Coordinate[Direct{class_6917[type=MUL, argument1=class_7051[function=Direct{class_6917[type=MUL, argument1=class_7051[function=Direct{class_6917[type=ADD, argument1=class_7051[function=Direct{class_6927[type=FlatCache, wrapped=class_7051[function=Direct{class_6927[type=Cache2D, wrapped=class_7051[function=Reference{ResourceKey[minecraft:worldgen/density_function / lithosphere:topography_final]=null}]]}]]}], argument2=class_7051[function=Direct{class_6923[value=0.6]}], minValue=-Infinity, maxValue=Infinity]}], argument2=class_7051[function=Direct{class_6923[value=0.9]}], minValue=-Infinity, maxValue=Infinity]}], argument2=class_7051[function=Direct{class_6923[value=0.75]}], minValue=-Infinity, maxValue=Infinity]}], locations=[F@6a5585b7, values=[class_6494[value=0.0], class_6494[value=0.05], class_6494[value=0.1], class_6494[value=0.15], class_6494[value=0.62], class_6494[value=0.63]], derivatives=[F@57e5729, minValue=-0.0125, maxValue=0.6362549]]}], argument2=class_7051[function=Direct{class_6917[type=MUL, argument1=class_7051[function=Direct{class_7076[spline=class_6738[coordinate=Coordinate[Direct{class_6925[type=ABS, input=class_7051[function=Direct{class_6931[noise=class_7270[noiseData=Reference{ResourceKey[minecraft:worldgen/noise / lithosphere:rivers]=class_5487[firstOctave=-11, amplitudes=[5.0, 3.0, 0.0, 3.0, 3.0, 1.0, 0.5, 0.5]]}, noise=null], xzScale=0.7, yScale=0.0]}], minValue=0.0, maxValue=2.0]}], locations=[F@7e758b03, values=[class_6494[value=-1.0], class_6494[value=0.0], class_6494[value=0.0], class_6494[value=0.0], class_6494[value=1.0]], derivatives=[F@1226c080, minValue=-1.0, maxValue=1.0]]}], argument2=class_7051[function=Direct{class_7076[spline=class_6738[coordinate=Coordinate[Direct{class_6931[noise=class_7270[noiseData=Reference{ResourceKey[minecraft:worldgen/noise / lithosphere:biome_variation]=class_5487[firstOctave=-9, amplitudes=[0.7, 0.6, 0.6, 0.7, 0.9, 0.9, 0.1, 0.1]]}, noise=null], xzScale=1.0, yScale=0.0]}], locations=[F@17055d9e, values=[class_6494[value=-1.0], class_6494[value=1.0]], derivatives=[F@434085df, minValue=-1.0, maxValue=1.0]]}], minValue=-1.0, maxValue=1.0]}], minValue=-0.6362549066543579, maxValue=0.6362549066543579]}]]}]]}], minValue=0.08374509334564206, maxValue=1.3562549066543579]}], minValue=0.10049411201477047, maxValue=1.6275058879852293]}]
+[20:20:15] [main/INFO]: Loaded 1380 recipes
+[20:20:15] [main/INFO]: Loaded 1546 advancements
+[20:20:15] [main/INFO]: Registered region minecraft:overworld to index 0 for type OVERWORLD
+[20:20:15] [main/INFO]: Registered region minecraft:nether to index 0 for type NETHER
+[20:20:15] [main/INFO]: Initialized TerraBlender biomes for level stem minecraft:overworld
+[20:20:15] [main/INFO]: Initialized TerraBlender biomes for level stem minecraft:the_nether
+[20:20:15] [main/INFO]: Applied 0 biome modifications to 0 of 169 new biomes in 6.864 ms
+[20:20:16] [Server thread/INFO]: Starting background profiler...
+[20:20:17] [Server thread/INFO]: Starting minecraft server version 1.21.5
+[20:20:17] [Server thread/INFO]: Loading properties
+[20:20:17] [Server thread/INFO]: Default game type: SURVIVAL
+[20:20:17] [Server thread/INFO]: Generating keypair
+[20:20:17] [Server thread/INFO]: Starting Minecraft server on *:25565
+[20:20:17] [Server thread/INFO]: Using epoll channel type
+[20:20:17] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[20:20:17] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[20:20:17] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[20:20:17] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[20:20:17] [Server thread/INFO]: Preparing level "world"
+[20:20:17] [Server thread/INFO]: Enforcing safe world random access
+[20:20:19] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 1.056 s
+[20:20:19] [Server thread/INFO]: Using TheSpeedyObjectFactory with Unsafe
+[20:20:20] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 96.51 ms
+[20:20:20] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 20.16 ms
+[20:20:20] [Server thread/INFO]: Ksyxis: Hey. This is Ksyxis. We will now load the world and will try to do it quickly. If the game is not responding after this, it's probably us to blame or delete for good. This message appears always, even if the mod works flawlessly. (modern)
+[20:20:20] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[20:20:20] [Server thread/INFO]: Time elapsed: 3 ms
+[20:20:20] [Server thread/INFO]: Done (3.519s)! For help, type "help"
+[20:20:20] [Server thread/INFO]: Took 51ms to boot Floodgate
+[20:20:20] [Server thread/INFO]: ******************************************
+[20:20:20] [Server thread/INFO]: 
+[20:20:20] [Server thread/INFO]: Loading Geyser version 2.7.1-b852 (git-master-17baaf6)
+[20:20:20] [Server thread/INFO]: 
+[20:20:20] [Server thread/INFO]: ******************************************
+[20:20:28] [epollEventLoopGroup-3-1/INFO]: Started Geyser on UDP port 19132
+[20:20:28] [Server thread/INFO]: Done (7.944s)! Run /geyser help for help!
+[20:20:28] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8108ms or 162 ticks behind
+[20:21:18] [spark-worker-pool-1-thread-1/INFO]: [⚡] Calculating GC statistics...
+[20:21:18] [spark-worker-pool-1-thread-1/INFO]: 
+> Garbage Collector statistics
+
+    G1 Young Generation collector:
+      101.75 ms avg, 8 total collections
+      7s avg frequency
+
+    G1 Concurrent GC collector:
+      14.25 ms avg, 4 total collections
+      15s avg frequency
+
+    G1 Old Generation collector:
+      0 collections
+[20:21:28] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[20:21:42] [Server thread/INFO]: ciphergamer1123[/127.15.121.75:33529] logged in with entity id 12 at (-236.86171325215156, 61.105681615990896, -582.0786590901209)
+[20:21:42] [Server thread/INFO]: Sending server config values to client
+[20:21:42] [Server thread/INFO]: ciphergamer1123 joined the game
+[20:24:25] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 35 chunks (0.21%), ETA: 0:30:47, Rate: 9.0 cps, Current: 7, 0
+[20:24:26] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 46 chunks (0.28%), ETA: 0:30:48, Rate: 9.0 cps, Current: 13, 0
+[20:24:27] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 64 chunks (0.38%), ETA: 0:26:53, Rate: 10.3 cps, Current: 7, 2
+[20:24:29] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 77 chunks (0.46%), ETA: 0:26:02, Rate: 10.6 cps, Current: 9, 3
+[20:24:30] [c2me-worker-2/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 91 chunks (0.55%), ETA: 0:25:24, Rate: 10.9 cps, Current: 6, 5
+[20:24:31] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 94 chunks (0.56%), ETA: 0:28:12, Rate: 9.8 cps, Current: 9, 5
+[20:24:32] [c2me-worker-1/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 105 chunks (0.63%), ETA: 0:27:58, Rate: 9.9 cps, Current: 14, 10
+[20:24:33] [c2me-worker-0/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 129 chunks (0.78%), ETA: 0:25:17, Rate: 10.9 cps, Current: 10, 15
+[20:24:34] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 159 chunks (0.96%), ETA: 0:22:15, Rate: 12.3 cps, Current: 11, 10
+[20:24:35] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=186, y=-6, z=458}
+[20:24:35] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=182, y=-6, z=460}
+[20:24:35] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=180, y=-6, z=458}
+[20:24:35] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 168 chunks (1.01%), ETA: 0:23:07, Rate: 11.9 cps, Current: 9, 7
+[20:24:37] [c2me-worker-1/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 184 chunks (1.11%), ETA: 0:23:08, Rate: 11.8 cps, Current: 7, 7
+[20:24:38] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 245 chunks (1.47%), ETA: 0:18:29, Rate: 14.8 cps, Current: 4, 7
+[20:24:39] [c2me-worker-0/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 279 chunks (1.68%), ETA: 0:17:11, Rate: 15.9 cps, Current: 1, 21
+[20:24:40] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 312 chunks (1.87%), ETA: 0:16:22, Rate: 16.6 cps, Current: 0, 5
+[20:24:42] [c2me-worker-0/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 325 chunks (1.95%), ETA: 0:17:00, Rate: 16.0 cps, Current: 0, 25
+[20:24:42] [Server thread/INFO]: [ciphergamer1123: Set own game mode to Spectator Mode]
+[20:24:43] [c2me-worker-2/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 333 chunks (2.00%), ETA: 0:17:30, Rate: 15.5 cps, Current: 1, 27
+[20:24:45] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 1033 chunks (6.21%), ETA: 0:06:00, Rate: 43.3 cps, Current: 33, 4
+[20:24:46] [c2me-worker-2/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 1045 chunks (6.28%), ETA: 0:06:15, Rate: 41.5 cps, Current: 37, 4
+[20:24:47] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 1054 chunks (6.33%), ETA: 0:06:27, Rate: 40.2 cps, Current: 34, 1
+[20:24:49] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 1065 chunks (6.40%), ETA: 0:06:38, Rate: 39.0 cps, Current: 36, 1
+[20:24:50] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 1078 chunks (6.48%), ETA: 0:06:49, Rate: 38.0 cps, Current: 39, 4
+[20:24:51] [c2me-worker-1/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 1082 chunks (6.50%), ETA: 0:07:05, Rate: 36.6 cps, Current: 38, 1
+[20:24:55] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 1085 chunks (6.52%), ETA: 0:07:15, Rate: 35.7 cps, Current: 41, 2
+[20:24:56] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 1110 chunks (6.67%), ETA: 0:07:07, Rate: 36.3 cps, Current: 39, 7
+[20:24:57] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 1123 chunks (6.75%), ETA: 0:07:08, Rate: 36.2 cps, Current: 43, 6
+[20:24:58] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 1135 chunks (6.82%), ETA: 0:07:08, Rate: 36.2 cps, Current: 40, 7
+[20:24:59] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 1145 chunks (6.88%), ETA: 0:07:09, Rate: 36.1 cps, Current: 42, 8
+[20:25:01] [c2me-worker-2/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 1152 chunks (6.92%), ETA: 0:07:10, Rate: 36.0 cps, Current: 45, 11
+[20:25:02] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 1163 chunks (6.99%), ETA: 0:07:13, Rate: 35.7 cps, Current: 46, 9
+[20:25:03] [c2me-worker-0/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 1176 chunks (7.07%), ETA: 0:07:20, Rate: 35.1 cps, Current: 41, 11
+[20:25:04] [c2me-worker-0/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 1183 chunks (7.11%), ETA: 0:07:17, Rate: 35.3 cps, Current: 43, 13
+[20:25:05] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 1187 chunks (7.13%), ETA: 0:07:21, Rate: 35.0 cps, Current: 39, 10
+[20:25:07] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 1229 chunks (7.39%), ETA: 0:07:18, Rate: 35.2 cps, Current: 34, 13
+[20:25:08] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 1252 chunks (7.52%), ETA: 0:07:34, Rate: 33.9 cps, Current: 47, 11
+[20:25:09] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 1259 chunks (7.57%), ETA: 0:07:50, Rate: 32.7 cps, Current: 37, 14
+[20:25:10] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 1270 chunks (7.63%), ETA: 0:07:58, Rate: 32.2 cps, Current: 37, 16
+[20:25:11] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 1281 chunks (7.70%), ETA: 0:07:51, Rate: 32.6 cps, Current: 38, 14
+[20:25:12] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 1306 chunks (7.85%), ETA: 0:07:40, Rate: 33.3 cps, Current: 45, 15
+[20:25:13] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 1324 chunks (7.96%), ETA: 0:24:19, Rate: 10.5 cps, Current: 37, 18
+[20:25:14] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 1336 chunks (8.03%), ETA: 0:24:22, Rate: 10.5 cps, Current: 34, 22
+[20:25:15] [c2me-worker-1/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 1346 chunks (8.09%), ETA: 0:24:26, Rate: 10.4 cps, Current: 35, 23
+[20:25:17] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 1365 chunks (8.20%), ETA: 0:23:40, Rate: 10.8 cps, Current: 37, 29
+[20:25:18] [c2me-worker-1/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 1377 chunks (8.27%), ETA: 0:23:55, Rate: 10.6 cps, Current: 38, 24
+[20:25:19] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 1387 chunks (8.33%), ETA: 0:24:08, Rate: 10.5 cps, Current: 39, 25
+[20:25:20] [c2me-worker-1/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 1396 chunks (8.39%), ETA: 0:23:41, Rate: 10.7 cps, Current: 41, 26
+[20:25:21] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 1403 chunks (8.43%), ETA: 0:21:19, Rate: 11.9 cps, Current: 34, 30
+[20:25:22] [c2me-worker-2/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 1415 chunks (8.50%), ETA: 0:21:21, Rate: 11.9 cps, Current: 36, 30
+[20:25:24] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 1428 chunks (8.58%), ETA: 0:21:22, Rate: 11.9 cps, Current: 43, 27
+[20:25:25] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 1437 chunks (8.64%), ETA: 0:22:21, Rate: 11.3 cps, Current: 42, 24
+[20:25:26] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 1444 chunks (8.68%), ETA: 0:22:54, Rate: 11.1 cps, Current: 45, 23
+[20:25:27] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 1468 chunks (8.82%), ETA: 0:22:01, Rate: 11.5 cps, Current: 46, 24
+[20:25:28] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 1490 chunks (8.95%), ETA: 0:21:15, Rate: 11.9 cps, Current: 44, 20
+[20:25:30] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 1511 chunks (9.08%), ETA: 0:20:08, Rate: 12.5 cps, Current: 48, 18
+[20:25:31] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 1516 chunks (9.11%), ETA: 0:20:42, Rate: 12.2 cps, Current: 51, 17
+[20:25:32] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 1524 chunks (9.16%), ETA: 0:21:03, Rate: 12.0 cps, Current: 47, 19
+[20:25:33] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 1537 chunks (9.24%), ETA: 0:20:40, Rate: 12.2 cps, Current: 54, 21
+[20:25:35] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 1559 chunks (9.37%), ETA: 0:19:44, Rate: 12.7 cps, Current: 41, 31
+[20:25:36] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 1577 chunks (9.48%), ETA: 0:21:04, Rate: 11.9 cps, Current: 48, 25
+[20:25:37] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 1592 chunks (9.57%), ETA: 0:21:32, Rate: 11.6 cps, Current: 49, 28
+[20:25:38] [c2me-worker-0/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 1599 chunks (9.61%), ETA: 0:21:28, Rate: 11.7 cps, Current: 48, 30
+[20:25:39] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 1603 chunks (9.63%), ETA: 0:21:58, Rate: 11.4 cps, Current: 51, 23
+[20:25:40] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 1631 chunks (9.80%), ETA: 0:20:50, Rate: 12.0 cps, Current: 54, 28
+[20:25:41] [c2me-worker-2/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 1634 chunks (9.82%), ETA: 0:22:11, Rate: 11.3 cps, Current: 47, 31
+[20:25:42] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 1642 chunks (9.87%), ETA: 0:23:02, Rate: 10.9 cps, Current: 56, 26
+[20:25:43] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 1652 chunks (9.93%), ETA: 0:23:00, Rate: 10.9 cps, Current: 57, 29
+[20:25:45] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 1660 chunks (9.98%), ETA: 0:23:14, Rate: 10.7 cps, Current: 60, 29
+[20:25:46] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 1667 chunks (10.02%), ETA: 0:24:18, Rate: 10.3 cps, Current: 62, 28
+[20:25:47] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 1678 chunks (10.08%), ETA: 0:24:02, Rate: 10.4 cps, Current: 51, 16
+[20:25:48] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 1688 chunks (10.14%), ETA: 0:24:02, Rate: 10.4 cps, Current: 55, 24
+[20:25:49] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 1698 chunks (10.20%), ETA: 0:23:54, Rate: 10.4 cps, Current: 59, 23
+[20:25:50] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 1716 chunks (10.31%), ETA: 0:22:54, Rate: 10.9 cps, Current: 57, 21
+[20:25:51] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 1731 chunks (10.40%), ETA: 0:22:36, Rate: 11.0 cps, Current: 55, 17
+[20:25:52] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 1743 chunks (10.47%), ETA: 0:22:38, Rate: 11.0 cps, Current: 58, 31
+[20:25:54] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 1752 chunks (10.53%), ETA: 0:22:43, Rate: 10.9 cps, Current: 63, 27
+[20:25:55] [c2me-worker-0/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 1756 chunks (10.55%), ETA: 0:22:55, Rate: 10.8 cps, Current: 56, 18
+[20:25:56] [c2me-worker-0/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 1775 chunks (10.67%), ETA: 0:22:21, Rate: 11.1 cps, Current: 59, 16
+[20:25:57] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 1777 chunks (10.68%), ETA: 0:25:06, Rate: 9.9 cps, Current: 61, 20
+[20:25:58] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 1783 chunks (10.71%), ETA: 0:25:47, Rate: 9.6 cps, Current: 61, 14
+[20:25:59] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 1787 chunks (10.74%), ETA: 0:26:19, Rate: 9.4 cps, Current: 60, 15
+[20:26:00] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 1793 chunks (10.77%), ETA: 0:26:07, Rate: 9.5 cps, Current: 60, 10
+[20:26:01] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 1811 chunks (10.88%), ETA: 0:24:59, Rate: 9.9 cps, Current: 62, 15
+[20:26:03] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 1821 chunks (10.94%), ETA: 0:25:23, Rate: 9.7 cps, Current: 62, 9
+[20:26:04] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 1831 chunks (11.00%), ETA: 0:26:12, Rate: 9.4 cps, Current: 48, 15
+[20:26:05] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 1849 chunks (11.11%), ETA: 0:26:21, Rate: 9.4 cps, Current: 54, 13
+[20:26:06] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 1865 chunks (11.21%), ETA: 0:26:12, Rate: 9.4 cps, Current: 48, 10
+[20:26:07] [c2me-worker-1/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 1892 chunks (11.37%), ETA: 0:24:24, Rate: 10.1 cps, Current: 63, 21
+[20:26:09] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 1900 chunks (11.42%), ETA: 0:24:18, Rate: 10.1 cps, Current: 48, 7
+[20:26:10] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 1919 chunks (11.53%), ETA: 0:25:08, Rate: 9.8 cps, Current: 48, 3
+[20:26:11] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 1927 chunks (11.58%), ETA: 0:24:43, Rate: 9.9 cps, Current: 52, 5
+[20:26:12] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 1936 chunks (11.63%), ETA: 0:24:47, Rate: 9.9 cps, Current: 48, 1
+[20:26:14] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 1948 chunks (11.71%), ETA: 0:25:07, Rate: 9.7 cps, Current: 53, 1
+[20:26:15] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 1968 chunks (11.83%), ETA: 0:23:51, Rate: 10.3 cps, Current: 58, 2
+[20:26:17] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 1981 chunks (11.90%), ETA: 0:23:40, Rate: 10.3 cps, Current: 58, 4
+[20:26:18] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 2001 chunks (12.02%), ETA: 0:22:54, Rate: 10.6 cps, Current: 63, 10
+[20:26:19] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 2013 chunks (12.10%), ETA: 0:22:42, Rate: 10.7 cps, Current: 61, 3
+[20:26:20] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 2026 chunks (12.17%), ETA: 0:23:54, Rate: 10.2 cps, Current: 63, 7
+[20:26:21] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 2033 chunks (12.22%), ETA: 0:24:12, Rate: 10.1 cps, Current: 52, 0
+[20:26:24] [c2me-worker-1/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 2049 chunks (12.31%), ETA: 0:23:55, Rate: 10.2 cps, Current: 32, -32
+[20:26:26] [Server thread/INFO]: [ciphergamer1123: Set own game mode to Creative Mode]
+[20:26:27] [c2me-worker-2/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 2057 chunks (12.36%), ETA: 0:25:42, Rate: 9.5 cps, Current: 33, -31
+[20:26:28] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 2070 chunks (12.44%), ETA: 0:24:53, Rate: 9.8 cps, Current: 34, -30
+[20:26:30] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 2079 chunks (12.49%), ETA: 0:25:08, Rate: 9.7 cps, Current: 33, -26
+[20:26:30] [Server thread/INFO]: ciphergamer1123 has made the advancement [Ice Bucket Challenge]
+[20:26:32] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 2089 chunks (12.55%), ETA: 0:26:21, Rate: 9.2 cps, Current: 35, -31
+[20:26:33] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 2099 chunks (12.61%), ETA: 0:26:24, Rate: 9.2 cps, Current: 41, -31
+[20:26:34] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 2108 chunks (12.67%), ETA: 0:27:09, Rate: 8.9 cps, Current: 46, -30
+[20:26:35] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 2119 chunks (12.73%), ETA: 0:27:38, Rate: 8.8 cps, Current: 43, -28
+[20:26:35] [c2me-worker-1/WARN]: Couldn't find template pool reference: ctov:pillager_outpost/mountain/towers
+[20:26:36] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 2135 chunks (12.83%), ETA: 0:28:43, Rate: 8.4 cps, Current: 41, -26
+[20:26:37] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 2137 chunks (12.84%), ETA: 0:29:16, Rate: 8.3 cps, Current: 43, -26
+[20:26:39] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 2142 chunks (12.87%), ETA: 0:31:13, Rate: 7.7 cps, Current: 34, -25
+[20:26:40] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 2158 chunks (12.97%), ETA: 0:30:09, Rate: 8.0 cps, Current: 42, -24
+[20:26:41] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 2167 chunks (13.02%), ETA: 0:29:53, Rate: 8.1 cps, Current: 42, -22
+[20:26:43] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 2177 chunks (13.08%), ETA: 0:30:13, Rate: 8.0 cps, Current: 45, -20
+[20:26:44] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 2185 chunks (13.13%), ETA: 0:30:14, Rate: 8.0 cps, Current: 46, -18
+[20:26:45] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 2198 chunks (13.21%), ETA: 0:31:09, Rate: 7.7 cps, Current: 40, -21
+[20:26:46] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 2201 chunks (13.23%), ETA: 0:32:31, Rate: 7.4 cps, Current: 42, -18
+[20:26:48] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 2223 chunks (13.36%), ETA: 0:32:09, Rate: 7.5 cps, Current: 38, -23
+[20:26:49] [c2me-worker-0/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 2269 chunks (13.63%), ETA: 0:27:49, Rate: 8.6 cps, Current: 47, -27
+[20:26:50] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 2273 chunks (13.66%), ETA: 0:28:32, Rate: 8.4 cps, Current: 40, -32
+[20:26:51] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 2285 chunks (13.73%), ETA: 0:27:58, Rate: 8.6 cps, Current: 36, -17
+[20:26:52] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 2295 chunks (13.79%), ETA: 0:27:19, Rate: 8.7 cps, Current: 33, -14
+[20:26:53] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 2304 chunks (13.85%), ETA: 0:27:19, Rate: 8.7 cps, Current: 37, -13
+[20:26:54] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 2309 chunks (13.88%), ETA: 0:25:11, Rate: 9.5 cps, Current: 35, -11
+[20:27:02] [Server thread/INFO]: ciphergamer1123 has made the advancement [We Need to Go Deeper]
+[20:27:02] [Server thread/INFO]: ciphergamer1123 has made the advancement [Incendium]
+[20:27:07] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11897ms or 237 ticks behind
+[20:27:07] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 2333 chunks (14.02%), ETA: 0:35:49, Rate: 6.7 cps, Current: 33, -10
+[20:27:08] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 2353 chunks (14.14%), ETA: 0:32:56, Rate: 7.2 cps, Current: 33, -5
+[20:27:09] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 2365 chunks (14.21%), ETA: 0:33:32, Rate: 7.1 cps, Current: 34, -4
+[20:27:11] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 2379 chunks (14.30%), ETA: 0:32:44, Rate: 7.3 cps, Current: 47, -22
+[20:27:13] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 2384 chunks (14.33%), ETA: 0:33:28, Rate: 7.1 cps, Current: 40, -17
+[20:27:14] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 2395 chunks (14.39%), ETA: 0:33:10, Rate: 7.2 cps, Current: 39, -14
+[20:27:15] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 2412 chunks (14.49%), ETA: 0:32:33, Rate: 7.3 cps, Current: 37, -2
+[20:27:16] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 2436 chunks (14.64%), ETA: 0:29:35, Rate: 8.0 cps, Current: 40, -1
+[20:27:17] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 2443 chunks (14.68%), ETA: 0:31:30, Rate: 7.5 cps, Current: 41, -7
+[20:27:19] [c2me-worker-1/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 2457 chunks (14.76%), ETA: 0:36:39, Rate: 6.4 cps, Current: 43, -6
+[20:27:20] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 2473 chunks (14.86%), ETA: 0:36:14, Rate: 6.5 cps, Current: 45, -1
+[20:27:21] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 2487 chunks (14.95%), ETA: 0:35:35, Rate: 6.6 cps, Current: 40, -10
+[20:27:22] [c2me-worker-2/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 2519 chunks (15.14%), ETA: 0:31:41, Rate: 7.4 cps, Current: 44, -12
+[20:27:24] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 2533 chunks (15.22%), ETA: 0:31:04, Rate: 7.6 cps, Current: 46, -14
+[20:27:25] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 2547 chunks (15.31%), ETA: 0:19:53, Rate: 11.8 cps, Current: 47, -14
+[20:27:26] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 2561 chunks (15.39%), ETA: 0:19:44, Rate: 11.9 cps, Current: 47, -12
+[20:27:27] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 2578 chunks (15.49%), ETA: 0:19:21, Rate: 12.1 cps, Current: 51, -15
+[20:27:28] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 2588 chunks (15.55%), ETA: 0:19:33, Rate: 12.0 cps, Current: 47, -8
+[20:27:30] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 2603 chunks (15.64%), ETA: 0:19:23, Rate: 12.1 cps, Current: 54, -13
+[20:27:31] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 2625 chunks (15.77%), ETA: 0:18:45, Rate: 12.5 cps, Current: 50, -5
+[20:27:32] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 2657 chunks (15.97%), ETA: 0:17:41, Rate: 13.2 cps, Current: 54, -9
+[20:27:33] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 2672 chunks (16.06%), ETA: 0:17:39, Rate: 13.2 cps, Current: 56, -6
+[20:27:34] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 2688 chunks (16.15%), ETA: 0:17:30, Rate: 13.3 cps, Current: 60, -1
+[20:27:34] [Server thread/INFO]: ciphergamer1123 has made the advancement [Strange Biomes]
+[20:27:34] [Server thread/INFO]: ciphergamer1123 has made the advancement [Hellish Paradise]
+[20:27:35] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 2696 chunks (16.20%), ETA: 0:17:49, Rate: 13.0 cps, Current: 61, -3
+[20:27:36] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 2716 chunks (16.32%), ETA: 0:17:41, Rate: 13.1 cps, Current: 55, -8
+[20:27:37] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 2728 chunks (16.39%), ETA: 0:18:07, Rate: 12.8 cps, Current: 59, -9
+[20:27:39] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 2748 chunks (16.51%), ETA: 0:17:45, Rate: 13.0 cps, Current: 62, -10
+[20:27:40] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 2759 chunks (16.58%), ETA: 0:17:14, Rate: 13.4 cps, Current: 56, -14
+[20:27:41] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 2773 chunks (16.66%), ETA: 0:17:28, Rate: 13.2 cps, Current: 61, -12
+[20:27:43] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 2785 chunks (16.74%), ETA: 0:17:29, Rate: 13.2 cps, Current: 62, -15
+[20:27:44] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 2791 chunks (16.77%), ETA: 0:17:52, Rate: 12.9 cps, Current: 62, -18
+[20:27:45] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 2794 chunks (16.79%), ETA: 0:18:55, Rate: 12.2 cps, Current: 62, -20
+[20:27:47] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 2802 chunks (16.84%), ETA: 0:19:10, Rate: 12.0 cps, Current: 60, -21
+[20:27:47] [Server thread/INFO]: ciphergamer1123 has made the advancement [Darude - Firestorm]
+[20:27:48] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 2812 chunks (16.90%), ETA: 0:18:59, Rate: 12.1 cps, Current: 60, -23
+[20:27:49] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 2823 chunks (16.96%), ETA: 0:19:03, Rate: 12.1 cps, Current: 58, -19
+[20:27:49] [c2me-worker-1/ERROR]: Block-attached entity at invalid position: class_2338{x=-68, y=-51, z=53}
+[20:27:50] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 2846 chunks (17.10%), ETA: 0:18:29, Rate: 12.4 cps, Current: 55, -18
+[20:27:51] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 2873 chunks (17.26%), ETA: 0:18:52, Rate: 12.2 cps, Current: 51, -20
+[20:27:52] [c2me-worker-1/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 2893 chunks (17.38%), ETA: 0:18:07, Rate: 12.6 cps, Current: 54, -22
+[20:27:54] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 2906 chunks (17.46%), ETA: 0:18:20, Rate: 12.5 cps, Current: 54, -24
+[20:27:55] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 2929 chunks (17.60%), ETA: 0:17:42, Rate: 12.9 cps, Current: 49, -27
+[20:27:56] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 2947 chunks (17.71%), ETA: 0:17:33, Rate: 13.0 cps, Current: 49, -30
+[20:27:57] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 2964 chunks (17.81%), ETA: 0:17:30, Rate: 13.0 cps, Current: 52, -31
+[20:27:59] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 2974 chunks (17.87%), ETA: 0:17:53, Rate: 12.7 cps, Current: 53, -30
+[20:28:00] [c2me-worker-0/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 2989 chunks (17.96%), ETA: 0:18:11, Rate: 12.5 cps, Current: 56, -24
+[20:28:01] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 3006 chunks (18.06%), ETA: 0:18:52, Rate: 12.0 cps, Current: 60, -24
+[20:28:02] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 3018 chunks (18.14%), ETA: 0:19:21, Rate: 11.7 cps, Current: 63, -21
+[20:28:03] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 3037 chunks (18.25%), ETA: 0:19:11, Rate: 11.8 cps, Current: 60, -30
+[20:28:05] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 3049 chunks (18.32%), ETA: 0:18:54, Rate: 12.0 cps, Current: 62, -31
+[20:28:05] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=-187, y=-54, z=56}
+[20:28:05] [c2me-worker-1/ERROR]: Block-attached entity at invalid position: class_2338{x=-68, y=-51, z=70}
+[20:28:06] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 3050 chunks (18.33%), ETA: 0:19:47, Rate: 11.4 cps, Current: 48, -32
+[20:28:07] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 3061 chunks (18.39%), ETA: 0:19:48, Rate: 11.4 cps, Current: 59, -32
+[20:28:08] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 3071 chunks (18.45%), ETA: 0:20:20, Rate: 11.1 cps, Current: 62, -32
+[20:28:09] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=-229, y=-45, z=70}
+[20:28:09] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=-227, y=-45, z=71}
+[20:28:09] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=-228, y=-45, z=72}
+[20:28:09] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=-228, y=-45, z=69}
+[20:28:14] [c2me-worker-2/ERROR]: Block-attached entity at invalid position: class_2338{x=-197, y=-53, z=89}
+[20:28:17] [c2me-worker-2/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 3073 chunks (18.47%), ETA: 0:24:45, Rate: 9.1 cps, Current: 0, -32
+[20:28:19] [c2me-worker-1/ERROR]: Block-attached entity at invalid position: class_2338{x=-195, y=-53, z=95}
+[20:28:19] [c2me-worker-1/ERROR]: Block-attached entity at invalid position: class_2338{x=-48, y=-51, z=112}
+[20:28:19] [c2me-worker-1/ERROR]: Block-attached entity at invalid position: class_2338{x=-48, y=-51, z=121}
+[20:28:19] [c2me-worker-1/ERROR]: Block-attached entity at invalid position: class_2338{x=-44, y=-51, z=112}
+[20:28:19] [c2me-worker-1/ERROR]: Block-attached entity at invalid position: class_2338{x=-44, y=-51, z=121}
+[20:28:19] [c2me-worker-1/ERROR]: Block-attached entity at invalid position: class_2338{x=-40, y=-51, z=112}
+[20:28:19] [c2me-worker-1/ERROR]: Block-attached entity at invalid position: class_2338{x=-40, y=-51, z=121}
+[20:28:20] [c2me-worker-1/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 3123 chunks (18.77%), ETA: 0:24:15, Rate: 9.3 cps, Current: 6, -29
+[20:28:22] [c2me-worker-2/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 3173 chunks (19.07%), ETA: 0:23:21, Rate: 9.6 cps, Current: 14, -28
+[20:28:24] [c2me-worker-2/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 3223 chunks (19.37%), ETA: 0:20:59, Rate: 10.6 cps, Current: 15, -23
+[20:28:25] [c2me-worker-1/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 3231 chunks (19.42%), ETA: 0:21:55, Rate: 10.2 cps, Current: 12, -22
+[20:28:26] [c2me-worker-1/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 3262 chunks (19.60%), ETA: 0:20:56, Rate: 10.7 cps, Current: 9, -18
+[20:28:28] [Server thread/INFO]: Named entity class_1604['Sanctum Cultist'/2441, l='ServerLevel[world]', x=103.70, y=30.65, z=51.93] died: Sanctum Cultist tried to swim in lava
+[20:28:29] [c2me-worker-1/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 3273 chunks (19.67%), ETA: 0:22:48, Rate: 9.8 cps, Current: 5, -19
+[20:28:31] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 3427 chunks (20.59%), ETA: 0:15:31, Rate: 14.2 cps, Current: 5, -13
+[20:28:32] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 3432 chunks (20.62%), ETA: 0:15:26, Rate: 14.3 cps, Current: 7, -5
+[20:28:33] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 3471 chunks (20.86%), ETA: 0:14:48, Rate: 14.8 cps, Current: 13, -2
+[20:28:34] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 3494 chunks (21.00%), ETA: 0:14:27, Rate: 15.1 cps, Current: 10, -5
+[20:28:35] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 3662 chunks (22.01%), ETA: 0:10:23, Rate: 20.8 cps, Current: 6, -12
+[20:28:40] [c2me-worker-1/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 3697 chunks (22.22%), ETA: 0:07:57, Rate: 27.1 cps, Current: 24, -8
+[20:28:41] [c2me-worker-1/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 3749 chunks (22.53%), ETA: 0:07:45, Rate: 27.7 cps, Current: 28, -2
+[20:28:42] [c2me-worker-1/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 4419 chunks (26.55%), ETA: 0:03:50, Rate: 53.0 cps, Current: -31, -7
+[20:28:44] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 4659 chunks (28.00%), ETA: 0:03:27, Rate: 57.7 cps, Current: -9, -10
+[20:28:45] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 4666 chunks (28.04%), ETA: 0:03:35, Rate: 55.4 cps, Current: -10, -10
+[20:28:46] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 4836 chunks (29.06%), ETA: 0:03:19, Rate: 59.3 cps, Current: -2, -12
+[20:28:48] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 4866 chunks (29.24%), ETA: 0:03:05, Rate: 63.3 cps, Current: -13, -1
+[20:28:49] [c2me-worker-0/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 5891 chunks (35.40%), ETA: 0:01:52, Rate: 95.5 cps, Current: -8, 20
+[20:28:50] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 5913 chunks (35.53%), ETA: 0:01:52, Rate: 95.7 cps, Current: -1, 13
+[20:28:51] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 5951 chunks (35.76%), ETA: 0:01:54, Rate: 93.3 cps, Current: -4, 13
+[20:28:52] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 5962 chunks (35.83%), ETA: 0:01:52, Rate: 95.0 cps, Current: -13, 13
+[20:28:53] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 5984 chunks (35.96%), ETA: 0:01:55, Rate: 92.5 cps, Current: -4, 10
+[20:28:54] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 6021 chunks (36.18%), ETA: 0:01:53, Rate: 93.6 cps, Current: -8, 8
+[20:28:56] [c2me-worker-2/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 6026 chunks (36.21%), ETA: 0:01:46, Rate: 99.9 cps, Current: -9, 10
+[20:28:57] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 6121 chunks (36.78%), ETA: 0:01:45, Rate: 99.7 cps, Current: -7, 5
+[20:29:00] [c2me-worker-0/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 6145 chunks (36.93%), ETA: 0:01:54, Rate: 91.4 cps, Current: -32, 32
+[20:29:02] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 6149 chunks (36.95%), ETA: 0:01:55, Rate: 90.7 cps, Current: -30, 33
+[20:29:03] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 6164 chunks (37.04%), ETA: 0:01:55, Rate: 90.9 cps, Current: -27, 33
+[20:29:04] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 6172 chunks (37.09%), ETA: 0:02:02, Rate: 85.6 cps, Current: -24, 34
+[20:29:05] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 6183 chunks (37.16%), ETA: 0:01:48, Rate: 96.8 cps, Current: -21, 33
+[20:29:07] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 6185 chunks (37.17%), ETA: 0:01:52, Rate: 92.9 cps, Current: -28, 36
+[20:29:08] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 6199 chunks (37.25%), ETA: 0:01:55, Rate: 90.0 cps, Current: -31, 35
+[20:29:09] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 6204 chunks (37.28%), ETA: 0:02:00, Rate: 86.8 cps, Current: -29, 38
+[20:29:10] [c2me-worker-0/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 6223 chunks (37.40%), ETA: 0:02:01, Rate: 85.6 cps, Current: -27, 39
+[20:29:11] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 6232 chunks (37.45%), ETA: 0:02:05, Rate: 83.0 cps, Current: -21, 36
+[20:29:12] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 6247 chunks (37.54%), ETA: 0:03:04, Rate: 56.2 cps, Current: -18, 33
+[20:29:14] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 6262 chunks (37.63%), ETA: 0:03:11, Rate: 54.2 cps, Current: -19, 38
+[20:29:16] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 6273 chunks (37.70%), ETA: 0:03:31, Rate: 49.1 cps, Current: -19, 42
+[20:29:17] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 6286 chunks (37.77%), ETA: 0:03:34, Rate: 48.4 cps, Current: -18, 39
+[20:29:18] [c2me-worker-2/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 6299 chunks (37.85%), ETA: 0:12:20, Rate: 14.0 cps, Current: -23, 44
+[20:29:20] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 6308 chunks (37.91%), ETA: 0:12:51, Rate: 13.4 cps, Current: -25, 45
+[20:29:21] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 6328 chunks (38.03%), ETA: 0:13:23, Rate: 12.8 cps, Current: -26, 46
+[20:29:22] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 6338 chunks (38.09%), ETA: 0:13:23, Rate: 12.8 cps, Current: -29, 40
+[20:29:23] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 6348 chunks (38.15%), ETA: 0:13:50, Rate: 12.4 cps, Current: -31, 40
+[20:29:24] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 6359 chunks (38.21%), ETA: 0:14:56, Rate: 11.5 cps, Current: -28, 46
+[20:29:25] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 6362 chunks (38.23%), ETA: 0:14:41, Rate: 11.7 cps, Current: -31, 45
+[20:29:26] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 6371 chunks (38.28%), ETA: 0:14:49, Rate: 11.5 cps, Current: -30, 50
+[20:29:27] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 6383 chunks (38.36%), ETA: 0:19:30, Rate: 8.8 cps, Current: -17, 36
+[20:29:29] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 6394 chunks (38.42%), ETA: 0:19:23, Rate: 8.8 cps, Current: -27, 51
+[20:29:30] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 6398 chunks (38.45%), ETA: 0:19:55, Rate: 8.6 cps, Current: -26, 53
+[20:29:30] [Server thread/INFO]: Named entity class_1604['Sanctum Apostle'/2616, l='ServerLevel[world]', x=120.65, y=43.31, z=58.14] died: Sanctum Apostle tried to swim in lava
+[20:29:31] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 6403 chunks (38.48%), ETA: 0:19:09, Rate: 8.9 cps, Current: -28, 53
+[20:29:32] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 6414 chunks (38.54%), ETA: 0:19:01, Rate: 9.0 cps, Current: -17, 43
+[20:29:33] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 6426 chunks (38.62%), ETA: 0:19:24, Rate: 8.8 cps, Current: -17, 47
+[20:29:35] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 6431 chunks (38.65%), ETA: 0:20:29, Rate: 8.3 cps, Current: -31, 51
+[20:29:37] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 6440 chunks (38.70%), ETA: 0:20:26, Rate: 8.3 cps, Current: -30, 58
+[20:29:38] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 6443 chunks (38.72%), ETA: 0:20:43, Rate: 8.2 cps, Current: -31, 59
