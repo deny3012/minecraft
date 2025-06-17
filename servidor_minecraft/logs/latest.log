@@ -1,12 +1,12 @@
-[18:25:34] [main/INFO]: Loading Minecraft 1.21.5 with Fabric Loader 0.16.14
-[18:25:34] [ForkJoinPool-1-worker-2/WARN]: Mod ctov uses the version 3.5.9a which isn't compatible with Loader's extended semantic version format (Could not parse version number component '9a'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
-[18:25:34] [ForkJoinPool-1-worker-2/WARN]: Mod getittogetherdrops uses the version fabric-1.21-1.3.1 which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'fabric'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
-[18:25:34] [main/WARN]: Warnings were found!
+[18:35:20] [main/INFO]: Loading Minecraft 1.21.5 with Fabric Loader 0.16.14
+[18:35:20] [ForkJoinPool-1-worker-2/WARN]: Mod ctov uses the version 3.5.9a which isn't compatible with Loader's extended semantic version format (Could not parse version number component '9a'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[18:35:20] [ForkJoinPool-1-worker-2/WARN]: Mod getittogetherdrops uses the version fabric-1.21-1.3.1 which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'fabric'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[18:35:21] [main/WARN]: Warnings were found!
  - Mod 'Debugify' (debugify) 1.21.5+1.0 recommends any version of yet_another_config_lib_v3, which is missing!
 	 - You should install any version of yet_another_config_lib_v3 for the optimal experience.
  - Mod 'Debugify' (debugify) 1.21.5+1.0 recommends any version of modmenu, which is missing!
 	 - You should install any version of modmenu for the optimal experience.
-[18:25:34] [main/INFO]: Loading 178 mods:
+[18:35:21] [main/INFO]: Loading 178 mods:
 	- architectury 16.1.4
 	- axiom 4.8.0
 	   |-- com_moulberry_axiomclientapi 1.0.0
@@ -208,109 +208,109 @@
 	   \-- viafabric-mc1215 0.4.18+104-main
 	- viarewind 4.0.7
 	- viaversion 5.3.2
-[18:25:34] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/minecraft/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.15.5+mixin.0.8.7/sponge-mixin-0.15.5+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[18:25:35] [main/INFO]: Compatibility level set to JAVA_16
-[18:25:35] [main/INFO]: Compatibility level set to JAVA_17
-[18:25:35] [main/INFO]: Compatibility level set to JAVA_18
-[18:25:35] [main/INFO]: Compatibility level set to JAVA_21
-[18:25:35] [main/INFO]: Loading Mixin Plugin for Axiom/4.8.0
-[18:25:35] [main/INFO]: Initializing com.ishland.c2me.base.mixin
-[18:25:35] [main/INFO]: Global Executor Parallelism: 3 configured, 3 evaluated, 3 default evaluated
-[18:25:35] [main/INFO]: Initializing com.ishland.c2me.fixes.chunkio.threading_issues.mixin
-[18:25:35] [main/INFO]: Initializing com.ishland.c2me.fixes.general.threading_issues.mixin
-[18:25:35] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.threading_issues.mixin
-[18:25:35] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.vanilla_bugs.mixin
-[18:25:35] [main/INFO]: Initializing com.ishland.c2me.notickvd.mixin
-[18:25:35] [main/INFO]: Initializing com.ishland.c2me.opts.allocs.mixin
-[18:25:35] [main/INFO]: Initializing com.ishland.c2me.opts.chunkio.mixin
-[18:25:35] [main/INFO]: Initializing com.ishland.c2me.opts.dfc.mixin
-[18:25:35] [main/INFO]: Initializing com.ishland.c2me.opts.math.mixin
-[18:25:35] [main/INFO]: Initializing com.ishland.c2me.opts.scheduling.mixin
-[18:25:35] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.general.mixin
-[18:25:35] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.vanilla.mixin
-[18:25:35] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunk_serializer.mixin
-[18:25:35] [main/INFO]: Disabling config ioSystem.gcFreeChunkSerializer: Incompatible with architectury@16.1.4 (*) (defined in c2me)
-[18:25:35] [main/INFO]: Disabling com.ishland.c2me.rewrites.chunk_serializer.mixin
-[18:25:35] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunksystem.mixin
-[18:25:35] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunkio.mixin
-[18:25:35] [main/INFO]: Initializing com.ishland.c2me.server.utils.mixin
-[18:25:35] [main/INFO]: Initializing com.ishland.c2me.threading.lighting.mixin
-[18:25:35] [main/WARN]: Reference map '[common]ctov-common-refmap.json' for ctov-common.mixins.json could not be read. If this is a development environment you can ignore this message
-[18:25:35] [main/WARN]: Mod 'ferritecore' attempted to override option 'mixin.alloc.blockstate', which doesn't exist, ignoring
-[18:25:35] [main/INFO]: Option 'mixin.minimal_nonvanilla.world.block_entity_ticking.support_cache' requires 'mixin.world.block_entity_ticking=true' but found 'false'. Setting 'mixin.minimal_nonvanilla.world.block_entity_ticking.support_cache=false'.
-[18:25:35] [main/INFO]: Loaded configuration file for Lithium: 155 options available, 2 override(s) found.
-[18:25:35] [main/WARN]: Error loading class: ca/spottedleaf/starlight/common/thread/SchedulingUtil (java.lang.ClassNotFoundException: ca/spottedleaf/starlight/common/thread/SchedulingUtil)
-[18:25:36] [main/INFO]: Force-disabling mixin 'block.hopper.AbstractChestBoatMixin' as rule 'mixin.block.hopper' (added by mods [hopperhedgehog]) disables it and children
-[18:25:36] [main/INFO]: Force-disabling mixin 'block.hopper.AbstractContainerMenuMixin' as rule 'mixin.block.hopper' (added by mods [hopperhedgehog]) disables it and children
-[18:25:36] [main/INFO]: Force-disabling mixin 'block.hopper.BlockBehaviourMixin' as rule 'mixin.block.hopper' (added by mods [hopperhedgehog]) disables it and children
-[18:25:36] [main/INFO]: Force-disabling mixin 'block.hopper.ChiseledBookShelfBlockEntityMixin' as rule 'mixin.block.hopper' (added by mods [hopperhedgehog]) disables it and children
-[18:25:36] [main/INFO]: Force-disabling mixin 'block.hopper.ClassInstanceMultiMapMixin' as rule 'mixin.block.hopper' (added by mods [hopperhedgehog]) disables it and children
-[18:25:36] [main/INFO]: Force-disabling mixin 'block.hopper.ComposterMixin$ComposterBlockComposterInventoryMixin' as rule 'mixin.block.hopper' (added by mods [hopperhedgehog]) disables it and children
-[18:25:36] [main/INFO]: Force-disabling mixin 'block.hopper.ComposterMixin$ComposterBlockDummyInventoryMixin' as rule 'mixin.block.hopper' (added by mods [hopperhedgehog]) disables it and children
-[18:25:36] [main/INFO]: Force-disabling mixin 'block.hopper.ComposterMixin$ComposterBlockFullComposterInventoryMixin' as rule 'mixin.block.hopper' (added by mods [hopperhedgehog]) disables it and children
-[18:25:36] [main/INFO]: Force-disabling mixin 'block.hopper.CompoundContainerAccessor' as rule 'mixin.block.hopper' (added by mods [hopperhedgehog]) disables it and children
-[18:25:36] [main/INFO]: Force-disabling mixin 'block.hopper.ContainerMixin' as rule 'mixin.block.hopper' (added by mods [hopperhedgehog]) disables it and children
-[18:25:36] [main/INFO]: Force-disabling mixin 'block.hopper.EntityAccessor' as rule 'mixin.block.hopper' (added by mods [hopperhedgehog]) disables it and children
-[18:25:36] [main/INFO]: Force-disabling mixin 'block.hopper.EntityDataAccessorMixin' as rule 'mixin.block.hopper' (added by mods [hopperhedgehog]) disables it and children
-[18:25:36] [main/INFO]: Force-disabling mixin 'block.hopper.EntitySectionAccessor' as rule 'mixin.block.hopper' (added by mods [hopperhedgehog]) disables it and children
-[18:25:36] [main/INFO]: Force-disabling mixin 'block.hopper.HopperBlockEntityMixin' as rule 'mixin.block.hopper' (added by mods [hopperhedgehog]) disables it and children
-[18:25:36] [main/INFO]: Force-disabling mixin 'block.hopper.HopperBlockMixin' as rule 'mixin.block.hopper' (added by mods [hopperhedgehog]) disables it and children
-[18:25:36] [main/INFO]: Force-disabling mixin 'block.hopper.InventoryAccessors$AbstractFurnaceBlockEntityMixin' as rule 'mixin.block.hopper' (added by mods [hopperhedgehog]) disables it and children
-[18:25:36] [main/INFO]: Force-disabling mixin 'block.hopper.InventoryAccessors$AbstractMinecartContainerMixin' as rule 'mixin.block.hopper' (added by mods [hopperhedgehog]) disables it and children
-[18:25:36] [main/INFO]: Force-disabling mixin 'block.hopper.InventoryAccessors$BarrelBlockEntityMixin' as rule 'mixin.block.hopper' (added by mods [hopperhedgehog]) disables it and children
-[18:25:36] [main/INFO]: Force-disabling mixin 'block.hopper.InventoryAccessors$BrewingStandBlockEntityMixin' as rule 'mixin.block.hopper' (added by mods [hopperhedgehog]) disables it and children
-[18:25:36] [main/INFO]: Force-disabling mixin 'block.hopper.InventoryAccessors$ChestBlockEntityMixin' as rule 'mixin.block.hopper' (added by mods [hopperhedgehog]) disables it and children
-[18:25:36] [main/INFO]: Force-disabling mixin 'block.hopper.InventoryAccessors$DispenserBlockEntityMixin' as rule 'mixin.block.hopper' (added by mods [hopperhedgehog]) disables it and children
-[18:25:36] [main/INFO]: Force-disabling mixin 'block.hopper.InventoryAccessors$HopperBlockEntityMixin' as rule 'mixin.block.hopper' (added by mods [hopperhedgehog]) disables it and children
-[18:25:36] [main/INFO]: Force-disabling mixin 'block.hopper.InventoryAccessors$ShulkerBoxBlockEntityMixin' as rule 'mixin.block.hopper' (added by mods [hopperhedgehog]) disables it and children
-[18:25:36] [main/INFO]: Force-disabling mixin 'block.hopper.NonNullListAccessor' as rule 'mixin.block.hopper' (added by mods [hopperhedgehog]) disables it and children
-[18:25:36] [main/INFO]: Force-disabling mixin 'block.hopper.OldMinecartBehaviorMixin' as rule 'mixin.block.hopper' (added by mods [hopperhedgehog]) disables it and children
-[18:25:36] [main/INFO]: Force-disabling mixin 'world.block_entity_ticking.chunk_tickable.LevelMixin' as rule 'mixin.world.block_entity_ticking' (added by mods [smelterhedgehog]) disables it and children
-[18:25:36] [main/INFO]: Force-disabling mixin 'world.block_entity_ticking.sleeping.BlockEntityMixin' as rule 'mixin.world.block_entity_ticking' (added by mods [smelterhedgehog]) disables it and children
-[18:25:36] [main/INFO]: Force-disabling mixin 'world.block_entity_ticking.sleeping.LevelChunkMixin' as rule 'mixin.world.block_entity_ticking' (added by mods [smelterhedgehog]) disables it and children
-[18:25:36] [main/INFO]: Force-disabling mixin 'world.block_entity_ticking.sleeping.LevelMixin' as rule 'mixin.world.block_entity_ticking' (added by mods [smelterhedgehog]) disables it and children
-[18:25:36] [main/INFO]: Force-disabling mixin 'world.block_entity_ticking.sleeping.ServerLevelMixin' as rule 'mixin.world.block_entity_ticking' (added by mods [smelterhedgehog]) disables it and children
-[18:25:36] [main/INFO]: Force-disabling mixin 'world.block_entity_ticking.sleeping.WrappedBlockEntityTickInvokerAccessor' as rule 'mixin.world.block_entity_ticking' (added by mods [smelterhedgehog]) disables it and children
-[18:25:36] [main/INFO]: Force-disabling mixin 'world.block_entity_ticking.sleeping.brewing_stand.BrewingStandBlockEntityMixin' as rule 'mixin.world.block_entity_ticking' (added by mods [smelterhedgehog]) disables it and children
-[18:25:36] [main/INFO]: Force-disabling mixin 'world.block_entity_ticking.sleeping.campfire.CampfireBlockEntityMixin' as rule 'mixin.world.block_entity_ticking' (added by mods [smelterhedgehog]) disables it and children
-[18:25:36] [main/INFO]: Force-disabling mixin 'world.block_entity_ticking.sleeping.campfire.lit.CampfireBlockEntityMixin' as rule 'mixin.world.block_entity_ticking' (added by mods [smelterhedgehog]) disables it and children
-[18:25:36] [main/INFO]: Force-disabling mixin 'world.block_entity_ticking.sleeping.campfire.unlit.CampfireBlockEntityMixin' as rule 'mixin.world.block_entity_ticking' (added by mods [smelterhedgehog]) disables it and children
-[18:25:36] [main/INFO]: Force-disabling mixin 'world.block_entity_ticking.sleeping.crafter.CrafterBlockEntityMixin' as rule 'mixin.world.block_entity_ticking' (added by mods [smelterhedgehog]) disables it and children
-[18:25:36] [main/INFO]: Force-disabling mixin 'world.block_entity_ticking.sleeping.furnace.AbstractFurnaceBlockEntityMixin' as rule 'mixin.world.block_entity_ticking' (added by mods [smelterhedgehog]) disables it and children
-[18:25:36] [main/INFO]: Force-disabling mixin 'world.block_entity_ticking.sleeping.hopper.HopperBlockEntityMixin' as rule 'mixin.world.block_entity_ticking' (added by mods [smelterhedgehog]) disables it and children
-[18:25:36] [main/INFO]: Force-disabling mixin 'world.block_entity_ticking.sleeping.shulker_box.ShulkerBoxBlockEntityMixin' as rule 'mixin.world.block_entity_ticking' (added by mods [smelterhedgehog]) disables it and children
-[18:25:36] [main/INFO]: Force-disabling mixin 'world.block_entity_ticking.world_border.DirectBlockEntityTickInvokerMixin' as rule 'mixin.world.block_entity_ticking' (added by mods [smelterhedgehog]) disables it and children
-[18:25:36] [main/INFO]: Force-disabling mixin 'block.hopper.LevelMixin' as rule 'mixin.block.hopper' (added by mods [hopperhedgehog]) disables it and children
-[18:25:36] [main/WARN]: Error loading class: net/minecraft/class_437 (java.lang.ClassNotFoundException: net/minecraft/class_437)
-[18:25:36] [main/WARN]: @Mixin target net.minecraft.class_437 was not found owo.mixins.json:ScreenAccessor from mod owo
-[18:25:36] [main/WARN]: Error loading class: xyz/nucleoid/server/translations/impl/language/SystemDelegatedLanguage (java.lang.ClassNotFoundException: xyz/nucleoid/server/translations/impl/language/SystemDelegatedLanguage)
-[18:25:36] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
-[18:25:44] [main/INFO]: Initializing Axiom/4.8.0. Build timestamp: 1746396334521
-[18:25:44] [main/INFO]: Loading Collective version 8.3.
-[18:25:44] [main/INFO]: Enabled 27 bug fixes: [MC-2025, MC-7569, MC-8187, MC-30391, MC-69216, MC-88371, MC-89146, MC-93018, MC-100991, MC-119417, MC-119754, MC-121706, MC-121903, MC-129909, MC-132878, MC-155509, MC-160095, MC-179072, MC-183990, MC-199467, MC-200418, MC-206922, MC-215530, MC-223153, MC-224729, MC-231743, MC-232869]
-[18:25:44] [main/INFO]: Successfully Debugify'd your game!
-[18:25:44] [main/WARN]: en_ is not a supported Floodgate language.
-[18:25:45] [main/INFO]: Loading extensions...
-[18:25:45] [main/INFO]: Loaded 0 extension(s)
-[18:25:45] [main/INFO]: Starting Load for Hopper the Hedgehog
-[18:25:45] [main/INFO]: Load for Hopper the Hedgehog successful
-[18:25:45] [main/INFO]: Compression will use libdeflate (Linux x86_64), encryption will use OpenSSL 1.1.x (Linux x86_64)
-[18:25:45] [main/INFO]: Ksyxis: Booting... (platform: Fabric, manual: false)
-[18:25:45] [main/INFO]: Ksyxis: Found Mixin library. (version: 0.8.7)
-[18:25:45] [main/INFO]: Ksyxis: Ready. As always, this mod will speed up your world loading and might or might not break it. (0 ms)
-[18:25:45] [main/INFO]: Loading Noisium.
-[18:25:45] [main/INFO]: glisco makes a dollar, I make a dime, that's why I mald on company time
-[18:25:45] [main/INFO]: Burning through Items faster than gacha games through wallets
-[18:25:46] [Via-Mappingloader-0/INFO]: Loading block connection mappings ...
-[18:25:46] [Via-Mappingloader-0/INFO]: Using FastUtil Long2ObjectOpenHashMap for block connections
-[18:25:46] [main/INFO]: Loading translations...
-[18:25:46] [main/INFO]: Registering protocols...
-[18:25:47] [main/INFO]: Registering protocols...
-[18:25:47] [main/INFO]: ViaVersion detected server version: 1.21.5 (770)
-[18:25:47] [ViaFabric-2/INFO]: Finished mapping loading, shutting down loader executor.
-[18:25:47] [main/INFO]: Krypton is now accelerating your Minecraft server's networking stack 🚀
-[18:25:47] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[18:25:47] [main/ERROR]: Failed to start the minecraft server
+[18:35:21] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/minecraft/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.15.5+mixin.0.8.7/sponge-mixin-0.15.5+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[18:35:21] [main/INFO]: Compatibility level set to JAVA_16
+[18:35:21] [main/INFO]: Compatibility level set to JAVA_17
+[18:35:21] [main/INFO]: Compatibility level set to JAVA_18
+[18:35:21] [main/INFO]: Compatibility level set to JAVA_21
+[18:35:22] [main/INFO]: Loading Mixin Plugin for Axiom/4.8.0
+[18:35:22] [main/INFO]: Initializing com.ishland.c2me.base.mixin
+[18:35:22] [main/INFO]: Global Executor Parallelism: 3 configured, 3 evaluated, 3 default evaluated
+[18:35:22] [main/INFO]: Initializing com.ishland.c2me.fixes.chunkio.threading_issues.mixin
+[18:35:22] [main/INFO]: Initializing com.ishland.c2me.fixes.general.threading_issues.mixin
+[18:35:22] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.threading_issues.mixin
+[18:35:22] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.vanilla_bugs.mixin
+[18:35:22] [main/INFO]: Initializing com.ishland.c2me.notickvd.mixin
+[18:35:22] [main/INFO]: Initializing com.ishland.c2me.opts.allocs.mixin
+[18:35:22] [main/INFO]: Initializing com.ishland.c2me.opts.chunkio.mixin
+[18:35:22] [main/INFO]: Initializing com.ishland.c2me.opts.dfc.mixin
+[18:35:22] [main/INFO]: Initializing com.ishland.c2me.opts.math.mixin
+[18:35:22] [main/INFO]: Initializing com.ishland.c2me.opts.scheduling.mixin
+[18:35:22] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.general.mixin
+[18:35:22] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.vanilla.mixin
+[18:35:22] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunk_serializer.mixin
+[18:35:22] [main/INFO]: Disabling config ioSystem.gcFreeChunkSerializer: Incompatible with architectury@16.1.4 (*) (defined in c2me)
+[18:35:22] [main/INFO]: Disabling com.ishland.c2me.rewrites.chunk_serializer.mixin
+[18:35:22] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunksystem.mixin
+[18:35:22] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunkio.mixin
+[18:35:22] [main/INFO]: Initializing com.ishland.c2me.server.utils.mixin
+[18:35:22] [main/INFO]: Initializing com.ishland.c2me.threading.lighting.mixin
+[18:35:22] [main/WARN]: Reference map '[common]ctov-common-refmap.json' for ctov-common.mixins.json could not be read. If this is a development environment you can ignore this message
+[18:35:23] [main/WARN]: Mod 'ferritecore' attempted to override option 'mixin.alloc.blockstate', which doesn't exist, ignoring
+[18:35:23] [main/INFO]: Option 'mixin.minimal_nonvanilla.world.block_entity_ticking.support_cache' requires 'mixin.world.block_entity_ticking=true' but found 'false'. Setting 'mixin.minimal_nonvanilla.world.block_entity_ticking.support_cache=false'.
+[18:35:23] [main/INFO]: Loaded configuration file for Lithium: 155 options available, 2 override(s) found.
+[18:35:23] [main/WARN]: Error loading class: ca/spottedleaf/starlight/common/thread/SchedulingUtil (java.lang.ClassNotFoundException: ca/spottedleaf/starlight/common/thread/SchedulingUtil)
+[18:35:24] [main/INFO]: Force-disabling mixin 'block.hopper.AbstractChestBoatMixin' as rule 'mixin.block.hopper' (added by mods [hopperhedgehog]) disables it and children
+[18:35:24] [main/INFO]: Force-disabling mixin 'block.hopper.AbstractContainerMenuMixin' as rule 'mixin.block.hopper' (added by mods [hopperhedgehog]) disables it and children
+[18:35:24] [main/INFO]: Force-disabling mixin 'block.hopper.BlockBehaviourMixin' as rule 'mixin.block.hopper' (added by mods [hopperhedgehog]) disables it and children
+[18:35:24] [main/INFO]: Force-disabling mixin 'block.hopper.ChiseledBookShelfBlockEntityMixin' as rule 'mixin.block.hopper' (added by mods [hopperhedgehog]) disables it and children
+[18:35:24] [main/INFO]: Force-disabling mixin 'block.hopper.ClassInstanceMultiMapMixin' as rule 'mixin.block.hopper' (added by mods [hopperhedgehog]) disables it and children
+[18:35:24] [main/INFO]: Force-disabling mixin 'block.hopper.ComposterMixin$ComposterBlockComposterInventoryMixin' as rule 'mixin.block.hopper' (added by mods [hopperhedgehog]) disables it and children
+[18:35:24] [main/INFO]: Force-disabling mixin 'block.hopper.ComposterMixin$ComposterBlockDummyInventoryMixin' as rule 'mixin.block.hopper' (added by mods [hopperhedgehog]) disables it and children
+[18:35:24] [main/INFO]: Force-disabling mixin 'block.hopper.ComposterMixin$ComposterBlockFullComposterInventoryMixin' as rule 'mixin.block.hopper' (added by mods [hopperhedgehog]) disables it and children
+[18:35:24] [main/INFO]: Force-disabling mixin 'block.hopper.CompoundContainerAccessor' as rule 'mixin.block.hopper' (added by mods [hopperhedgehog]) disables it and children
+[18:35:24] [main/INFO]: Force-disabling mixin 'block.hopper.ContainerMixin' as rule 'mixin.block.hopper' (added by mods [hopperhedgehog]) disables it and children
+[18:35:24] [main/INFO]: Force-disabling mixin 'block.hopper.EntityAccessor' as rule 'mixin.block.hopper' (added by mods [hopperhedgehog]) disables it and children
+[18:35:24] [main/INFO]: Force-disabling mixin 'block.hopper.EntityDataAccessorMixin' as rule 'mixin.block.hopper' (added by mods [hopperhedgehog]) disables it and children
+[18:35:24] [main/INFO]: Force-disabling mixin 'block.hopper.EntitySectionAccessor' as rule 'mixin.block.hopper' (added by mods [hopperhedgehog]) disables it and children
+[18:35:24] [main/INFO]: Force-disabling mixin 'block.hopper.HopperBlockEntityMixin' as rule 'mixin.block.hopper' (added by mods [hopperhedgehog]) disables it and children
+[18:35:24] [main/INFO]: Force-disabling mixin 'block.hopper.HopperBlockMixin' as rule 'mixin.block.hopper' (added by mods [hopperhedgehog]) disables it and children
+[18:35:24] [main/INFO]: Force-disabling mixin 'block.hopper.InventoryAccessors$AbstractFurnaceBlockEntityMixin' as rule 'mixin.block.hopper' (added by mods [hopperhedgehog]) disables it and children
+[18:35:24] [main/INFO]: Force-disabling mixin 'block.hopper.InventoryAccessors$AbstractMinecartContainerMixin' as rule 'mixin.block.hopper' (added by mods [hopperhedgehog]) disables it and children
+[18:35:24] [main/INFO]: Force-disabling mixin 'block.hopper.InventoryAccessors$BarrelBlockEntityMixin' as rule 'mixin.block.hopper' (added by mods [hopperhedgehog]) disables it and children
+[18:35:24] [main/INFO]: Force-disabling mixin 'block.hopper.InventoryAccessors$BrewingStandBlockEntityMixin' as rule 'mixin.block.hopper' (added by mods [hopperhedgehog]) disables it and children
+[18:35:24] [main/INFO]: Force-disabling mixin 'block.hopper.InventoryAccessors$ChestBlockEntityMixin' as rule 'mixin.block.hopper' (added by mods [hopperhedgehog]) disables it and children
+[18:35:24] [main/INFO]: Force-disabling mixin 'block.hopper.InventoryAccessors$DispenserBlockEntityMixin' as rule 'mixin.block.hopper' (added by mods [hopperhedgehog]) disables it and children
+[18:35:24] [main/INFO]: Force-disabling mixin 'block.hopper.InventoryAccessors$HopperBlockEntityMixin' as rule 'mixin.block.hopper' (added by mods [hopperhedgehog]) disables it and children
+[18:35:24] [main/INFO]: Force-disabling mixin 'block.hopper.InventoryAccessors$ShulkerBoxBlockEntityMixin' as rule 'mixin.block.hopper' (added by mods [hopperhedgehog]) disables it and children
+[18:35:24] [main/INFO]: Force-disabling mixin 'block.hopper.NonNullListAccessor' as rule 'mixin.block.hopper' (added by mods [hopperhedgehog]) disables it and children
+[18:35:24] [main/INFO]: Force-disabling mixin 'block.hopper.OldMinecartBehaviorMixin' as rule 'mixin.block.hopper' (added by mods [hopperhedgehog]) disables it and children
+[18:35:24] [main/INFO]: Force-disabling mixin 'world.block_entity_ticking.chunk_tickable.LevelMixin' as rule 'mixin.world.block_entity_ticking' (added by mods [smelterhedgehog]) disables it and children
+[18:35:24] [main/INFO]: Force-disabling mixin 'world.block_entity_ticking.sleeping.BlockEntityMixin' as rule 'mixin.world.block_entity_ticking' (added by mods [smelterhedgehog]) disables it and children
+[18:35:24] [main/INFO]: Force-disabling mixin 'world.block_entity_ticking.sleeping.LevelChunkMixin' as rule 'mixin.world.block_entity_ticking' (added by mods [smelterhedgehog]) disables it and children
+[18:35:24] [main/INFO]: Force-disabling mixin 'world.block_entity_ticking.sleeping.LevelMixin' as rule 'mixin.world.block_entity_ticking' (added by mods [smelterhedgehog]) disables it and children
+[18:35:24] [main/INFO]: Force-disabling mixin 'world.block_entity_ticking.sleeping.ServerLevelMixin' as rule 'mixin.world.block_entity_ticking' (added by mods [smelterhedgehog]) disables it and children
+[18:35:24] [main/INFO]: Force-disabling mixin 'world.block_entity_ticking.sleeping.WrappedBlockEntityTickInvokerAccessor' as rule 'mixin.world.block_entity_ticking' (added by mods [smelterhedgehog]) disables it and children
+[18:35:24] [main/INFO]: Force-disabling mixin 'world.block_entity_ticking.sleeping.brewing_stand.BrewingStandBlockEntityMixin' as rule 'mixin.world.block_entity_ticking' (added by mods [smelterhedgehog]) disables it and children
+[18:35:24] [main/INFO]: Force-disabling mixin 'world.block_entity_ticking.sleeping.campfire.CampfireBlockEntityMixin' as rule 'mixin.world.block_entity_ticking' (added by mods [smelterhedgehog]) disables it and children
+[18:35:24] [main/INFO]: Force-disabling mixin 'world.block_entity_ticking.sleeping.campfire.lit.CampfireBlockEntityMixin' as rule 'mixin.world.block_entity_ticking' (added by mods [smelterhedgehog]) disables it and children
+[18:35:24] [main/INFO]: Force-disabling mixin 'world.block_entity_ticking.sleeping.campfire.unlit.CampfireBlockEntityMixin' as rule 'mixin.world.block_entity_ticking' (added by mods [smelterhedgehog]) disables it and children
+[18:35:24] [main/INFO]: Force-disabling mixin 'world.block_entity_ticking.sleeping.crafter.CrafterBlockEntityMixin' as rule 'mixin.world.block_entity_ticking' (added by mods [smelterhedgehog]) disables it and children
+[18:35:24] [main/INFO]: Force-disabling mixin 'world.block_entity_ticking.sleeping.furnace.AbstractFurnaceBlockEntityMixin' as rule 'mixin.world.block_entity_ticking' (added by mods [smelterhedgehog]) disables it and children
+[18:35:24] [main/INFO]: Force-disabling mixin 'world.block_entity_ticking.sleeping.hopper.HopperBlockEntityMixin' as rule 'mixin.world.block_entity_ticking' (added by mods [smelterhedgehog]) disables it and children
+[18:35:24] [main/INFO]: Force-disabling mixin 'world.block_entity_ticking.sleeping.shulker_box.ShulkerBoxBlockEntityMixin' as rule 'mixin.world.block_entity_ticking' (added by mods [smelterhedgehog]) disables it and children
+[18:35:24] [main/INFO]: Force-disabling mixin 'world.block_entity_ticking.world_border.DirectBlockEntityTickInvokerMixin' as rule 'mixin.world.block_entity_ticking' (added by mods [smelterhedgehog]) disables it and children
+[18:35:24] [main/INFO]: Force-disabling mixin 'block.hopper.LevelMixin' as rule 'mixin.block.hopper' (added by mods [hopperhedgehog]) disables it and children
+[18:35:24] [main/WARN]: Error loading class: net/minecraft/class_437 (java.lang.ClassNotFoundException: net/minecraft/class_437)
+[18:35:24] [main/WARN]: @Mixin target net.minecraft.class_437 was not found owo.mixins.json:ScreenAccessor from mod owo
+[18:35:24] [main/WARN]: Error loading class: xyz/nucleoid/server/translations/impl/language/SystemDelegatedLanguage (java.lang.ClassNotFoundException: xyz/nucleoid/server/translations/impl/language/SystemDelegatedLanguage)
+[18:35:25] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[18:35:41] [main/INFO]: Initializing Axiom/4.8.0. Build timestamp: 1746396334521
+[18:35:41] [main/INFO]: Loading Collective version 8.3.
+[18:35:41] [main/INFO]: Enabled 27 bug fixes: [MC-2025, MC-7569, MC-8187, MC-30391, MC-69216, MC-88371, MC-89146, MC-93018, MC-100991, MC-119417, MC-119754, MC-121706, MC-121903, MC-129909, MC-132878, MC-155509, MC-160095, MC-179072, MC-183990, MC-199467, MC-200418, MC-206922, MC-215530, MC-223153, MC-224729, MC-231743, MC-232869]
+[18:35:41] [main/INFO]: Successfully Debugify'd your game!
+[18:35:42] [main/WARN]: en_ is not a supported Floodgate language.
+[18:35:43] [main/INFO]: Loading extensions...
+[18:35:44] [main/INFO]: Loaded 0 extension(s)
+[18:35:44] [main/INFO]: Starting Load for Hopper the Hedgehog
+[18:35:44] [main/INFO]: Load for Hopper the Hedgehog successful
+[18:35:44] [main/INFO]: Compression will use libdeflate (Linux x86_64), encryption will use OpenSSL 1.1.x (Linux x86_64)
+[18:35:44] [main/INFO]: Ksyxis: Booting... (platform: Fabric, manual: false)
+[18:35:44] [main/INFO]: Ksyxis: Found Mixin library. (version: 0.8.7)
+[18:35:44] [main/INFO]: Ksyxis: Ready. As always, this mod will speed up your world loading and might or might not break it. (4 ms)
+[18:35:44] [main/INFO]: Loading Noisium.
+[18:35:44] [main/INFO]: chyz: bro, can you stop breathing
+[18:35:44] [main/INFO]: Burning through Items faster than gacha games through wallets
+[18:35:45] [Via-Mappingloader-0/INFO]: Loading block connection mappings ...
+[18:35:46] [Via-Mappingloader-0/INFO]: Using FastUtil Long2ObjectOpenHashMap for block connections
+[18:35:46] [main/INFO]: Loading translations...
+[18:35:46] [main/INFO]: Registering protocols...
+[18:35:47] [main/INFO]: Registering protocols...
+[18:35:47] [main/INFO]: ViaVersion detected server version: 1.21.5 (770)
+[18:35:47] [ViaFabric-2/INFO]: Finished mapping loading, shutting down loader executor.
+[18:35:47] [main/INFO]: Krypton is now accelerating your Minecraft server's networking stack 🚀
+[18:35:48] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[18:35:48] [main/ERROR]: Failed to start the minecraft server
 net.minecraft.class_5125$class_5126: /workspaces/minecraft/servidor_minecraft/./world/session.lock: already locked (possibly by other Minecraft instance?)
 	at knot/net.minecraft.class_5125$class_5126.method_26805(class_5125.java:95) ~[server-intermediary.jar:?]
 	at knot/net.minecraft.class_5125.method_26803(class_5125.java:41) ~[server-intermediary.jar:?]
