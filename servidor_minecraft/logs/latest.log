@@ -1,12 +1,12 @@
-[18:35:20] [main/INFO]: Loading Minecraft 1.21.5 with Fabric Loader 0.16.14
-[18:35:20] [ForkJoinPool-1-worker-2/WARN]: Mod ctov uses the version 3.5.9a which isn't compatible with Loader's extended semantic version format (Could not parse version number component '9a'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
-[18:35:20] [ForkJoinPool-1-worker-2/WARN]: Mod getittogetherdrops uses the version fabric-1.21-1.3.1 which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'fabric'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
-[18:35:21] [main/WARN]: Warnings were found!
+[19:12:32] [main/INFO]: Loading Minecraft 1.21.5 with Fabric Loader 0.16.14
+[19:12:33] [ForkJoinPool-1-worker-1/WARN]: Mod getittogetherdrops uses the version fabric-1.21-1.3.1 which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'fabric'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[19:12:33] [ForkJoinPool-1-worker-2/WARN]: Mod ctov uses the version 3.5.9a which isn't compatible with Loader's extended semantic version format (Could not parse version number component '9a'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[19:12:33] [main/WARN]: Warnings were found!
  - Mod 'Debugify' (debugify) 1.21.5+1.0 recommends any version of yet_another_config_lib_v3, which is missing!
 	 - You should install any version of yet_another_config_lib_v3 for the optimal experience.
  - Mod 'Debugify' (debugify) 1.21.5+1.0 recommends any version of modmenu, which is missing!
 	 - You should install any version of modmenu for the optimal experience.
-[18:35:21] [main/INFO]: Loading 178 mods:
+[19:12:33] [main/INFO]: Loading 178 mods:
 	- architectury 16.1.4
 	- axiom 4.8.0
 	   |-- com_moulberry_axiomclientapi 1.0.0
@@ -208,117 +208,175 @@
 	   \-- viafabric-mc1215 0.4.18+104-main
 	- viarewind 4.0.7
 	- viaversion 5.3.2
-[18:35:21] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/minecraft/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.15.5+mixin.0.8.7/sponge-mixin-0.15.5+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[18:35:21] [main/INFO]: Compatibility level set to JAVA_16
-[18:35:21] [main/INFO]: Compatibility level set to JAVA_17
-[18:35:21] [main/INFO]: Compatibility level set to JAVA_18
-[18:35:21] [main/INFO]: Compatibility level set to JAVA_21
-[18:35:22] [main/INFO]: Loading Mixin Plugin for Axiom/4.8.0
-[18:35:22] [main/INFO]: Initializing com.ishland.c2me.base.mixin
-[18:35:22] [main/INFO]: Global Executor Parallelism: 3 configured, 3 evaluated, 3 default evaluated
-[18:35:22] [main/INFO]: Initializing com.ishland.c2me.fixes.chunkio.threading_issues.mixin
-[18:35:22] [main/INFO]: Initializing com.ishland.c2me.fixes.general.threading_issues.mixin
-[18:35:22] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.threading_issues.mixin
-[18:35:22] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.vanilla_bugs.mixin
-[18:35:22] [main/INFO]: Initializing com.ishland.c2me.notickvd.mixin
-[18:35:22] [main/INFO]: Initializing com.ishland.c2me.opts.allocs.mixin
-[18:35:22] [main/INFO]: Initializing com.ishland.c2me.opts.chunkio.mixin
-[18:35:22] [main/INFO]: Initializing com.ishland.c2me.opts.dfc.mixin
-[18:35:22] [main/INFO]: Initializing com.ishland.c2me.opts.math.mixin
-[18:35:22] [main/INFO]: Initializing com.ishland.c2me.opts.scheduling.mixin
-[18:35:22] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.general.mixin
-[18:35:22] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.vanilla.mixin
-[18:35:22] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunk_serializer.mixin
-[18:35:22] [main/INFO]: Disabling config ioSystem.gcFreeChunkSerializer: Incompatible with architectury@16.1.4 (*) (defined in c2me)
-[18:35:22] [main/INFO]: Disabling com.ishland.c2me.rewrites.chunk_serializer.mixin
-[18:35:22] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunksystem.mixin
-[18:35:22] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunkio.mixin
-[18:35:22] [main/INFO]: Initializing com.ishland.c2me.server.utils.mixin
-[18:35:22] [main/INFO]: Initializing com.ishland.c2me.threading.lighting.mixin
-[18:35:22] [main/WARN]: Reference map '[common]ctov-common-refmap.json' for ctov-common.mixins.json could not be read. If this is a development environment you can ignore this message
-[18:35:23] [main/WARN]: Mod 'ferritecore' attempted to override option 'mixin.alloc.blockstate', which doesn't exist, ignoring
-[18:35:23] [main/INFO]: Option 'mixin.minimal_nonvanilla.world.block_entity_ticking.support_cache' requires 'mixin.world.block_entity_ticking=true' but found 'false'. Setting 'mixin.minimal_nonvanilla.world.block_entity_ticking.support_cache=false'.
-[18:35:23] [main/INFO]: Loaded configuration file for Lithium: 155 options available, 2 override(s) found.
-[18:35:23] [main/WARN]: Error loading class: ca/spottedleaf/starlight/common/thread/SchedulingUtil (java.lang.ClassNotFoundException: ca/spottedleaf/starlight/common/thread/SchedulingUtil)
-[18:35:24] [main/INFO]: Force-disabling mixin 'block.hopper.AbstractChestBoatMixin' as rule 'mixin.block.hopper' (added by mods [hopperhedgehog]) disables it and children
-[18:35:24] [main/INFO]: Force-disabling mixin 'block.hopper.AbstractContainerMenuMixin' as rule 'mixin.block.hopper' (added by mods [hopperhedgehog]) disables it and children
-[18:35:24] [main/INFO]: Force-disabling mixin 'block.hopper.BlockBehaviourMixin' as rule 'mixin.block.hopper' (added by mods [hopperhedgehog]) disables it and children
-[18:35:24] [main/INFO]: Force-disabling mixin 'block.hopper.ChiseledBookShelfBlockEntityMixin' as rule 'mixin.block.hopper' (added by mods [hopperhedgehog]) disables it and children
-[18:35:24] [main/INFO]: Force-disabling mixin 'block.hopper.ClassInstanceMultiMapMixin' as rule 'mixin.block.hopper' (added by mods [hopperhedgehog]) disables it and children
-[18:35:24] [main/INFO]: Force-disabling mixin 'block.hopper.ComposterMixin$ComposterBlockComposterInventoryMixin' as rule 'mixin.block.hopper' (added by mods [hopperhedgehog]) disables it and children
-[18:35:24] [main/INFO]: Force-disabling mixin 'block.hopper.ComposterMixin$ComposterBlockDummyInventoryMixin' as rule 'mixin.block.hopper' (added by mods [hopperhedgehog]) disables it and children
-[18:35:24] [main/INFO]: Force-disabling mixin 'block.hopper.ComposterMixin$ComposterBlockFullComposterInventoryMixin' as rule 'mixin.block.hopper' (added by mods [hopperhedgehog]) disables it and children
-[18:35:24] [main/INFO]: Force-disabling mixin 'block.hopper.CompoundContainerAccessor' as rule 'mixin.block.hopper' (added by mods [hopperhedgehog]) disables it and children
-[18:35:24] [main/INFO]: Force-disabling mixin 'block.hopper.ContainerMixin' as rule 'mixin.block.hopper' (added by mods [hopperhedgehog]) disables it and children
-[18:35:24] [main/INFO]: Force-disabling mixin 'block.hopper.EntityAccessor' as rule 'mixin.block.hopper' (added by mods [hopperhedgehog]) disables it and children
-[18:35:24] [main/INFO]: Force-disabling mixin 'block.hopper.EntityDataAccessorMixin' as rule 'mixin.block.hopper' (added by mods [hopperhedgehog]) disables it and children
-[18:35:24] [main/INFO]: Force-disabling mixin 'block.hopper.EntitySectionAccessor' as rule 'mixin.block.hopper' (added by mods [hopperhedgehog]) disables it and children
-[18:35:24] [main/INFO]: Force-disabling mixin 'block.hopper.HopperBlockEntityMixin' as rule 'mixin.block.hopper' (added by mods [hopperhedgehog]) disables it and children
-[18:35:24] [main/INFO]: Force-disabling mixin 'block.hopper.HopperBlockMixin' as rule 'mixin.block.hopper' (added by mods [hopperhedgehog]) disables it and children
-[18:35:24] [main/INFO]: Force-disabling mixin 'block.hopper.InventoryAccessors$AbstractFurnaceBlockEntityMixin' as rule 'mixin.block.hopper' (added by mods [hopperhedgehog]) disables it and children
-[18:35:24] [main/INFO]: Force-disabling mixin 'block.hopper.InventoryAccessors$AbstractMinecartContainerMixin' as rule 'mixin.block.hopper' (added by mods [hopperhedgehog]) disables it and children
-[18:35:24] [main/INFO]: Force-disabling mixin 'block.hopper.InventoryAccessors$BarrelBlockEntityMixin' as rule 'mixin.block.hopper' (added by mods [hopperhedgehog]) disables it and children
-[18:35:24] [main/INFO]: Force-disabling mixin 'block.hopper.InventoryAccessors$BrewingStandBlockEntityMixin' as rule 'mixin.block.hopper' (added by mods [hopperhedgehog]) disables it and children
-[18:35:24] [main/INFO]: Force-disabling mixin 'block.hopper.InventoryAccessors$ChestBlockEntityMixin' as rule 'mixin.block.hopper' (added by mods [hopperhedgehog]) disables it and children
-[18:35:24] [main/INFO]: Force-disabling mixin 'block.hopper.InventoryAccessors$DispenserBlockEntityMixin' as rule 'mixin.block.hopper' (added by mods [hopperhedgehog]) disables it and children
-[18:35:24] [main/INFO]: Force-disabling mixin 'block.hopper.InventoryAccessors$HopperBlockEntityMixin' as rule 'mixin.block.hopper' (added by mods [hopperhedgehog]) disables it and children
-[18:35:24] [main/INFO]: Force-disabling mixin 'block.hopper.InventoryAccessors$ShulkerBoxBlockEntityMixin' as rule 'mixin.block.hopper' (added by mods [hopperhedgehog]) disables it and children
-[18:35:24] [main/INFO]: Force-disabling mixin 'block.hopper.NonNullListAccessor' as rule 'mixin.block.hopper' (added by mods [hopperhedgehog]) disables it and children
-[18:35:24] [main/INFO]: Force-disabling mixin 'block.hopper.OldMinecartBehaviorMixin' as rule 'mixin.block.hopper' (added by mods [hopperhedgehog]) disables it and children
-[18:35:24] [main/INFO]: Force-disabling mixin 'world.block_entity_ticking.chunk_tickable.LevelMixin' as rule 'mixin.world.block_entity_ticking' (added by mods [smelterhedgehog]) disables it and children
-[18:35:24] [main/INFO]: Force-disabling mixin 'world.block_entity_ticking.sleeping.BlockEntityMixin' as rule 'mixin.world.block_entity_ticking' (added by mods [smelterhedgehog]) disables it and children
-[18:35:24] [main/INFO]: Force-disabling mixin 'world.block_entity_ticking.sleeping.LevelChunkMixin' as rule 'mixin.world.block_entity_ticking' (added by mods [smelterhedgehog]) disables it and children
-[18:35:24] [main/INFO]: Force-disabling mixin 'world.block_entity_ticking.sleeping.LevelMixin' as rule 'mixin.world.block_entity_ticking' (added by mods [smelterhedgehog]) disables it and children
-[18:35:24] [main/INFO]: Force-disabling mixin 'world.block_entity_ticking.sleeping.ServerLevelMixin' as rule 'mixin.world.block_entity_ticking' (added by mods [smelterhedgehog]) disables it and children
-[18:35:24] [main/INFO]: Force-disabling mixin 'world.block_entity_ticking.sleeping.WrappedBlockEntityTickInvokerAccessor' as rule 'mixin.world.block_entity_ticking' (added by mods [smelterhedgehog]) disables it and children
-[18:35:24] [main/INFO]: Force-disabling mixin 'world.block_entity_ticking.sleeping.brewing_stand.BrewingStandBlockEntityMixin' as rule 'mixin.world.block_entity_ticking' (added by mods [smelterhedgehog]) disables it and children
-[18:35:24] [main/INFO]: Force-disabling mixin 'world.block_entity_ticking.sleeping.campfire.CampfireBlockEntityMixin' as rule 'mixin.world.block_entity_ticking' (added by mods [smelterhedgehog]) disables it and children
-[18:35:24] [main/INFO]: Force-disabling mixin 'world.block_entity_ticking.sleeping.campfire.lit.CampfireBlockEntityMixin' as rule 'mixin.world.block_entity_ticking' (added by mods [smelterhedgehog]) disables it and children
-[18:35:24] [main/INFO]: Force-disabling mixin 'world.block_entity_ticking.sleeping.campfire.unlit.CampfireBlockEntityMixin' as rule 'mixin.world.block_entity_ticking' (added by mods [smelterhedgehog]) disables it and children
-[18:35:24] [main/INFO]: Force-disabling mixin 'world.block_entity_ticking.sleeping.crafter.CrafterBlockEntityMixin' as rule 'mixin.world.block_entity_ticking' (added by mods [smelterhedgehog]) disables it and children
-[18:35:24] [main/INFO]: Force-disabling mixin 'world.block_entity_ticking.sleeping.furnace.AbstractFurnaceBlockEntityMixin' as rule 'mixin.world.block_entity_ticking' (added by mods [smelterhedgehog]) disables it and children
-[18:35:24] [main/INFO]: Force-disabling mixin 'world.block_entity_ticking.sleeping.hopper.HopperBlockEntityMixin' as rule 'mixin.world.block_entity_ticking' (added by mods [smelterhedgehog]) disables it and children
-[18:35:24] [main/INFO]: Force-disabling mixin 'world.block_entity_ticking.sleeping.shulker_box.ShulkerBoxBlockEntityMixin' as rule 'mixin.world.block_entity_ticking' (added by mods [smelterhedgehog]) disables it and children
-[18:35:24] [main/INFO]: Force-disabling mixin 'world.block_entity_ticking.world_border.DirectBlockEntityTickInvokerMixin' as rule 'mixin.world.block_entity_ticking' (added by mods [smelterhedgehog]) disables it and children
-[18:35:24] [main/INFO]: Force-disabling mixin 'block.hopper.LevelMixin' as rule 'mixin.block.hopper' (added by mods [hopperhedgehog]) disables it and children
-[18:35:24] [main/WARN]: Error loading class: net/minecraft/class_437 (java.lang.ClassNotFoundException: net/minecraft/class_437)
-[18:35:24] [main/WARN]: @Mixin target net.minecraft.class_437 was not found owo.mixins.json:ScreenAccessor from mod owo
-[18:35:24] [main/WARN]: Error loading class: xyz/nucleoid/server/translations/impl/language/SystemDelegatedLanguage (java.lang.ClassNotFoundException: xyz/nucleoid/server/translations/impl/language/SystemDelegatedLanguage)
-[18:35:25] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
-[18:35:41] [main/INFO]: Initializing Axiom/4.8.0. Build timestamp: 1746396334521
-[18:35:41] [main/INFO]: Loading Collective version 8.3.
-[18:35:41] [main/INFO]: Enabled 27 bug fixes: [MC-2025, MC-7569, MC-8187, MC-30391, MC-69216, MC-88371, MC-89146, MC-93018, MC-100991, MC-119417, MC-119754, MC-121706, MC-121903, MC-129909, MC-132878, MC-155509, MC-160095, MC-179072, MC-183990, MC-199467, MC-200418, MC-206922, MC-215530, MC-223153, MC-224729, MC-231743, MC-232869]
-[18:35:41] [main/INFO]: Successfully Debugify'd your game!
-[18:35:42] [main/WARN]: en_ is not a supported Floodgate language.
-[18:35:43] [main/INFO]: Loading extensions...
-[18:35:44] [main/INFO]: Loaded 0 extension(s)
-[18:35:44] [main/INFO]: Starting Load for Hopper the Hedgehog
-[18:35:44] [main/INFO]: Load for Hopper the Hedgehog successful
-[18:35:44] [main/INFO]: Compression will use libdeflate (Linux x86_64), encryption will use OpenSSL 1.1.x (Linux x86_64)
-[18:35:44] [main/INFO]: Ksyxis: Booting... (platform: Fabric, manual: false)
-[18:35:44] [main/INFO]: Ksyxis: Found Mixin library. (version: 0.8.7)
-[18:35:44] [main/INFO]: Ksyxis: Ready. As always, this mod will speed up your world loading and might or might not break it. (4 ms)
-[18:35:44] [main/INFO]: Loading Noisium.
-[18:35:44] [main/INFO]: chyz: bro, can you stop breathing
-[18:35:44] [main/INFO]: Burning through Items faster than gacha games through wallets
-[18:35:45] [Via-Mappingloader-0/INFO]: Loading block connection mappings ...
-[18:35:46] [Via-Mappingloader-0/INFO]: Using FastUtil Long2ObjectOpenHashMap for block connections
-[18:35:46] [main/INFO]: Loading translations...
-[18:35:46] [main/INFO]: Registering protocols...
-[18:35:47] [main/INFO]: Registering protocols...
-[18:35:47] [main/INFO]: ViaVersion detected server version: 1.21.5 (770)
-[18:35:47] [ViaFabric-2/INFO]: Finished mapping loading, shutting down loader executor.
-[18:35:47] [main/INFO]: Krypton is now accelerating your Minecraft server's networking stack 🚀
-[18:35:48] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[18:35:48] [main/ERROR]: Failed to start the minecraft server
-net.minecraft.class_5125$class_5126: /workspaces/minecraft/servidor_minecraft/./world/session.lock: already locked (possibly by other Minecraft instance?)
-	at knot/net.minecraft.class_5125$class_5126.method_26805(class_5125.java:95) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_5125.method_26803(class_5125.java:41) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_32$class_5143.<init>(class_32.java:374) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_32.method_52236(class_32.java:353) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.Main.main(Main.java:139) [server-intermediary.jar:?]
-	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:480) [fabric-loader-0.16.14.jar:?]
-	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.16.14.jar:?]
-	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) [fabric-loader-0.16.14.jar:?]
-	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) [fabric-loader-0.16.14.jar:?]
-	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) [fabric-server-launch.jar:1.0.1]
+[19:12:33] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/minecraft/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.15.5+mixin.0.8.7/sponge-mixin-0.15.5+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[19:12:33] [main/INFO]: Compatibility level set to JAVA_16
+[19:12:33] [main/INFO]: Compatibility level set to JAVA_17
+[19:12:33] [main/INFO]: Compatibility level set to JAVA_18
+[19:12:33] [main/INFO]: Compatibility level set to JAVA_21
+[19:12:33] [main/INFO]: Loading Mixin Plugin for Axiom/4.8.0
+[19:12:33] [main/INFO]: Initializing com.ishland.c2me.base.mixin
+[19:12:33] [main/INFO]: Global Executor Parallelism: 3 configured, 3 evaluated, 3 default evaluated
+[19:12:33] [main/INFO]: Initializing com.ishland.c2me.fixes.chunkio.threading_issues.mixin
+[19:12:33] [main/INFO]: Initializing com.ishland.c2me.fixes.general.threading_issues.mixin
+[19:12:33] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.threading_issues.mixin
+[19:12:33] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.vanilla_bugs.mixin
+[19:12:33] [main/INFO]: Initializing com.ishland.c2me.notickvd.mixin
+[19:12:33] [main/INFO]: Initializing com.ishland.c2me.opts.allocs.mixin
+[19:12:33] [main/INFO]: Initializing com.ishland.c2me.opts.chunkio.mixin
+[19:12:33] [main/INFO]: Initializing com.ishland.c2me.opts.dfc.mixin
+[19:12:33] [main/INFO]: Initializing com.ishland.c2me.opts.math.mixin
+[19:12:33] [main/INFO]: Initializing com.ishland.c2me.opts.scheduling.mixin
+[19:12:33] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.general.mixin
+[19:12:33] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.vanilla.mixin
+[19:12:33] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunk_serializer.mixin
+[19:12:33] [main/INFO]: Disabling config ioSystem.gcFreeChunkSerializer: Incompatible with architectury@16.1.4 (*) (defined in c2me)
+[19:12:33] [main/INFO]: Disabling com.ishland.c2me.rewrites.chunk_serializer.mixin
+[19:12:33] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunksystem.mixin
+[19:12:33] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunkio.mixin
+[19:12:33] [main/INFO]: Initializing com.ishland.c2me.server.utils.mixin
+[19:12:33] [main/INFO]: Initializing com.ishland.c2me.threading.lighting.mixin
+[19:12:33] [main/WARN]: Reference map '[common]ctov-common-refmap.json' for ctov-common.mixins.json could not be read. If this is a development environment you can ignore this message
+[19:12:33] [main/WARN]: Mod 'ferritecore' attempted to override option 'mixin.alloc.blockstate', which doesn't exist, ignoring
+[19:12:33] [main/INFO]: Option 'mixin.minimal_nonvanilla.world.block_entity_ticking.support_cache' requires 'mixin.world.block_entity_ticking=true' but found 'false'. Setting 'mixin.minimal_nonvanilla.world.block_entity_ticking.support_cache=false'.
+[19:12:33] [main/INFO]: Loaded configuration file for Lithium: 155 options available, 2 override(s) found.
+[19:12:34] [main/WARN]: Error loading class: ca/spottedleaf/starlight/common/thread/SchedulingUtil (java.lang.ClassNotFoundException: ca/spottedleaf/starlight/common/thread/SchedulingUtil)
+[19:12:34] [main/INFO]: Force-disabling mixin 'block.hopper.AbstractChestBoatMixin' as rule 'mixin.block.hopper' (added by mods [hopperhedgehog]) disables it and children
+[19:12:34] [main/INFO]: Force-disabling mixin 'block.hopper.AbstractContainerMenuMixin' as rule 'mixin.block.hopper' (added by mods [hopperhedgehog]) disables it and children
+[19:12:34] [main/INFO]: Force-disabling mixin 'block.hopper.BlockBehaviourMixin' as rule 'mixin.block.hopper' (added by mods [hopperhedgehog]) disables it and children
+[19:12:34] [main/INFO]: Force-disabling mixin 'block.hopper.ChiseledBookShelfBlockEntityMixin' as rule 'mixin.block.hopper' (added by mods [hopperhedgehog]) disables it and children
+[19:12:34] [main/INFO]: Force-disabling mixin 'block.hopper.ClassInstanceMultiMapMixin' as rule 'mixin.block.hopper' (added by mods [hopperhedgehog]) disables it and children
+[19:12:34] [main/INFO]: Force-disabling mixin 'block.hopper.ComposterMixin$ComposterBlockComposterInventoryMixin' as rule 'mixin.block.hopper' (added by mods [hopperhedgehog]) disables it and children
+[19:12:34] [main/INFO]: Force-disabling mixin 'block.hopper.ComposterMixin$ComposterBlockDummyInventoryMixin' as rule 'mixin.block.hopper' (added by mods [hopperhedgehog]) disables it and children
+[19:12:34] [main/INFO]: Force-disabling mixin 'block.hopper.ComposterMixin$ComposterBlockFullComposterInventoryMixin' as rule 'mixin.block.hopper' (added by mods [hopperhedgehog]) disables it and children
+[19:12:34] [main/INFO]: Force-disabling mixin 'block.hopper.CompoundContainerAccessor' as rule 'mixin.block.hopper' (added by mods [hopperhedgehog]) disables it and children
+[19:12:34] [main/INFO]: Force-disabling mixin 'block.hopper.ContainerMixin' as rule 'mixin.block.hopper' (added by mods [hopperhedgehog]) disables it and children
+[19:12:34] [main/INFO]: Force-disabling mixin 'block.hopper.EntityAccessor' as rule 'mixin.block.hopper' (added by mods [hopperhedgehog]) disables it and children
+[19:12:34] [main/INFO]: Force-disabling mixin 'block.hopper.EntityDataAccessorMixin' as rule 'mixin.block.hopper' (added by mods [hopperhedgehog]) disables it and children
+[19:12:34] [main/INFO]: Force-disabling mixin 'block.hopper.EntitySectionAccessor' as rule 'mixin.block.hopper' (added by mods [hopperhedgehog]) disables it and children
+[19:12:34] [main/INFO]: Force-disabling mixin 'block.hopper.HopperBlockEntityMixin' as rule 'mixin.block.hopper' (added by mods [hopperhedgehog]) disables it and children
+[19:12:34] [main/INFO]: Force-disabling mixin 'block.hopper.HopperBlockMixin' as rule 'mixin.block.hopper' (added by mods [hopperhedgehog]) disables it and children
+[19:12:34] [main/INFO]: Force-disabling mixin 'block.hopper.InventoryAccessors$AbstractFurnaceBlockEntityMixin' as rule 'mixin.block.hopper' (added by mods [hopperhedgehog]) disables it and children
+[19:12:34] [main/INFO]: Force-disabling mixin 'block.hopper.InventoryAccessors$AbstractMinecartContainerMixin' as rule 'mixin.block.hopper' (added by mods [hopperhedgehog]) disables it and children
+[19:12:34] [main/INFO]: Force-disabling mixin 'block.hopper.InventoryAccessors$BarrelBlockEntityMixin' as rule 'mixin.block.hopper' (added by mods [hopperhedgehog]) disables it and children
+[19:12:34] [main/INFO]: Force-disabling mixin 'block.hopper.InventoryAccessors$BrewingStandBlockEntityMixin' as rule 'mixin.block.hopper' (added by mods [hopperhedgehog]) disables it and children
+[19:12:34] [main/INFO]: Force-disabling mixin 'block.hopper.InventoryAccessors$ChestBlockEntityMixin' as rule 'mixin.block.hopper' (added by mods [hopperhedgehog]) disables it and children
+[19:12:34] [main/INFO]: Force-disabling mixin 'block.hopper.InventoryAccessors$DispenserBlockEntityMixin' as rule 'mixin.block.hopper' (added by mods [hopperhedgehog]) disables it and children
+[19:12:34] [main/INFO]: Force-disabling mixin 'block.hopper.InventoryAccessors$HopperBlockEntityMixin' as rule 'mixin.block.hopper' (added by mods [hopperhedgehog]) disables it and children
+[19:12:34] [main/INFO]: Force-disabling mixin 'block.hopper.InventoryAccessors$ShulkerBoxBlockEntityMixin' as rule 'mixin.block.hopper' (added by mods [hopperhedgehog]) disables it and children
+[19:12:34] [main/INFO]: Force-disabling mixin 'block.hopper.NonNullListAccessor' as rule 'mixin.block.hopper' (added by mods [hopperhedgehog]) disables it and children
+[19:12:34] [main/INFO]: Force-disabling mixin 'block.hopper.OldMinecartBehaviorMixin' as rule 'mixin.block.hopper' (added by mods [hopperhedgehog]) disables it and children
+[19:12:34] [main/INFO]: Force-disabling mixin 'world.block_entity_ticking.chunk_tickable.LevelMixin' as rule 'mixin.world.block_entity_ticking' (added by mods [smelterhedgehog]) disables it and children
+[19:12:34] [main/INFO]: Force-disabling mixin 'world.block_entity_ticking.sleeping.BlockEntityMixin' as rule 'mixin.world.block_entity_ticking' (added by mods [smelterhedgehog]) disables it and children
+[19:12:34] [main/INFO]: Force-disabling mixin 'world.block_entity_ticking.sleeping.LevelChunkMixin' as rule 'mixin.world.block_entity_ticking' (added by mods [smelterhedgehog]) disables it and children
+[19:12:34] [main/INFO]: Force-disabling mixin 'world.block_entity_ticking.sleeping.LevelMixin' as rule 'mixin.world.block_entity_ticking' (added by mods [smelterhedgehog]) disables it and children
+[19:12:34] [main/INFO]: Force-disabling mixin 'world.block_entity_ticking.sleeping.ServerLevelMixin' as rule 'mixin.world.block_entity_ticking' (added by mods [smelterhedgehog]) disables it and children
+[19:12:34] [main/INFO]: Force-disabling mixin 'world.block_entity_ticking.sleeping.WrappedBlockEntityTickInvokerAccessor' as rule 'mixin.world.block_entity_ticking' (added by mods [smelterhedgehog]) disables it and children
+[19:12:34] [main/INFO]: Force-disabling mixin 'world.block_entity_ticking.sleeping.brewing_stand.BrewingStandBlockEntityMixin' as rule 'mixin.world.block_entity_ticking' (added by mods [smelterhedgehog]) disables it and children
+[19:12:34] [main/INFO]: Force-disabling mixin 'world.block_entity_ticking.sleeping.campfire.CampfireBlockEntityMixin' as rule 'mixin.world.block_entity_ticking' (added by mods [smelterhedgehog]) disables it and children
+[19:12:34] [main/INFO]: Force-disabling mixin 'world.block_entity_ticking.sleeping.campfire.lit.CampfireBlockEntityMixin' as rule 'mixin.world.block_entity_ticking' (added by mods [smelterhedgehog]) disables it and children
+[19:12:34] [main/INFO]: Force-disabling mixin 'world.block_entity_ticking.sleeping.campfire.unlit.CampfireBlockEntityMixin' as rule 'mixin.world.block_entity_ticking' (added by mods [smelterhedgehog]) disables it and children
+[19:12:34] [main/INFO]: Force-disabling mixin 'world.block_entity_ticking.sleeping.crafter.CrafterBlockEntityMixin' as rule 'mixin.world.block_entity_ticking' (added by mods [smelterhedgehog]) disables it and children
+[19:12:34] [main/INFO]: Force-disabling mixin 'world.block_entity_ticking.sleeping.furnace.AbstractFurnaceBlockEntityMixin' as rule 'mixin.world.block_entity_ticking' (added by mods [smelterhedgehog]) disables it and children
+[19:12:34] [main/INFO]: Force-disabling mixin 'world.block_entity_ticking.sleeping.hopper.HopperBlockEntityMixin' as rule 'mixin.world.block_entity_ticking' (added by mods [smelterhedgehog]) disables it and children
+[19:12:34] [main/INFO]: Force-disabling mixin 'world.block_entity_ticking.sleeping.shulker_box.ShulkerBoxBlockEntityMixin' as rule 'mixin.world.block_entity_ticking' (added by mods [smelterhedgehog]) disables it and children
+[19:12:34] [main/INFO]: Force-disabling mixin 'world.block_entity_ticking.world_border.DirectBlockEntityTickInvokerMixin' as rule 'mixin.world.block_entity_ticking' (added by mods [smelterhedgehog]) disables it and children
+[19:12:34] [main/INFO]: Force-disabling mixin 'block.hopper.LevelMixin' as rule 'mixin.block.hopper' (added by mods [hopperhedgehog]) disables it and children
+[19:12:34] [main/WARN]: Error loading class: net/minecraft/class_437 (java.lang.ClassNotFoundException: net/minecraft/class_437)
+[19:12:34] [main/WARN]: @Mixin target net.minecraft.class_437 was not found owo.mixins.json:ScreenAccessor from mod owo
+[19:12:34] [main/WARN]: Error loading class: xyz/nucleoid/server/translations/impl/language/SystemDelegatedLanguage (java.lang.ClassNotFoundException: xyz/nucleoid/server/translations/impl/language/SystemDelegatedLanguage)
+[19:12:34] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[19:12:42] [main/INFO]: Initializing Axiom/4.8.0. Build timestamp: 1746396334521
+[19:12:42] [main/INFO]: Loading Collective version 8.3.
+[19:12:42] [main/INFO]: Enabled 27 bug fixes: [MC-2025, MC-7569, MC-8187, MC-30391, MC-69216, MC-88371, MC-89146, MC-93018, MC-100991, MC-119417, MC-119754, MC-121706, MC-121903, MC-129909, MC-132878, MC-155509, MC-160095, MC-179072, MC-183990, MC-199467, MC-200418, MC-206922, MC-215530, MC-223153, MC-224729, MC-231743, MC-232869]
+[19:12:42] [main/INFO]: Successfully Debugify'd your game!
+[19:12:42] [main/WARN]: en_ is not a supported Floodgate language.
+[19:12:43] [main/INFO]: Loading extensions...
+[19:12:43] [main/INFO]: Loaded 0 extension(s)
+[19:12:43] [main/INFO]: Starting Load for Hopper the Hedgehog
+[19:12:43] [main/INFO]: Load for Hopper the Hedgehog successful
+[19:12:43] [main/INFO]: Compression will use libdeflate (Linux x86_64), encryption will use OpenSSL 3.x.x (Linux x86_64)
+[19:12:43] [main/INFO]: Ksyxis: Booting... (platform: Fabric, manual: false)
+[19:12:43] [main/INFO]: Ksyxis: Found Mixin library. (version: 0.8.7)
+[19:12:43] [main/INFO]: Ksyxis: Ready. As always, this mod will speed up your world loading and might or might not break it. (0 ms)
+[19:12:43] [main/INFO]: Loading Noisium.
+[19:12:43] [main/INFO]: We don't have to worry about people re-inventing Venezuela glisco, that's their problem for integrating the Bourgeoisie into their pack
+[19:12:43] [main/INFO]: Burning through Items faster than gacha games through wallets
+[19:12:44] [Via-Mappingloader-0/INFO]: Loading block connection mappings ...
+[19:12:44] [Via-Mappingloader-0/INFO]: Using FastUtil Long2ObjectOpenHashMap for block connections
+[19:12:44] [main/INFO]: Loading translations...
+[19:12:44] [main/INFO]: Registering protocols...
+[19:12:44] [main/INFO]: Registering protocols...
+[19:12:45] [main/INFO]: ViaVersion detected server version: 1.21.5 (770)
+[19:12:45] [ViaFabric-2/INFO]: Finished mapping loading, shutting down loader executor.
+[19:12:45] [main/INFO]: Krypton is now accelerating your Minecraft server's networking stack 🚀
+[19:12:45] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[19:12:46] [main/WARN]: Creating a MIN function between two non-overlapping inputs: class_7051[function=Direct{class_6923[value=0.15]}] and class_7051[function=Direct{class_6917[type=MUL, argument1=class_7051[function=Direct{class_6923[value=1.435]}], argument2=class_7051[function=Direct{class_6917[type=ADD, argument1=class_7051[function=Direct{class_6923[value=-0.73]}], argument2=class_7051[function=Direct{class_6925[type=ABS, input=class_7051[function=Reference{ResourceKey[minecraft:worldgen/density_function / minecraft:overworld/ridges]=class_6927[type=FlatCache, wrapped=class_7051[function=Direct{class_6927[type=Cache2D, wrapped=class_7051[function=Direct{class_6917[type=MUL, argument1=class_7051[function=Direct{class_7076[spline=class_6738[coordinate=Coordinate[Direct{class_6917[type=MUL, argument1=class_7051[function=Direct{class_6917[type=MUL, argument1=class_7051[function=Direct{class_6917[type=ADD, argument1=class_7051[function=Direct{class_6927[type=FlatCache, wrapped=class_7051[function=Direct{class_6927[type=Cache2D, wrapped=class_7051[function=Reference{ResourceKey[minecraft:worldgen/density_function / lithosphere:topography_final]=null}]]}]]}], argument2=class_7051[function=Direct{class_6923[value=0.6]}], minValue=-Infinity, maxValue=Infinity]}], argument2=class_7051[function=Direct{class_6923[value=0.9]}], minValue=-Infinity, maxValue=Infinity]}], argument2=class_7051[function=Direct{class_6923[value=0.75]}], minValue=-Infinity, maxValue=Infinity]}], locations=[F@61c9f15d, values=[class_6494[value=0.0], class_6494[value=0.05], class_6494[value=0.1], class_6494[value=0.15], class_6494[value=0.62], class_6494[value=0.63]], derivatives=[F@1c7d6a24, minValue=-0.0125, maxValue=0.6362549]]}], argument2=class_7051[function=Direct{class_6917[type=MUL, argument1=class_7051[function=Direct{class_7076[spline=class_6738[coordinate=Coordinate[Direct{class_6925[type=ABS, input=class_7051[function=Direct{class_6931[noise=class_7270[noiseData=Reference{ResourceKey[minecraft:worldgen/noise / lithosphere:rivers]=class_5487[firstOctave=-11, amplitudes=[5.0, 3.0, 0.0, 3.0, 3.0, 1.0, 0.5, 0.5]]}, noise=null], xzScale=0.7, yScale=0.0]}], minValue=0.0, maxValue=2.0]}], locations=[F@137eca3f, values=[class_6494[value=-1.0], class_6494[value=0.0], class_6494[value=0.0], class_6494[value=0.0], class_6494[value=1.0]], derivatives=[F@173c96b3, minValue=-1.0, maxValue=1.0]]}], argument2=class_7051[function=Direct{class_7076[spline=class_6738[coordinate=Coordinate[Direct{class_6931[noise=class_7270[noiseData=Reference{ResourceKey[minecraft:worldgen/noise / lithosphere:biome_variation]=class_5487[firstOctave=-9, amplitudes=[0.7, 0.6, 0.6, 0.7, 0.9, 0.9, 0.1, 0.1]]}, noise=null], xzScale=1.0, yScale=0.0]}], locations=[F@6eb0c0a1, values=[class_6494[value=-1.0], class_6494[value=1.0]], derivatives=[F@5f0a4228, minValue=-1.0, maxValue=1.0]]}], minValue=-1.0, maxValue=1.0]}], minValue=-0.6362549066543579, maxValue=0.6362549066543579]}]]}]]}], minValue=0.0, maxValue=0.6362549066543579]}], minValue=-0.73, maxValue=-0.09374509334564207]}], minValue=-1.04755, maxValue=-0.13452420895099637]}]
+[19:12:46] [main/WARN]: Creating a MAX function between two non-overlapping inputs: class_7051[function=Direct{class_6923[value=-0.12]}] and class_7051[function=Direct{class_6917[type=MUL, argument1=class_7051[function=Direct{class_6923[value=-1.45]}], argument2=class_7051[function=Direct{class_6917[type=ADD, argument1=class_7051[function=Direct{class_6923[value=-0.73]}], argument2=class_7051[function=Direct{class_6925[type=ABS, input=class_7051[function=Reference{ResourceKey[minecraft:worldgen/density_function / minecraft:overworld/ridges]=class_6927[type=FlatCache, wrapped=class_7051[function=Direct{class_6927[type=Cache2D, wrapped=class_7051[function=Direct{class_6917[type=MUL, argument1=class_7051[function=Direct{class_7076[spline=class_6738[coordinate=Coordinate[Direct{class_6917[type=MUL, argument1=class_7051[function=Direct{class_6917[type=MUL, argument1=class_7051[function=Direct{class_6917[type=ADD, argument1=class_7051[function=Direct{class_6927[type=FlatCache, wrapped=class_7051[function=Direct{class_6927[type=Cache2D, wrapped=class_7051[function=Reference{ResourceKey[minecraft:worldgen/density_function / lithosphere:topography_final]=null}]]}]]}], argument2=class_7051[function=Direct{class_6923[value=0.6]}], minValue=-Infinity, maxValue=Infinity]}], argument2=class_7051[function=Direct{class_6923[value=0.9]}], minValue=-Infinity, maxValue=Infinity]}], argument2=class_7051[function=Direct{class_6923[value=0.75]}], minValue=-Infinity, maxValue=Infinity]}], locations=[F@61c9f15d, values=[class_6494[value=0.0], class_6494[value=0.05], class_6494[value=0.1], class_6494[value=0.15], class_6494[value=0.62], class_6494[value=0.63]], derivatives=[F@1c7d6a24, minValue=-0.0125, maxValue=0.6362549]]}], argument2=class_7051[function=Direct{class_6917[type=MUL, argument1=class_7051[function=Direct{class_7076[spline=class_6738[coordinate=Coordinate[Direct{class_6925[type=ABS, input=class_7051[function=Direct{class_6931[noise=class_7270[noiseData=Reference{ResourceKey[minecraft:worldgen/noise / lithosphere:rivers]=class_5487[firstOctave=-11, amplitudes=[5.0, 3.0, 0.0, 3.0, 3.0, 1.0, 0.5, 0.5]]}, noise=null], xzScale=0.7, yScale=0.0]}], minValue=0.0, maxValue=2.0]}], locations=[F@137eca3f, values=[class_6494[value=-1.0], class_6494[value=0.0], class_6494[value=0.0], class_6494[value=0.0], class_6494[value=1.0]], derivatives=[F@173c96b3, minValue=-1.0, maxValue=1.0]]}], argument2=class_7051[function=Direct{class_7076[spline=class_6738[coordinate=Coordinate[Direct{class_6931[noise=class_7270[noiseData=Reference{ResourceKey[minecraft:worldgen/noise / lithosphere:biome_variation]=class_5487[firstOctave=-9, amplitudes=[0.7, 0.6, 0.6, 0.7, 0.9, 0.9, 0.1, 0.1]]}, noise=null], xzScale=1.0, yScale=0.0]}], locations=[F@6eb0c0a1, values=[class_6494[value=-1.0], class_6494[value=1.0]], derivatives=[F@5f0a4228, minValue=-1.0, maxValue=1.0]]}], minValue=-1.0, maxValue=1.0]}], minValue=-0.6362549066543579, maxValue=0.6362549066543579]}]]}]]}], minValue=0.0, maxValue=0.6362549066543579]}], minValue=-0.73, maxValue=-0.09374509334564207]}], minValue=0.135930385351181, maxValue=1.0585]}]
+[19:12:46] [main/WARN]: Creating a MIN function between two non-overlapping inputs: class_7051[function=Direct{class_6923[value=0.15]}] and class_7051[function=Direct{class_6917[type=MUL, argument1=class_7051[function=Direct{class_6923[value=-2.25]}], argument2=class_7051[function=Direct{class_6917[type=ADD, argument1=class_7051[function=Direct{class_6923[value=0.68]}], argument2=class_7051[function=Reference{ResourceKey[minecraft:worldgen/density_function / minecraft:overworld/ridges]=class_6927[type=FlatCache, wrapped=class_7051[function=Direct{class_6927[type=Cache2D, wrapped=class_7051[function=Direct{class_6917[type=MUL, argument1=class_7051[function=Direct{class_7076[spline=class_6738[coordinate=Coordinate[Direct{class_6917[type=MUL, argument1=class_7051[function=Direct{class_6917[type=MUL, argument1=class_7051[function=Direct{class_6917[type=ADD, argument1=class_7051[function=Direct{class_6927[type=FlatCache, wrapped=class_7051[function=Direct{class_6927[type=Cache2D, wrapped=class_7051[function=Reference{ResourceKey[minecraft:worldgen/density_function / lithosphere:topography_final]=null}]]}]]}], argument2=class_7051[function=Direct{class_6923[value=0.6]}], minValue=-Infinity, maxValue=Infinity]}], argument2=class_7051[function=Direct{class_6923[value=0.9]}], minValue=-Infinity, maxValue=Infinity]}], argument2=class_7051[function=Direct{class_6923[value=0.75]}], minValue=-Infinity, maxValue=Infinity]}], locations=[F@61c9f15d, values=[class_6494[value=0.0], class_6494[value=0.05], class_6494[value=0.1], class_6494[value=0.15], class_6494[value=0.62], class_6494[value=0.63]], derivatives=[F@1c7d6a24, minValue=-0.0125, maxValue=0.6362549]]}], argument2=class_7051[function=Direct{class_6917[type=MUL, argument1=class_7051[function=Direct{class_7076[spline=class_6738[coordinate=Coordinate[Direct{class_6925[type=ABS, input=class_7051[function=Direct{class_6931[noise=class_7270[noiseData=Reference{ResourceKey[minecraft:worldgen/noise / lithosphere:rivers]=class_5487[firstOctave=-11, amplitudes=[5.0, 3.0, 0.0, 3.0, 3.0, 1.0, 0.5, 0.5]]}, noise=null], xzScale=0.7, yScale=0.0]}], minValue=0.0, maxValue=2.0]}], locations=[F@137eca3f, values=[class_6494[value=-1.0], class_6494[value=0.0], class_6494[value=0.0], class_6494[value=0.0], class_6494[value=1.0]], derivatives=[F@173c96b3, minValue=-1.0, maxValue=1.0]]}], argument2=class_7051[function=Direct{class_7076[spline=class_6738[coordinate=Coordinate[Direct{class_6931[noise=class_7270[noiseData=Reference{ResourceKey[minecraft:worldgen/noise / lithosphere:biome_variation]=class_5487[firstOctave=-9, amplitudes=[0.7, 0.6, 0.6, 0.7, 0.9, 0.9, 0.1, 0.1]]}, noise=null], xzScale=1.0, yScale=0.0]}], locations=[F@6eb0c0a1, values=[class_6494[value=-1.0], class_6494[value=1.0]], derivatives=[F@5f0a4228, minValue=-1.0, maxValue=1.0]]}], minValue=-1.0, maxValue=1.0]}], minValue=-0.6362549066543579, maxValue=0.6362549066543579]}]]}]]}], minValue=0.04374509334564214, maxValue=1.316254906654358]}], minValue=-2.9615735399723055, maxValue=-0.09842646002769481]}]
+[19:12:46] [main/WARN]: Creating a MAX function between two non-overlapping inputs: class_7051[function=Direct{class_6923[value=-0.12]}] and class_7051[function=Direct{class_6917[type=MUL, argument1=class_7051[function=Direct{class_6923[value=1.2]}], argument2=class_7051[function=Direct{class_6917[type=ADD, argument1=class_7051[function=Direct{class_6923[value=0.72]}], argument2=class_7051[function=Reference{ResourceKey[minecraft:worldgen/density_function / minecraft:overworld/ridges]=class_6927[type=FlatCache, wrapped=class_7051[function=Direct{class_6927[type=Cache2D, wrapped=class_7051[function=Direct{class_6917[type=MUL, argument1=class_7051[function=Direct{class_7076[spline=class_6738[coordinate=Coordinate[Direct{class_6917[type=MUL, argument1=class_7051[function=Direct{class_6917[type=MUL, argument1=class_7051[function=Direct{class_6917[type=ADD, argument1=class_7051[function=Direct{class_6927[type=FlatCache, wrapped=class_7051[function=Direct{class_6927[type=Cache2D, wrapped=class_7051[function=Reference{ResourceKey[minecraft:worldgen/density_function / lithosphere:topography_final]=null}]]}]]}], argument2=class_7051[function=Direct{class_6923[value=0.6]}], minValue=-Infinity, maxValue=Infinity]}], argument2=class_7051[function=Direct{class_6923[value=0.9]}], minValue=-Infinity, maxValue=Infinity]}], argument2=class_7051[function=Direct{class_6923[value=0.75]}], minValue=-Infinity, maxValue=Infinity]}], locations=[F@61c9f15d, values=[class_6494[value=0.0], class_6494[value=0.05], class_6494[value=0.1], class_6494[value=0.15], class_6494[value=0.62], class_6494[value=0.63]], derivatives=[F@1c7d6a24, minValue=-0.0125, maxValue=0.6362549]]}], argument2=class_7051[function=Direct{class_6917[type=MUL, argument1=class_7051[function=Direct{class_7076[spline=class_6738[coordinate=Coordinate[Direct{class_6925[type=ABS, input=class_7051[function=Direct{class_6931[noise=class_7270[noiseData=Reference{ResourceKey[minecraft:worldgen/noise / lithosphere:rivers]=class_5487[firstOctave=-11, amplitudes=[5.0, 3.0, 0.0, 3.0, 3.0, 1.0, 0.5, 0.5]]}, noise=null], xzScale=0.7, yScale=0.0]}], minValue=0.0, maxValue=2.0]}], locations=[F@137eca3f, values=[class_6494[value=-1.0], class_6494[value=0.0], class_6494[value=0.0], class_6494[value=0.0], class_6494[value=1.0]], derivatives=[F@173c96b3, minValue=-1.0, maxValue=1.0]]}], argument2=class_7051[function=Direct{class_7076[spline=class_6738[coordinate=Coordinate[Direct{class_6931[noise=class_7270[noiseData=Reference{ResourceKey[minecraft:worldgen/noise / lithosphere:biome_variation]=class_5487[firstOctave=-9, amplitudes=[0.7, 0.6, 0.6, 0.7, 0.9, 0.9, 0.1, 0.1]]}, noise=null], xzScale=1.0, yScale=0.0]}], locations=[F@6eb0c0a1, values=[class_6494[value=-1.0], class_6494[value=1.0]], derivatives=[F@5f0a4228, minValue=-1.0, maxValue=1.0]]}], minValue=-1.0, maxValue=1.0]}], minValue=-0.6362549066543579, maxValue=0.6362549066543579]}]]}]]}], minValue=0.08374509334564206, maxValue=1.3562549066543579]}], minValue=0.10049411201477047, maxValue=1.6275058879852293]}]
+[19:12:48] [main/INFO]: Loaded 1380 recipes
+[19:12:48] [main/INFO]: Loaded 1546 advancements
+[19:12:48] [main/INFO]: Registered region minecraft:overworld to index 0 for type OVERWORLD
+[19:12:48] [main/INFO]: Registered region minecraft:nether to index 0 for type NETHER
+[19:12:48] [main/INFO]: Initialized TerraBlender biomes for level stem minecraft:overworld
+[19:12:48] [main/INFO]: Initialized TerraBlender biomes for level stem minecraft:the_nether
+[19:12:48] [main/INFO]: Applied 0 biome modifications to 0 of 169 new biomes in 2.294 ms
+[19:12:48] [Server thread/INFO]: Starting background profiler...
+[19:12:48] [Server thread/INFO]: Starting minecraft server version 1.21.5
+[19:12:48] [Server thread/INFO]: Loading properties
+[19:12:48] [Server thread/INFO]: Default game type: SURVIVAL
+[19:12:48] [Server thread/INFO]: Generating keypair
+[19:12:48] [Server thread/INFO]: Starting Minecraft server on *:25565
+[19:12:49] [Server thread/INFO]: Using epoll channel type
+[19:12:49] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[19:12:49] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[19:12:49] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[19:12:49] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[19:12:49] [Server thread/INFO]: Preparing level "world"
+[19:12:49] [Server thread/INFO]: Enforcing safe world random access
+[19:12:50] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 850.1 ms
+[19:12:50] [Server thread/INFO]: Using TheSpeedyObjectFactory with Unsafe
+[19:12:50] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 12.96 ms
+[19:12:50] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 94.73 ms
+[19:12:50] [Server thread/INFO]: Ksyxis: Hey. This is Ksyxis. We will now load the world and will try to do it quickly. If the game is not responding after this, it's probably us to blame or delete for good. This message appears always, even if the mod works flawlessly. (modern)
+[19:12:50] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[19:12:50] [Server thread/INFO]: Time elapsed: 3 ms
+[19:12:50] [Server thread/INFO]: Done (1.877s)! For help, type "help"
+[19:12:51] [Server thread/INFO]: Took 41ms to boot Floodgate
+[19:12:51] [Server thread/INFO]: ******************************************
+[19:12:51] [Server thread/INFO]: 
+[19:12:51] [Server thread/INFO]: Loading Geyser version 2.7.1-b852 (git-master-17baaf6)
+[19:12:51] [Server thread/INFO]: 
+[19:12:51] [Server thread/INFO]: ******************************************
+[19:12:56] [epollEventLoopGroup-3-1/INFO]: Started Geyser on UDP port 19132
+[19:12:56] [Server thread/INFO]: Done (5.146s)! Run /geyser help for help!
+[19:12:56] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5262ms or 105 ticks behind
+[19:13:56] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[19:14:08] [Server thread/INFO]: [Chunky] Task started in minecraft:overworld for the square region centered at 0, 0 with radius 500.
+[19:14:09] [c2me-worker-1/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 657 chunks (15.55%), ETA: 0:00:00, Rate: 6570.0 cps, Current: 24, 28
+[19:14:10] [c2me-worker-0/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 1567 chunks (37.09%), ETA: 0:00:01, Rate: 1400.4 cps, Current: 18, -15
+[19:14:11] [c2me-worker-1/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 1570 chunks (37.16%), ETA: 0:00:03, Rate: 721.5 cps, Current: 20, -16
+[19:14:13] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 1572 chunks (37.21%), ETA: 0:00:08, Rate: 315.7 cps, Current: 9, -9
+[19:14:15] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 1573 chunks (37.23%), ETA: 0:00:10, Rate: 259.3 cps, Current: 12, -8
+[19:14:16] [c2me-worker-2/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 1579 chunks (37.37%), ETA: 0:00:12, Rate: 216.7 cps, Current: 4, -12
+[19:14:17] [c2me-worker-1/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 1603 chunks (37.94%), ETA: 0:00:13, Rate: 192.0 cps, Current: 18, -10
+[19:14:18] [c2me-worker-1/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 1711 chunks (40.50%), ETA: 0:00:13, Rate: 181.2 cps, Current: 1, -12
+[19:14:20] [c2me-worker-0/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 2667 chunks (63.12%), ETA: 0:00:06, Rate: 225.9 cps, Current: -9, -9
+[19:14:22] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 2676 chunks (63.34%), ETA: 0:00:08, Rate: 191.0 cps, Current: -9, -10
+[19:14:24] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 2680 chunks (63.43%), ETA: 0:00:08, Rate: 177.1 cps, Current: -10, -12
+[19:14:25] [c2me-worker-1/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 2697 chunks (63.83%), ETA: 0:00:09, Rate: 166.5 cps, Current: -13, -9
+[19:14:26] [c2me-worker-1/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 2860 chunks (67.69%), ETA: 0:00:08, Rate: 161.2 cps, Current: -8, -12
+[19:14:27] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 2909 chunks (68.85%), ETA: 0:00:08, Rate: 154.9 cps, Current: -9, -3
+[19:14:28] [c2me-worker-1/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 3256 chunks (77.07%), ETA: 0:00:05, Rate: 164.6 cps, Current: -23, 4
+[19:14:31] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 3925 chunks (92.90%), ETA: 0:00:01, Rate: 174.5 cps, Current: -1, 9
+[19:14:32] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 3951 chunks (93.51%), ETA: 0:00:01, Rate: 167.3 cps, Current: -2, 10
+[19:14:33] [c2me-worker-2/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 3976 chunks (94.11%), ETA: 0:00:01, Rate: 160.7 cps, Current: -6, 13
+[19:14:34] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 3984 chunks (94.30%), ETA: 0:00:01, Rate: 153.2 cps, Current: -10, 12
+[19:14:36] [c2me-worker-2/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 4021 chunks (95.17%), ETA: 0:00:01, Rate: 148.2 cps, Current: -5, 9
+[19:14:37] [c2me-worker-2/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 4040 chunks (95.62%), ETA: 0:00:01, Rate: 143.3 cps, Current: -8, 9
+[19:14:38] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 4047 chunks (95.79%), ETA: 0:00:01, Rate: 138.6 cps, Current: -9, 5
+[19:14:39] [c2me-worker-1/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 4089 chunks (96.78%), ETA: 0:00:01, Rate: 86.6 cps, Current: -7, 4
+[19:14:40] [c2me-worker-0/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 4149 chunks (98.20%), ETA: 0:00:00, Rate: 88.7 cps, Current: -10, 2
+[19:14:40] [c2me-worker-1/INFO]: [Chunky] Task finished for minecraft:overworld. Processed: 4225 chunks (100.00%), Total time: 0:00:31
+[19:15:40] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[19:19:07] [Server thread/INFO]: chunky start - Start a new chunk generation task
