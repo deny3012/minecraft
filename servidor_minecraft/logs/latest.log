@@ -380,3 +380,32 @@
 [19:14:40] [c2me-worker-1/INFO]: [Chunky] Task finished for minecraft:overworld. Processed: 4225 chunks (100.00%), Total time: 0:00:31
 [19:15:40] [Server thread/INFO]: Server empty for 60 seconds, pausing
 [19:19:07] [Server thread/INFO]: chunky start - Start a new chunk generation task
+[19:24:43] [Server thread/INFO]: Unknown or incomplete command, see below for error
+[19:24:43] [Server thread/INFO]: <--[HERE]
+[19:24:46] [Server thread/INFO]: Unknown or incomplete command, see below for error
+[19:24:46] [Server thread/INFO]: <--[HERE]
+[19:24:47] [Server thread/INFO]: Unknown or incomplete command, see below for error
+[19:24:47] [Server thread/INFO]: <--[HERE]
+[19:24:49] [Server thread/INFO]: Shutting down Geyser.
+[19:24:49] [Server thread/INFO]: Geyser shutdown successfully.
+[19:24:49] [WebSocketConnectReadThread-102/INFO]: The skin uploader has been closed
+[19:24:51] [Server thread/INFO]: Stopping server
+[19:24:51] [Server thread/INFO]: Saving players
+[19:24:51] [Server thread/INFO]: Saving worlds
+[19:24:51] [Server thread/INFO]: ServerLevel[world]/minecraft:overworld: waiting for 729 chunks to unload
+[19:24:51] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[19:24:51] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[19:24:51] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[19:24:51] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[19:24:51] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[19:24:51] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[19:24:51] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[19:24:51] [C2ME Storage #3/INFO]: Storage thread Thread[#79,C2ME Storage #3,5,main] stopped
+[19:24:51] [C2ME Storage #2/INFO]: Storage thread Thread[#78,C2ME Storage #2,5,main] stopped
+[19:24:51] [C2ME Storage #1/INFO]: Storage thread Thread[#77,C2ME Storage #1,5,main] stopped
+[19:24:51] [C2ME Storage #6/INFO]: Storage thread Thread[#84,C2ME Storage #6,5,main] stopped
+[19:24:51] [C2ME Storage #5/INFO]: Storage thread Thread[#83,C2ME Storage #5,5,main] stopped
+[19:24:51] [C2ME Storage #4/INFO]: Storage thread Thread[#82,C2ME Storage #4,5,main] stopped
+[19:24:51] [C2ME Storage #9/INFO]: Storage thread Thread[#88,C2ME Storage #9,5,main] stopped
+[19:24:51] [C2ME Storage #8/INFO]: Storage thread Thread[#87,C2ME Storage #8,5,main] stopped
+[19:24:51] [C2ME Storage #7/INFO]: Storage thread Thread[#86,C2ME Storage #7,5,main] stopped
